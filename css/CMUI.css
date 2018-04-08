@@ -5385,15 +5385,20 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
   @media screen and (max-width: 1380px) {
     .content .nav_title {
       display: none; } }
-  @media screen and (max-width: 950px) {
+  @media screen and (min-width: 415px) and (max-width: 950px) {
+    .content .nav {
+      padding-top: 0 !important; }
     .content .nav_bg {
       background: #012697; }
     .content .logo_bg {
       display: none; }
     .content .logo {
-      display: none; }
+      width: 50px !important;
+      height: 50px;
+      top: 10px !important;
+      left: 10px; }
     .content .navList {
-      width: 100%;
+      padding-left: 50px;
       margin-top: 0 !important; }
       .content .navList li {
         height: 74px;
@@ -5402,4 +5407,6 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
         vertical-align: middle;
         margin-left: 0 !important;
         width: 20%;
-        text-align: center; } }
+        text-align: center; }
+        .content .navList li a {
+          font-size: 14px !important; } }

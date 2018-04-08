@@ -101,7 +101,10 @@
 	        display:none;
 	    }
 	}
-	@media screen and (max-width: 950px) {
+	@media screen and (min-width:415px) and (max-width:950px) {
+		.nav{
+			padding-top:0 !important;
+		}
 	    .nav_bg{
 	    	background:#012697;
 	    }
@@ -109,10 +112,13 @@
 	        display:none;
 	    }
 	    .logo {
-	        display:none;
+	    	width:50px !important;
+	    	height:50px;
+	    	top:10px !important;
+	    	left:10px;
 	    }
 	    .navList{
-	    	width:100%;
+	    	padding-left:50px;
 	    	margin-top:0 !important;
 			li{
 				height:74px;
@@ -122,6 +128,9 @@
 				margin-left:0 !important;
 				width:20%;
 				text-align:center;
+				a{
+					font-size:14px !important;
+				}
 			}
 		}
 	}
