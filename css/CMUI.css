@@ -5379,6 +5379,16 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
             color: rgba(255, 255, 255, 0.5); }
         .nav .nav_bg .navList ul li:first-child {
           margin-left: 0; }
+        .nav .nav_bg .navList ul li .second {
+          position: absolute;
+          display: none;
+          background: #012697;
+          padding: 10px 10px 0 10px;
+          left: -10px;
+          right: -10px;
+          line-height: 36px; }
+        .nav .nav_bg .navList ul li:hover .second {
+          display: block; }
 
 .content {
   min-width: 375px; }
@@ -5389,19 +5399,22 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
     .content .nav {
       padding-top: 0 !important; }
     .content .nav_bg {
-      background: #012697; }
+      background: #012697;
+      height: 50px; }
+      .content .nav_bg:before, .content .nav_bg:after {
+        height: 50px; }
     .content .logo_bg {
       display: none; }
     .content .logo {
-      width: 50px !important;
-      height: 50px;
-      top: 10px !important;
+      width: 40px !important;
+      height: 40px;
+      top: 5px !important;
       left: 10px; }
     .content .navList {
       padding-left: 50px;
       margin-top: 0 !important; }
       .content .navList li {
-        height: 74px;
+        height: 50px;
         float: none !important;
         display: table-cell;
         vertical-align: middle;
@@ -5409,4 +5422,21 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
         width: 20%;
         text-align: center; }
         .content .navList li a {
-          font-size: 14px !important; } }
+          font-size: 14px !important; }
+        .content .navList li .second {
+          line-height: 24px !important; } }
+  @media screen and (max-width: 414px) {
+    .content .logo {
+      width: 40px !important;
+      height: 40px;
+      top: 5px !important;
+      left: 10px; }
+    .content .nav {
+      padding-top: 0 !important; }
+    .content .nav_bg {
+      background: #012697;
+      height: 50px; }
+      .content .nav_bg:before, .content .nav_bg:after {
+        height: 50px; }
+    .content .navList {
+      display: none; } }
