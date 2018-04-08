@@ -8,28 +8,38 @@
 <meta http-equiv="Pragma" content="no-cache"/>
 <meta http-equiv="Cache-Control" content="no-cache"/>
 <link rel="stylesheet" type="text/css" href="css/cmui.css">
-
+<link rel="stylesheet" href="js/jquery.bxslider.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
 <!-- <script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script> -->
 
 </head>
 <style>
 	html{
-		background-color: #ff0033
 	}
 	body{
 		font-family:"ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	}
 </style>
-<script type="text/javascript"></script>
+<script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
+
 <body>
 	<div class="nav pos-r">
 		<div class="nav_bg pos-r">
 			<div class="logo_bg pos-r img-container pos-a"></div>
-			<div class="logo pos-a">
+			<div class="logo pos-a text-center">
 				<img src="img/logo.png" alt="" />
 			</div>
 		</div>
 
 	</div>
+	<div class="slider">
+    <div>I am a slide.</div>
+    <div>I am another slide.</div>
+  </div>
 </body>
 </html>
