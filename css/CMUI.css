@@ -399,25 +399,25 @@ blockquote, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, pre,
   min-height: 1px; }
 
 .container, .span1, .col1, .span2, .col2, .span3, .col3, .span4, .col4, .span5, .col5, .span6, .col6, .span7, .col7, .span8, .col8, .span9, .col9, .span10, .col10, .span11, .col11, .span12, .col12, .col13, .col14, .col15 {
-  padding-right: 0.133333333rem;
-  padding-left: 0.133333333rem; }
+  padding-right: 10px;
+  padding-left: 10px; }
 
 .span1.mini, .col1.mini, .span2.mini, .col2.mini, .span3.mini, .col3.mini, .span4.mini, .col4.mini, .span5.mini, .col5.mini, .span6.mini, .col6.mini, .span7.mini, .col7.mini, .span8.mini, .col8.mini, .span9.mini, .col9.mini, .span10.mini, .col10.mini, .span11.mini, .col11.mini, .span12.mini, .col12.mini, .col13.mini, .col14.mini, .col15.mini {
-  padding-right: 0.0666666665rem;
-  padding-left: 0.0666666665rem; }
+  padding-right: 5px;
+  padding-left: 5px; }
 
 .container {
-  max-width: 10rem;
+  max-width: 800px;
   width: 100%;
   margin-right: auto;
   margin-left: auto; }
 
 .row {
-  margin-left: -0.133333333rem;
-  margin-right: -0.133333333rem; }
+  margin-left: -10px;
+  margin-right: -10px; }
   .row.mini {
-    margin-left: -0.0666666665rem;
-    margin-right: -0.0666666665rem; }
+    margin-left: -5px;
+    margin-right: -5px; }
 
 .box-container {
   width: 100%;
@@ -516,7 +516,7 @@ blockquote, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, pre,
   .img-container.radius {
     border-radius: 4px; }
   .img-container.round {
-    border-radius: 10rem; }
+    border-radius: 800px; }
   .img-container.border {
     border: 1px solid #eeeeee; }
 
@@ -977,400 +977,400 @@ blockquote, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, pre,
   padding-top: 80%; }
 
 .margin0 {
-  margin: 0rem; }
+  margin: 0px; }
 
 .margint0, .marginv0 {
-  margin-top: 0rem; }
+  margin-top: 0px; }
 
 .marginb0, .marginv0 {
-  margin-bottom: 0rem; }
+  margin-bottom: 0px; }
 
 .marginl0, .marginh0 {
-  margin-left: 0rem; }
+  margin-left: 0px; }
 
 .marginr0, .marginh0 {
-  margin-right: 0rem; }
+  margin-right: 0px; }
 
 .margint-n0 {
-  margin-top: 0rem; }
+  margin-top: 0px; }
 
 .marginb-n0 {
-  margin-bottom: 0rem; }
+  margin-bottom: 0px; }
 
 .marginl-n0 {
-  margin-left: 0rem; }
+  margin-left: 0px; }
 
 .marginr-n0 {
-  margin-right: 0rem; }
+  margin-right: 0px; }
 
 .padding0 {
-  padding: 0rem; }
+  padding: 0px; }
 
 .paddingt0, .paddingv0 {
-  padding-top: 0rem; }
+  padding-top: 0px; }
 
 .paddingb0, .paddingv0 {
-  padding-bottom: 0rem; }
+  padding-bottom: 0px; }
 
 .paddingl0, .paddingh0 {
-  padding-left: 0rem; }
+  padding-left: 0px; }
 
 .paddingr0, .paddingh0 {
-  padding-right: 0rem; }
+  padding-right: 0px; }
 
 .top0 {
-  top: 0rem; }
+  top: 0px; }
 
 .right0 {
-  right: 0rem; }
+  right: 0px; }
 
 .left0 {
-  left: 0rem; }
+  left: 0px; }
 
 .bottom0 {
-  bottom: 0rem; }
+  bottom: 0px; }
 
 .top-n0 {
-  top: 0rem; }
+  top: 0px; }
 
 .right-n0 {
-  right: 0rem; }
+  right: 0px; }
 
 .left-n0 {
-  left: 0rem; }
+  left: 0px; }
 
 .bottom-n0 {
-  bottom: 0rem; }
+  bottom: 0px; }
 
 .margin10 {
-  margin: 0.1333333333rem; }
+  margin: 10px; }
 
 .margint10, .marginv10 {
-  margin-top: 0.1333333333rem; }
+  margin-top: 10px; }
 
 .marginb10, .marginv10 {
-  margin-bottom: 0.1333333333rem; }
+  margin-bottom: 10px; }
 
 .marginl10, .marginh10 {
-  margin-left: 0.1333333333rem; }
+  margin-left: 10px; }
 
 .marginr10, .marginh10 {
-  margin-right: 0.1333333333rem; }
+  margin-right: 10px; }
 
 .margint-n10 {
-  margin-top: -0.1333333333rem; }
+  margin-top: -10px; }
 
 .marginb-n10 {
-  margin-bottom: -0.1333333333rem; }
+  margin-bottom: -10px; }
 
 .marginl-n10 {
-  margin-left: -0.1333333333rem; }
+  margin-left: -10px; }
 
 .marginr-n10 {
-  margin-right: -0.1333333333rem; }
+  margin-right: -10px; }
 
 .padding10 {
-  padding: 0.1333333333rem; }
+  padding: 10px; }
 
 .paddingt10, .paddingv10 {
-  padding-top: 0.1333333333rem; }
+  padding-top: 10px; }
 
 .paddingb10, .paddingv10 {
-  padding-bottom: 0.1333333333rem; }
+  padding-bottom: 10px; }
 
 .paddingl10, .paddingh10 {
-  padding-left: 0.1333333333rem; }
+  padding-left: 10px; }
 
 .paddingr10, .paddingh10 {
-  padding-right: 0.1333333333rem; }
+  padding-right: 10px; }
 
 .top10 {
-  top: 0.1333333333rem; }
+  top: 10px; }
 
 .right10 {
-  right: 0.1333333333rem; }
+  right: 10px; }
 
 .left10 {
-  left: 0.1333333333rem; }
+  left: 10px; }
 
 .bottom10 {
-  bottom: 0.1333333333rem; }
+  bottom: 10px; }
 
 .top-n10 {
-  top: -0.1333333333rem; }
+  top: -10px; }
 
 .right-n10 {
-  right: -0.1333333333rem; }
+  right: -10px; }
 
 .left-n10 {
-  left: -0.1333333333rem; }
+  left: -10px; }
 
 .bottom-n10 {
-  bottom: -0.1333333333rem; }
+  bottom: -10px; }
 
 .margin20 {
-  margin: 0.2666666667rem; }
+  margin: 20px; }
 
 .margint20, .marginv20 {
-  margin-top: 0.2666666667rem; }
+  margin-top: 20px; }
 
 .marginb20, .marginv20 {
-  margin-bottom: 0.2666666667rem; }
+  margin-bottom: 20px; }
 
 .marginl20, .marginh20 {
-  margin-left: 0.2666666667rem; }
+  margin-left: 20px; }
 
 .marginr20, .marginh20 {
-  margin-right: 0.2666666667rem; }
+  margin-right: 20px; }
 
 .margint-n20 {
-  margin-top: -0.2666666667rem; }
+  margin-top: -20px; }
 
 .marginb-n20 {
-  margin-bottom: -0.2666666667rem; }
+  margin-bottom: -20px; }
 
 .marginl-n20 {
-  margin-left: -0.2666666667rem; }
+  margin-left: -20px; }
 
 .marginr-n20 {
-  margin-right: -0.2666666667rem; }
+  margin-right: -20px; }
 
 .padding20 {
-  padding: 0.2666666667rem; }
+  padding: 20px; }
 
 .paddingt20, .paddingv20 {
-  padding-top: 0.2666666667rem; }
+  padding-top: 20px; }
 
 .paddingb20, .paddingv20 {
-  padding-bottom: 0.2666666667rem; }
+  padding-bottom: 20px; }
 
 .paddingl20, .paddingh20 {
-  padding-left: 0.2666666667rem; }
+  padding-left: 20px; }
 
 .paddingr20, .paddingh20 {
-  padding-right: 0.2666666667rem; }
+  padding-right: 20px; }
 
 .top20 {
-  top: 0.2666666667rem; }
+  top: 20px; }
 
 .right20 {
-  right: 0.2666666667rem; }
+  right: 20px; }
 
 .left20 {
-  left: 0.2666666667rem; }
+  left: 20px; }
 
 .bottom20 {
-  bottom: 0.2666666667rem; }
+  bottom: 20px; }
 
 .top-n20 {
-  top: -0.2666666667rem; }
+  top: -20px; }
 
 .right-n20 {
-  right: -0.2666666667rem; }
+  right: -20px; }
 
 .left-n20 {
-  left: -0.2666666667rem; }
+  left: -20px; }
 
 .bottom-n20 {
-  bottom: -0.2666666667rem; }
+  bottom: -20px; }
 
 .margin30 {
-  margin: 0.4rem; }
+  margin: 30px; }
 
 .margint30, .marginv30 {
-  margin-top: 0.4rem; }
+  margin-top: 30px; }
 
 .marginb30, .marginv30 {
-  margin-bottom: 0.4rem; }
+  margin-bottom: 30px; }
 
 .marginl30, .marginh30 {
-  margin-left: 0.4rem; }
+  margin-left: 30px; }
 
 .marginr30, .marginh30 {
-  margin-right: 0.4rem; }
+  margin-right: 30px; }
 
 .margint-n30 {
-  margin-top: -0.4rem; }
+  margin-top: -30px; }
 
 .marginb-n30 {
-  margin-bottom: -0.4rem; }
+  margin-bottom: -30px; }
 
 .marginl-n30 {
-  margin-left: -0.4rem; }
+  margin-left: -30px; }
 
 .marginr-n30 {
-  margin-right: -0.4rem; }
+  margin-right: -30px; }
 
 .padding30 {
-  padding: 0.4rem; }
+  padding: 30px; }
 
 .paddingt30, .paddingv30 {
-  padding-top: 0.4rem; }
+  padding-top: 30px; }
 
 .paddingb30, .paddingv30 {
-  padding-bottom: 0.4rem; }
+  padding-bottom: 30px; }
 
 .paddingl30, .paddingh30 {
-  padding-left: 0.4rem; }
+  padding-left: 30px; }
 
 .paddingr30, .paddingh30 {
-  padding-right: 0.4rem; }
+  padding-right: 30px; }
 
 .top30 {
-  top: 0.4rem; }
+  top: 30px; }
 
 .right30 {
-  right: 0.4rem; }
+  right: 30px; }
 
 .left30 {
-  left: 0.4rem; }
+  left: 30px; }
 
 .bottom30 {
-  bottom: 0.4rem; }
+  bottom: 30px; }
 
 .top-n30 {
-  top: -0.4rem; }
+  top: -30px; }
 
 .right-n30 {
-  right: -0.4rem; }
+  right: -30px; }
 
 .left-n30 {
-  left: -0.4rem; }
+  left: -30px; }
 
 .bottom-n30 {
-  bottom: -0.4rem; }
+  bottom: -30px; }
 
 .margin40 {
-  margin: 0.5333333333rem; }
+  margin: 40px; }
 
 .margint40, .marginv40 {
-  margin-top: 0.5333333333rem; }
+  margin-top: 40px; }
 
 .marginb40, .marginv40 {
-  margin-bottom: 0.5333333333rem; }
+  margin-bottom: 40px; }
 
 .marginl40, .marginh40 {
-  margin-left: 0.5333333333rem; }
+  margin-left: 40px; }
 
 .marginr40, .marginh40 {
-  margin-right: 0.5333333333rem; }
+  margin-right: 40px; }
 
 .margint-n40 {
-  margin-top: -0.5333333333rem; }
+  margin-top: -40px; }
 
 .marginb-n40 {
-  margin-bottom: -0.5333333333rem; }
+  margin-bottom: -40px; }
 
 .marginl-n40 {
-  margin-left: -0.5333333333rem; }
+  margin-left: -40px; }
 
 .marginr-n40 {
-  margin-right: -0.5333333333rem; }
+  margin-right: -40px; }
 
 .padding40 {
-  padding: 0.5333333333rem; }
+  padding: 40px; }
 
 .paddingt40, .paddingv40 {
-  padding-top: 0.5333333333rem; }
+  padding-top: 40px; }
 
 .paddingb40, .paddingv40 {
-  padding-bottom: 0.5333333333rem; }
+  padding-bottom: 40px; }
 
 .paddingl40, .paddingh40 {
-  padding-left: 0.5333333333rem; }
+  padding-left: 40px; }
 
 .paddingr40, .paddingh40 {
-  padding-right: 0.5333333333rem; }
+  padding-right: 40px; }
 
 .top40 {
-  top: 0.5333333333rem; }
+  top: 40px; }
 
 .right40 {
-  right: 0.5333333333rem; }
+  right: 40px; }
 
 .left40 {
-  left: 0.5333333333rem; }
+  left: 40px; }
 
 .bottom40 {
-  bottom: 0.5333333333rem; }
+  bottom: 40px; }
 
 .top-n40 {
-  top: -0.5333333333rem; }
+  top: -40px; }
 
 .right-n40 {
-  right: -0.5333333333rem; }
+  right: -40px; }
 
 .left-n40 {
-  left: -0.5333333333rem; }
+  left: -40px; }
 
 .bottom-n40 {
-  bottom: -0.5333333333rem; }
+  bottom: -40px; }
 
 .margin50 {
-  margin: 0.6666666667rem; }
+  margin: 50px; }
 
 .margint50, .marginv50 {
-  margin-top: 0.6666666667rem; }
+  margin-top: 50px; }
 
 .marginb50, .marginv50 {
-  margin-bottom: 0.6666666667rem; }
+  margin-bottom: 50px; }
 
 .marginl50, .marginh50 {
-  margin-left: 0.6666666667rem; }
+  margin-left: 50px; }
 
 .marginr50, .marginh50 {
-  margin-right: 0.6666666667rem; }
+  margin-right: 50px; }
 
 .margint-n50 {
-  margin-top: -0.6666666667rem; }
+  margin-top: -50px; }
 
 .marginb-n50 {
-  margin-bottom: -0.6666666667rem; }
+  margin-bottom: -50px; }
 
 .marginl-n50 {
-  margin-left: -0.6666666667rem; }
+  margin-left: -50px; }
 
 .marginr-n50 {
-  margin-right: -0.6666666667rem; }
+  margin-right: -50px; }
 
 .padding50 {
-  padding: 0.6666666667rem; }
+  padding: 50px; }
 
 .paddingt50, .paddingv50 {
-  padding-top: 0.6666666667rem; }
+  padding-top: 50px; }
 
 .paddingb50, .paddingv50 {
-  padding-bottom: 0.6666666667rem; }
+  padding-bottom: 50px; }
 
 .paddingl50, .paddingh50 {
-  padding-left: 0.6666666667rem; }
+  padding-left: 50px; }
 
 .paddingr50, .paddingh50 {
-  padding-right: 0.6666666667rem; }
+  padding-right: 50px; }
 
 .top50 {
-  top: 0.6666666667rem; }
+  top: 50px; }
 
 .right50 {
-  right: 0.6666666667rem; }
+  right: 50px; }
 
 .left50 {
-  left: 0.6666666667rem; }
+  left: 50px; }
 
 .bottom50 {
-  bottom: 0.6666666667rem; }
+  bottom: 50px; }
 
 .top-n50 {
-  top: -0.6666666667rem; }
+  top: -50px; }
 
 .right-n50 {
-  right: -0.6666666667rem; }
+  right: -50px; }
 
 .left-n50 {
-  left: -0.6666666667rem; }
+  left: -50px; }
 
 .bottom-n50 {
-  bottom: -0.6666666667rem; }
+  bottom: -50px; }
 
 .float-right {
   float: right; }
@@ -1778,6 +1778,24 @@ i {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
+  .btn:focus, .form .inputGroup .input_addon:focus, .btn.focus, .form .inputGroup .focus.input_addon {
+    color: #666;
+    background-color: #d0d5d8;
+    border-color: #8c8c8c; }
+  .btn:hover, .form .inputGroup .input_addon:hover {
+    color: #666;
+    background-color: #d0d5d8;
+    border-color: #adadad; }
+  .btn:active, .form .inputGroup .input_addon:active, .btn.active, .form .inputGroup .active.input_addon {
+    color: #666;
+    background-color: #d0d5d8;
+    border-color: #adadad; }
+    .btn:active:hover, .form .inputGroup .input_addon:active:hover, .btn:active:focus, .form .inputGroup .input_addon:active:focus, .btn:active.focus, .form .inputGroup .input_addon:active.focus, .btn.active:hover, .form .inputGroup .active.input_addon:hover, .btn.active:focus, .form .inputGroup .active.input_addon:focus, .btn.active.focus, .form .inputGroup .active.focus.input_addon {
+      color: #666;
+      background-color: #bdc4c7;
+      border-color: #8c8c8c; }
+  .btn:active, .form .inputGroup .input_addon:active, .btn.active, .form .inputGroup .active.input_addon {
+    background-image: none; }
   .btn.disabled, .form .inputGroup .disabled.input_addon, .btn.disabled:hover, .form .inputGroup .disabled.input_addon:hover, .btn.disabled:focus, .form .inputGroup .disabled.input_addon:focus, .btn.disabled.focus, .form .inputGroup .disabled.focus.input_addon, .btn.disabled:active, .form .inputGroup .disabled.input_addon:active, .btn.disabled.active, .form .inputGroup .disabled.active.input_addon, .btn[disabled], .form .inputGroup [disabled].input_addon, .btn[disabled]:hover, .form .inputGroup [disabled].input_addon:hover, .btn[disabled]:focus, .form .inputGroup [disabled].input_addon:focus, .btn[disabled].focus, .form .inputGroup [disabled].focus.input_addon, .btn[disabled]:active, .form .inputGroup [disabled].input_addon:active, .btn[disabled].active, .form .inputGroup [disabled].active.input_addon, fieldset[disabled] .btn, fieldset[disabled] .form .inputGroup .input_addon, .form .inputGroup fieldset[disabled] .input_addon, fieldset[disabled] .btn:hover, fieldset[disabled] .form .inputGroup .input_addon:hover, .form .inputGroup fieldset[disabled] .input_addon:hover, fieldset[disabled] .btn:focus, fieldset[disabled] .form .inputGroup .input_addon:focus, .form .inputGroup fieldset[disabled] .input_addon:focus, fieldset[disabled] .btn.focus, fieldset[disabled] .form .inputGroup .focus.input_addon, .form .inputGroup fieldset[disabled] .focus.input_addon, fieldset[disabled] .btn:active, fieldset[disabled] .form .inputGroup .input_addon:active, .form .inputGroup fieldset[disabled] .input_addon:active, fieldset[disabled] .btn.active, fieldset[disabled] .form .inputGroup .active.input_addon, .form .inputGroup fieldset[disabled] .active.input_addon {
     background-color: #eceeef;
     border-color: #ccc; }
@@ -1787,18 +1805,48 @@ i {
   .btn .badge, .form .inputGroup .input_addon .badge {
     position: relative;
     top: -2px; }
+  .btn:focus, .form .inputGroup .input_addon:focus, .btn.focus, .form .inputGroup .focus.input_addon, .btn:active:focus, .form .inputGroup .input_addon:active:focus, .btn:active.focus, .form .inputGroup .input_addon:active.focus, .btn.active:focus, .form .inputGroup .active.input_addon:focus, .btn.active.focus, .form .inputGroup .active.focus.input_addon {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; }
   .btn.radius, .form .inputGroup .radius.input_addon {
     border-radius: 4px; }
   .btn.reverse, .form .inputGroup .reverse.input_addon, .form .inputGroup.inputGroup-reverse .input_addon {
     color: #666;
     background-color: white;
     border-color: #ccc; }
+    .btn.reverse:focus, .form .inputGroup .reverse.input_addon:focus, .form .inputGroup.inputGroup-reverse .input_addon:focus, .btn.reverse.focus, .form .inputGroup .reverse.focus.input_addon, .form .inputGroup.inputGroup-reverse .focus.input_addon {
+      color: #666;
+      background-color: #e6e6e6;
+      border-color: #8c8c8c; }
+    .btn.reverse:hover, .form .inputGroup .reverse.input_addon:hover, .form .inputGroup.inputGroup-reverse .input_addon:hover {
+      color: #666;
+      background-color: #e6e6e6;
+      border-color: #adadad; }
+    .btn.reverse:active, .form .inputGroup .reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .input_addon:active, .btn.reverse.active, .form .inputGroup .reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .active.input_addon {
+      color: #666;
+      background-color: #e6e6e6;
+      border-color: #adadad; }
+      .btn.reverse:active:hover, .form .inputGroup .reverse.input_addon:active:hover, .form .inputGroup.inputGroup-reverse .input_addon:active:hover, .btn.reverse:active:focus, .form .inputGroup .reverse.input_addon:active:focus, .form .inputGroup.inputGroup-reverse .input_addon:active:focus, .btn.reverse:active.focus, .form .inputGroup .reverse.input_addon:active.focus, .form .inputGroup.inputGroup-reverse .input_addon:active.focus, .btn.reverse.active:hover, .form .inputGroup .reverse.active.input_addon:hover, .form .inputGroup.inputGroup-reverse .active.input_addon:hover, .btn.reverse.active:focus, .form .inputGroup .reverse.active.input_addon:focus, .form .inputGroup.inputGroup-reverse .active.input_addon:focus, .btn.reverse.active.focus, .form .inputGroup .reverse.active.focus.input_addon, .form .inputGroup.inputGroup-reverse .active.focus.input_addon {
+        color: #666;
+        background-color: #d4d4d4;
+        border-color: #8c8c8c; }
+    .btn.reverse:active, .form .inputGroup .reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .input_addon:active, .btn.reverse.active, .form .inputGroup .reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .active.input_addon {
+      background-image: none; }
     .btn.reverse.disabled, .form .inputGroup .reverse.disabled.input_addon, .form .inputGroup.inputGroup-reverse .disabled.input_addon, .btn.reverse.disabled:hover, .form .inputGroup .reverse.disabled.input_addon:hover, .form .inputGroup.inputGroup-reverse .disabled.input_addon:hover, .btn.reverse.disabled:focus, .form .inputGroup .reverse.disabled.input_addon:focus, .form .inputGroup.inputGroup-reverse .disabled.input_addon:focus, .btn.reverse.disabled.focus, .form .inputGroup .reverse.disabled.focus.input_addon, .form .inputGroup.inputGroup-reverse .disabled.focus.input_addon, .btn.reverse.disabled:active, .form .inputGroup .reverse.disabled.input_addon:active, .form .inputGroup.inputGroup-reverse .disabled.input_addon:active, .btn.reverse.disabled.active, .form .inputGroup .reverse.disabled.active.input_addon, .form .inputGroup.inputGroup-reverse .disabled.active.input_addon, .btn.reverse[disabled], .form .inputGroup .reverse[disabled].input_addon, .form .inputGroup.inputGroup-reverse [disabled].input_addon, .btn.reverse[disabled]:hover, .form .inputGroup .reverse[disabled].input_addon:hover, .form .inputGroup.inputGroup-reverse [disabled].input_addon:hover, .btn.reverse[disabled]:focus, .form .inputGroup .reverse[disabled].input_addon:focus, .form .inputGroup.inputGroup-reverse [disabled].input_addon:focus, .btn.reverse[disabled].focus, .form .inputGroup .reverse[disabled].focus.input_addon, .form .inputGroup.inputGroup-reverse [disabled].focus.input_addon, .btn.reverse[disabled]:active, .form .inputGroup .reverse[disabled].input_addon:active, .form .inputGroup.inputGroup-reverse [disabled].input_addon:active, .btn.reverse[disabled].active, .form .inputGroup .reverse[disabled].active.input_addon, .form .inputGroup.inputGroup-reverse [disabled].active.input_addon, fieldset[disabled] .btn.reverse, fieldset[disabled] .form .inputGroup .reverse.input_addon, .form .inputGroup fieldset[disabled] .reverse.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .input_addon, fieldset[disabled] .btn.reverse:hover, fieldset[disabled] .form .inputGroup .reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .reverse.input_addon:hover, fieldset[disabled] .form .inputGroup.inputGroup-reverse .input_addon:hover, .form .inputGroup.inputGroup-reverse fieldset[disabled] .input_addon:hover, fieldset[disabled] .btn.reverse:focus, fieldset[disabled] .form .inputGroup .reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .reverse.input_addon:focus, fieldset[disabled] .form .inputGroup.inputGroup-reverse .input_addon:focus, .form .inputGroup.inputGroup-reverse fieldset[disabled] .input_addon:focus, fieldset[disabled] .btn.reverse.focus, fieldset[disabled] .form .inputGroup .reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .reverse.focus.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .focus.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .focus.input_addon, fieldset[disabled] .btn.reverse:active, fieldset[disabled] .form .inputGroup .reverse.input_addon:active, .form .inputGroup fieldset[disabled] .reverse.input_addon:active, fieldset[disabled] .form .inputGroup.inputGroup-reverse .input_addon:active, .form .inputGroup.inputGroup-reverse fieldset[disabled] .input_addon:active, fieldset[disabled] .btn.reverse.active, fieldset[disabled] .form .inputGroup .reverse.active.input_addon, .form .inputGroup fieldset[disabled] .reverse.active.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .active.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .active.input_addon {
       background-color: white;
       border-color: #ccc; }
     .btn.reverse .badge, .form .inputGroup .reverse.input_addon .badge, .form .inputGroup.inputGroup-reverse .input_addon .badge {
       color: white;
       background-color: #666; }
+  .btn:hover, .form .inputGroup .input_addon:hover, .btn:focus, .form .inputGroup .input_addon:focus, .btn.focus, .form .inputGroup .focus.input_addon {
+    color: #222;
+    text-decoration: none; }
+  .btn:active, .form .inputGroup .input_addon:active, .btn.active, .form .inputGroup .active.input_addon {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
   .btn.disabled, .form .inputGroup .disabled.input_addon, .btn[disabled], .form .inputGroup [disabled].input_addon, fieldset[disabled] .btn, fieldset[disabled] .form .inputGroup .input_addon, .form .inputGroup fieldset[disabled] .input_addon {
     cursor: not-allowed;
     opacity: 0.55;
@@ -1834,6 +1882,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
   color: white;
   background-color: #ff6565;
   border-color: #ff6565; }
+  .btn.red:focus, .form .inputGroup .red.input_addon:focus, .btn.red.focus, .form .inputGroup .red.focus.input_addon {
+    color: white;
+    background-color: #ff3232;
+    border-color: #e50000; }
+  .btn.red:hover, .form .inputGroup .red.input_addon:hover {
+    color: white;
+    background-color: #ff3232;
+    border-color: #ff2828; }
+  .btn.red:active, .form .inputGroup .red.input_addon:active, .btn.red.active, .form .inputGroup .red.active.input_addon {
+    color: white;
+    background-color: #ff3232;
+    border-color: #ff2828; }
+    .btn.red:active:hover, .form .inputGroup .red.input_addon:active:hover, .btn.red:active:focus, .form .inputGroup .red.input_addon:active:focus, .btn.red:active.focus, .form .inputGroup .red.input_addon:active.focus, .btn.red.active:hover, .form .inputGroup .red.active.input_addon:hover, .btn.red.active:focus, .form .inputGroup .red.active.input_addon:focus, .btn.red.active.focus, .form .inputGroup .red.active.focus.input_addon {
+      color: white;
+      background-color: #ff0e0e;
+      border-color: #e50000; }
+  .btn.red:active, .form .inputGroup .red.input_addon:active, .btn.red.active, .form .inputGroup .red.active.input_addon {
+    background-image: none; }
   .btn.red.disabled, .form .inputGroup .red.disabled.input_addon, .btn.red.disabled:hover, .form .inputGroup .red.disabled.input_addon:hover, .btn.red.disabled:focus, .form .inputGroup .red.disabled.input_addon:focus, .btn.red.disabled.focus, .form .inputGroup .red.disabled.focus.input_addon, .btn.red.disabled:active, .form .inputGroup .red.disabled.input_addon:active, .btn.red.disabled.active, .form .inputGroup .red.disabled.active.input_addon, .btn.red[disabled], .form .inputGroup .red[disabled].input_addon, .btn.red[disabled]:hover, .form .inputGroup .red[disabled].input_addon:hover, .btn.red[disabled]:focus, .form .inputGroup .red[disabled].input_addon:focus, .btn.red[disabled].focus, .form .inputGroup .red[disabled].focus.input_addon, .btn.red[disabled]:active, .form .inputGroup .red[disabled].input_addon:active, .btn.red[disabled].active, .form .inputGroup .red[disabled].active.input_addon, fieldset[disabled] .btn.red, fieldset[disabled] .form .inputGroup .red.input_addon, .form .inputGroup fieldset[disabled] .red.input_addon, fieldset[disabled] .btn.red:hover, fieldset[disabled] .form .inputGroup .red.input_addon:hover, .form .inputGroup fieldset[disabled] .red.input_addon:hover, fieldset[disabled] .btn.red:focus, fieldset[disabled] .form .inputGroup .red.input_addon:focus, .form .inputGroup fieldset[disabled] .red.input_addon:focus, fieldset[disabled] .btn.red.focus, fieldset[disabled] .form .inputGroup .red.focus.input_addon, .form .inputGroup fieldset[disabled] .red.focus.input_addon, fieldset[disabled] .btn.red:active, fieldset[disabled] .form .inputGroup .red.input_addon:active, .form .inputGroup fieldset[disabled] .red.input_addon:active, fieldset[disabled] .btn.red.active, fieldset[disabled] .form .inputGroup .red.active.input_addon, .form .inputGroup fieldset[disabled] .red.active.input_addon {
     background-color: #ff6565;
     border-color: #ff6565; }
@@ -1844,6 +1910,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
     color: #ff6565;
     background-color: white;
     border-color: #ff6565; }
+    .btn.red.btn-reverse:focus, .form .inputGroup .red.btn-reverse.input_addon:focus, .btn.red.btn-reverse.focus, .form .inputGroup .red.btn-reverse.focus.input_addon, .btn.red.reverse:focus, .form .inputGroup .red.reverse.input_addon:focus, .form .inputGroup.inputGroup-reverse .red.input_addon:focus, .btn.red.reverse.focus, .form .inputGroup .red.reverse.focus.input_addon, .form .inputGroup.inputGroup-reverse .red.focus.input_addon {
+      color: #ff6565;
+      background-color: #e6e6e6;
+      border-color: #e50000; }
+    .btn.red.btn-reverse:hover, .form .inputGroup .red.btn-reverse.input_addon:hover, .btn.red.reverse:hover, .form .inputGroup .red.reverse.input_addon:hover, .form .inputGroup.inputGroup-reverse .red.input_addon:hover {
+      color: #ff6565;
+      background-color: #e6e6e6;
+      border-color: #ff2828; }
+    .btn.red.btn-reverse:active, .form .inputGroup .red.btn-reverse.input_addon:active, .btn.red.btn-reverse.active, .form .inputGroup .red.btn-reverse.active.input_addon, .btn.red.reverse:active, .form .inputGroup .red.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .red.input_addon:active, .btn.red.reverse.active, .form .inputGroup .red.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .red.active.input_addon {
+      color: #ff6565;
+      background-color: #e6e6e6;
+      border-color: #ff2828; }
+      .btn.red.btn-reverse:active:hover, .form .inputGroup .red.btn-reverse.input_addon:active:hover, .btn.red.btn-reverse:active:focus, .form .inputGroup .red.btn-reverse.input_addon:active:focus, .btn.red.btn-reverse:active.focus, .form .inputGroup .red.btn-reverse.input_addon:active.focus, .btn.red.btn-reverse.active:hover, .form .inputGroup .red.btn-reverse.active.input_addon:hover, .btn.red.btn-reverse.active:focus, .form .inputGroup .red.btn-reverse.active.input_addon:focus, .btn.red.btn-reverse.active.focus, .form .inputGroup .red.btn-reverse.active.focus.input_addon, .btn.red.reverse:active:hover, .form .inputGroup .red.reverse.input_addon:active:hover, .form .inputGroup.inputGroup-reverse .red.input_addon:active:hover, .btn.red.reverse:active:focus, .form .inputGroup .red.reverse.input_addon:active:focus, .form .inputGroup.inputGroup-reverse .red.input_addon:active:focus, .btn.red.reverse:active.focus, .form .inputGroup .red.reverse.input_addon:active.focus, .form .inputGroup.inputGroup-reverse .red.input_addon:active.focus, .btn.red.reverse.active:hover, .form .inputGroup .red.reverse.active.input_addon:hover, .form .inputGroup.inputGroup-reverse .red.active.input_addon:hover, .btn.red.reverse.active:focus, .form .inputGroup .red.reverse.active.input_addon:focus, .form .inputGroup.inputGroup-reverse .red.active.input_addon:focus, .btn.red.reverse.active.focus, .form .inputGroup .red.reverse.active.focus.input_addon, .form .inputGroup.inputGroup-reverse .red.active.focus.input_addon {
+        color: #ff6565;
+        background-color: #d4d4d4;
+        border-color: #e50000; }
+    .btn.red.btn-reverse:active, .form .inputGroup .red.btn-reverse.input_addon:active, .btn.red.btn-reverse.active, .form .inputGroup .red.btn-reverse.active.input_addon, .btn.red.reverse:active, .form .inputGroup .red.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .red.input_addon:active, .btn.red.reverse.active, .form .inputGroup .red.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .red.active.input_addon {
+      background-image: none; }
     .btn.red.btn-reverse.disabled, .form .inputGroup .red.btn-reverse.disabled.input_addon, .btn.red.btn-reverse.disabled:hover, .form .inputGroup .red.btn-reverse.disabled.input_addon:hover, .btn.red.btn-reverse.disabled:focus, .form .inputGroup .red.btn-reverse.disabled.input_addon:focus, .btn.red.btn-reverse.disabled.focus, .form .inputGroup .red.btn-reverse.disabled.focus.input_addon, .btn.red.btn-reverse.disabled:active, .form .inputGroup .red.btn-reverse.disabled.input_addon:active, .btn.red.btn-reverse.disabled.active, .form .inputGroup .red.btn-reverse.disabled.active.input_addon, .btn.red.btn-reverse[disabled], .form .inputGroup .red.btn-reverse[disabled].input_addon, .btn.red.btn-reverse[disabled]:hover, .form .inputGroup .red.btn-reverse[disabled].input_addon:hover, .btn.red.btn-reverse[disabled]:focus, .form .inputGroup .red.btn-reverse[disabled].input_addon:focus, .btn.red.btn-reverse[disabled].focus, .form .inputGroup .red.btn-reverse[disabled].focus.input_addon, .btn.red.btn-reverse[disabled]:active, .form .inputGroup .red.btn-reverse[disabled].input_addon:active, .btn.red.btn-reverse[disabled].active, .form .inputGroup .red.btn-reverse[disabled].active.input_addon, fieldset[disabled] .btn.red.btn-reverse, fieldset[disabled] .form .inputGroup .red.btn-reverse.input_addon, .form .inputGroup fieldset[disabled] .red.btn-reverse.input_addon, fieldset[disabled] .btn.red.btn-reverse:hover, fieldset[disabled] .form .inputGroup .red.btn-reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .red.btn-reverse.input_addon:hover, fieldset[disabled] .btn.red.btn-reverse:focus, fieldset[disabled] .form .inputGroup .red.btn-reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .red.btn-reverse.input_addon:focus, fieldset[disabled] .btn.red.btn-reverse.focus, fieldset[disabled] .form .inputGroup .red.btn-reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .red.btn-reverse.focus.input_addon, fieldset[disabled] .btn.red.btn-reverse:active, fieldset[disabled] .form .inputGroup .red.btn-reverse.input_addon:active, .form .inputGroup fieldset[disabled] .red.btn-reverse.input_addon:active, fieldset[disabled] .btn.red.btn-reverse.active, fieldset[disabled] .form .inputGroup .red.btn-reverse.active.input_addon, .form .inputGroup fieldset[disabled] .red.btn-reverse.active.input_addon, .btn.red.reverse.disabled, .form .inputGroup .red.reverse.disabled.input_addon, .form .inputGroup.inputGroup-reverse .red.disabled.input_addon, .btn.red.reverse.disabled:hover, .form .inputGroup .red.reverse.disabled.input_addon:hover, .form .inputGroup.inputGroup-reverse .red.disabled.input_addon:hover, .btn.red.reverse.disabled:focus, .form .inputGroup .red.reverse.disabled.input_addon:focus, .form .inputGroup.inputGroup-reverse .red.disabled.input_addon:focus, .btn.red.reverse.disabled.focus, .form .inputGroup .red.reverse.disabled.focus.input_addon, .form .inputGroup.inputGroup-reverse .red.disabled.focus.input_addon, .btn.red.reverse.disabled:active, .form .inputGroup .red.reverse.disabled.input_addon:active, .form .inputGroup.inputGroup-reverse .red.disabled.input_addon:active, .btn.red.reverse.disabled.active, .form .inputGroup .red.reverse.disabled.active.input_addon, .form .inputGroup.inputGroup-reverse .red.disabled.active.input_addon, .btn.red.reverse[disabled], .form .inputGroup .red.reverse[disabled].input_addon, .form .inputGroup.inputGroup-reverse .red[disabled].input_addon, .btn.red.reverse[disabled]:hover, .form .inputGroup .red.reverse[disabled].input_addon:hover, .form .inputGroup.inputGroup-reverse .red[disabled].input_addon:hover, .btn.red.reverse[disabled]:focus, .form .inputGroup .red.reverse[disabled].input_addon:focus, .form .inputGroup.inputGroup-reverse .red[disabled].input_addon:focus, .btn.red.reverse[disabled].focus, .form .inputGroup .red.reverse[disabled].focus.input_addon, .form .inputGroup.inputGroup-reverse .red[disabled].focus.input_addon, .btn.red.reverse[disabled]:active, .form .inputGroup .red.reverse[disabled].input_addon:active, .form .inputGroup.inputGroup-reverse .red[disabled].input_addon:active, .btn.red.reverse[disabled].active, .form .inputGroup .red.reverse[disabled].active.input_addon, .form .inputGroup.inputGroup-reverse .red[disabled].active.input_addon, fieldset[disabled] .btn.red.reverse, fieldset[disabled] .form .inputGroup .red.reverse.input_addon, .form .inputGroup fieldset[disabled] .red.reverse.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .red.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .red.input_addon, fieldset[disabled] .btn.red.reverse:hover, fieldset[disabled] .form .inputGroup .red.reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .red.reverse.input_addon:hover, fieldset[disabled] .form .inputGroup.inputGroup-reverse .red.input_addon:hover, .form .inputGroup.inputGroup-reverse fieldset[disabled] .red.input_addon:hover, fieldset[disabled] .btn.red.reverse:focus, fieldset[disabled] .form .inputGroup .red.reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .red.reverse.input_addon:focus, fieldset[disabled] .form .inputGroup.inputGroup-reverse .red.input_addon:focus, .form .inputGroup.inputGroup-reverse fieldset[disabled] .red.input_addon:focus, fieldset[disabled] .btn.red.reverse.focus, fieldset[disabled] .form .inputGroup .red.reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .red.reverse.focus.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .red.focus.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .red.focus.input_addon, fieldset[disabled] .btn.red.reverse:active, fieldset[disabled] .form .inputGroup .red.reverse.input_addon:active, .form .inputGroup fieldset[disabled] .red.reverse.input_addon:active, fieldset[disabled] .form .inputGroup.inputGroup-reverse .red.input_addon:active, .form .inputGroup.inputGroup-reverse fieldset[disabled] .red.input_addon:active, fieldset[disabled] .btn.red.reverse.active, fieldset[disabled] .form .inputGroup .red.reverse.active.input_addon, .form .inputGroup fieldset[disabled] .red.reverse.active.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .red.active.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .red.active.input_addon {
       background-color: white;
       border-color: #ff6565; }
@@ -1855,6 +1939,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
   color: white;
   background-color: #ff9800;
   border-color: #ff9800; }
+  .btn.orange:focus, .form .inputGroup .orange.input_addon:focus, .btn.orange.focus, .form .inputGroup .orange.focus.input_addon {
+    color: white;
+    background-color: #cc7a00;
+    border-color: #804c00; }
+  .btn.orange:hover, .form .inputGroup .orange.input_addon:hover {
+    color: white;
+    background-color: #cc7a00;
+    border-color: #c27400; }
+  .btn.orange:active, .form .inputGroup .orange.input_addon:active, .btn.orange.active, .form .inputGroup .orange.active.input_addon {
+    color: white;
+    background-color: #cc7a00;
+    border-color: #c27400; }
+    .btn.orange:active:hover, .form .inputGroup .orange.input_addon:active:hover, .btn.orange:active:focus, .form .inputGroup .orange.input_addon:active:focus, .btn.orange:active.focus, .form .inputGroup .orange.input_addon:active.focus, .btn.orange.active:hover, .form .inputGroup .orange.active.input_addon:hover, .btn.orange.active:focus, .form .inputGroup .orange.active.input_addon:focus, .btn.orange.active.focus, .form .inputGroup .orange.active.focus.input_addon {
+      color: white;
+      background-color: #a86400;
+      border-color: #804c00; }
+  .btn.orange:active, .form .inputGroup .orange.input_addon:active, .btn.orange.active, .form .inputGroup .orange.active.input_addon {
+    background-image: none; }
   .btn.orange.disabled, .form .inputGroup .orange.disabled.input_addon, .btn.orange.disabled:hover, .form .inputGroup .orange.disabled.input_addon:hover, .btn.orange.disabled:focus, .form .inputGroup .orange.disabled.input_addon:focus, .btn.orange.disabled.focus, .form .inputGroup .orange.disabled.focus.input_addon, .btn.orange.disabled:active, .form .inputGroup .orange.disabled.input_addon:active, .btn.orange.disabled.active, .form .inputGroup .orange.disabled.active.input_addon, .btn.orange[disabled], .form .inputGroup .orange[disabled].input_addon, .btn.orange[disabled]:hover, .form .inputGroup .orange[disabled].input_addon:hover, .btn.orange[disabled]:focus, .form .inputGroup .orange[disabled].input_addon:focus, .btn.orange[disabled].focus, .form .inputGroup .orange[disabled].focus.input_addon, .btn.orange[disabled]:active, .form .inputGroup .orange[disabled].input_addon:active, .btn.orange[disabled].active, .form .inputGroup .orange[disabled].active.input_addon, fieldset[disabled] .btn.orange, fieldset[disabled] .form .inputGroup .orange.input_addon, .form .inputGroup fieldset[disabled] .orange.input_addon, fieldset[disabled] .btn.orange:hover, fieldset[disabled] .form .inputGroup .orange.input_addon:hover, .form .inputGroup fieldset[disabled] .orange.input_addon:hover, fieldset[disabled] .btn.orange:focus, fieldset[disabled] .form .inputGroup .orange.input_addon:focus, .form .inputGroup fieldset[disabled] .orange.input_addon:focus, fieldset[disabled] .btn.orange.focus, fieldset[disabled] .form .inputGroup .orange.focus.input_addon, .form .inputGroup fieldset[disabled] .orange.focus.input_addon, fieldset[disabled] .btn.orange:active, fieldset[disabled] .form .inputGroup .orange.input_addon:active, .form .inputGroup fieldset[disabled] .orange.input_addon:active, fieldset[disabled] .btn.orange.active, fieldset[disabled] .form .inputGroup .orange.active.input_addon, .form .inputGroup fieldset[disabled] .orange.active.input_addon {
     background-color: #ff9800;
     border-color: #ff9800; }
@@ -1865,6 +1967,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
     color: #ff9800;
     background-color: white;
     border-color: #ff9800; }
+    .btn.orange.btn-reverse:focus, .form .inputGroup .orange.btn-reverse.input_addon:focus, .btn.orange.btn-reverse.focus, .form .inputGroup .orange.btn-reverse.focus.input_addon, .btn.orange.reverse:focus, .form .inputGroup .orange.reverse.input_addon:focus, .form .inputGroup.inputGroup-reverse .orange.input_addon:focus, .btn.orange.reverse.focus, .form .inputGroup .orange.reverse.focus.input_addon, .form .inputGroup.inputGroup-reverse .orange.focus.input_addon {
+      color: #ff9800;
+      background-color: #e6e6e6;
+      border-color: #804c00; }
+    .btn.orange.btn-reverse:hover, .form .inputGroup .orange.btn-reverse.input_addon:hover, .btn.orange.reverse:hover, .form .inputGroup .orange.reverse.input_addon:hover, .form .inputGroup.inputGroup-reverse .orange.input_addon:hover {
+      color: #ff9800;
+      background-color: #e6e6e6;
+      border-color: #c27400; }
+    .btn.orange.btn-reverse:active, .form .inputGroup .orange.btn-reverse.input_addon:active, .btn.orange.btn-reverse.active, .form .inputGroup .orange.btn-reverse.active.input_addon, .btn.orange.reverse:active, .form .inputGroup .orange.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .orange.input_addon:active, .btn.orange.reverse.active, .form .inputGroup .orange.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .orange.active.input_addon {
+      color: #ff9800;
+      background-color: #e6e6e6;
+      border-color: #c27400; }
+      .btn.orange.btn-reverse:active:hover, .form .inputGroup .orange.btn-reverse.input_addon:active:hover, .btn.orange.btn-reverse:active:focus, .form .inputGroup .orange.btn-reverse.input_addon:active:focus, .btn.orange.btn-reverse:active.focus, .form .inputGroup .orange.btn-reverse.input_addon:active.focus, .btn.orange.btn-reverse.active:hover, .form .inputGroup .orange.btn-reverse.active.input_addon:hover, .btn.orange.btn-reverse.active:focus, .form .inputGroup .orange.btn-reverse.active.input_addon:focus, .btn.orange.btn-reverse.active.focus, .form .inputGroup .orange.btn-reverse.active.focus.input_addon, .btn.orange.reverse:active:hover, .form .inputGroup .orange.reverse.input_addon:active:hover, .form .inputGroup.inputGroup-reverse .orange.input_addon:active:hover, .btn.orange.reverse:active:focus, .form .inputGroup .orange.reverse.input_addon:active:focus, .form .inputGroup.inputGroup-reverse .orange.input_addon:active:focus, .btn.orange.reverse:active.focus, .form .inputGroup .orange.reverse.input_addon:active.focus, .form .inputGroup.inputGroup-reverse .orange.input_addon:active.focus, .btn.orange.reverse.active:hover, .form .inputGroup .orange.reverse.active.input_addon:hover, .form .inputGroup.inputGroup-reverse .orange.active.input_addon:hover, .btn.orange.reverse.active:focus, .form .inputGroup .orange.reverse.active.input_addon:focus, .form .inputGroup.inputGroup-reverse .orange.active.input_addon:focus, .btn.orange.reverse.active.focus, .form .inputGroup .orange.reverse.active.focus.input_addon, .form .inputGroup.inputGroup-reverse .orange.active.focus.input_addon {
+        color: #ff9800;
+        background-color: #d4d4d4;
+        border-color: #804c00; }
+    .btn.orange.btn-reverse:active, .form .inputGroup .orange.btn-reverse.input_addon:active, .btn.orange.btn-reverse.active, .form .inputGroup .orange.btn-reverse.active.input_addon, .btn.orange.reverse:active, .form .inputGroup .orange.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .orange.input_addon:active, .btn.orange.reverse.active, .form .inputGroup .orange.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .orange.active.input_addon {
+      background-image: none; }
     .btn.orange.btn-reverse.disabled, .form .inputGroup .orange.btn-reverse.disabled.input_addon, .btn.orange.btn-reverse.disabled:hover, .form .inputGroup .orange.btn-reverse.disabled.input_addon:hover, .btn.orange.btn-reverse.disabled:focus, .form .inputGroup .orange.btn-reverse.disabled.input_addon:focus, .btn.orange.btn-reverse.disabled.focus, .form .inputGroup .orange.btn-reverse.disabled.focus.input_addon, .btn.orange.btn-reverse.disabled:active, .form .inputGroup .orange.btn-reverse.disabled.input_addon:active, .btn.orange.btn-reverse.disabled.active, .form .inputGroup .orange.btn-reverse.disabled.active.input_addon, .btn.orange.btn-reverse[disabled], .form .inputGroup .orange.btn-reverse[disabled].input_addon, .btn.orange.btn-reverse[disabled]:hover, .form .inputGroup .orange.btn-reverse[disabled].input_addon:hover, .btn.orange.btn-reverse[disabled]:focus, .form .inputGroup .orange.btn-reverse[disabled].input_addon:focus, .btn.orange.btn-reverse[disabled].focus, .form .inputGroup .orange.btn-reverse[disabled].focus.input_addon, .btn.orange.btn-reverse[disabled]:active, .form .inputGroup .orange.btn-reverse[disabled].input_addon:active, .btn.orange.btn-reverse[disabled].active, .form .inputGroup .orange.btn-reverse[disabled].active.input_addon, fieldset[disabled] .btn.orange.btn-reverse, fieldset[disabled] .form .inputGroup .orange.btn-reverse.input_addon, .form .inputGroup fieldset[disabled] .orange.btn-reverse.input_addon, fieldset[disabled] .btn.orange.btn-reverse:hover, fieldset[disabled] .form .inputGroup .orange.btn-reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .orange.btn-reverse.input_addon:hover, fieldset[disabled] .btn.orange.btn-reverse:focus, fieldset[disabled] .form .inputGroup .orange.btn-reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .orange.btn-reverse.input_addon:focus, fieldset[disabled] .btn.orange.btn-reverse.focus, fieldset[disabled] .form .inputGroup .orange.btn-reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .orange.btn-reverse.focus.input_addon, fieldset[disabled] .btn.orange.btn-reverse:active, fieldset[disabled] .form .inputGroup .orange.btn-reverse.input_addon:active, .form .inputGroup fieldset[disabled] .orange.btn-reverse.input_addon:active, fieldset[disabled] .btn.orange.btn-reverse.active, fieldset[disabled] .form .inputGroup .orange.btn-reverse.active.input_addon, .form .inputGroup fieldset[disabled] .orange.btn-reverse.active.input_addon, .btn.orange.reverse.disabled, .form .inputGroup .orange.reverse.disabled.input_addon, .form .inputGroup.inputGroup-reverse .orange.disabled.input_addon, .btn.orange.reverse.disabled:hover, .form .inputGroup .orange.reverse.disabled.input_addon:hover, .form .inputGroup.inputGroup-reverse .orange.disabled.input_addon:hover, .btn.orange.reverse.disabled:focus, .form .inputGroup .orange.reverse.disabled.input_addon:focus, .form .inputGroup.inputGroup-reverse .orange.disabled.input_addon:focus, .btn.orange.reverse.disabled.focus, .form .inputGroup .orange.reverse.disabled.focus.input_addon, .form .inputGroup.inputGroup-reverse .orange.disabled.focus.input_addon, .btn.orange.reverse.disabled:active, .form .inputGroup .orange.reverse.disabled.input_addon:active, .form .inputGroup.inputGroup-reverse .orange.disabled.input_addon:active, .btn.orange.reverse.disabled.active, .form .inputGroup .orange.reverse.disabled.active.input_addon, .form .inputGroup.inputGroup-reverse .orange.disabled.active.input_addon, .btn.orange.reverse[disabled], .form .inputGroup .orange.reverse[disabled].input_addon, .form .inputGroup.inputGroup-reverse .orange[disabled].input_addon, .btn.orange.reverse[disabled]:hover, .form .inputGroup .orange.reverse[disabled].input_addon:hover, .form .inputGroup.inputGroup-reverse .orange[disabled].input_addon:hover, .btn.orange.reverse[disabled]:focus, .form .inputGroup .orange.reverse[disabled].input_addon:focus, .form .inputGroup.inputGroup-reverse .orange[disabled].input_addon:focus, .btn.orange.reverse[disabled].focus, .form .inputGroup .orange.reverse[disabled].focus.input_addon, .form .inputGroup.inputGroup-reverse .orange[disabled].focus.input_addon, .btn.orange.reverse[disabled]:active, .form .inputGroup .orange.reverse[disabled].input_addon:active, .form .inputGroup.inputGroup-reverse .orange[disabled].input_addon:active, .btn.orange.reverse[disabled].active, .form .inputGroup .orange.reverse[disabled].active.input_addon, .form .inputGroup.inputGroup-reverse .orange[disabled].active.input_addon, fieldset[disabled] .btn.orange.reverse, fieldset[disabled] .form .inputGroup .orange.reverse.input_addon, .form .inputGroup fieldset[disabled] .orange.reverse.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .orange.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .orange.input_addon, fieldset[disabled] .btn.orange.reverse:hover, fieldset[disabled] .form .inputGroup .orange.reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .orange.reverse.input_addon:hover, fieldset[disabled] .form .inputGroup.inputGroup-reverse .orange.input_addon:hover, .form .inputGroup.inputGroup-reverse fieldset[disabled] .orange.input_addon:hover, fieldset[disabled] .btn.orange.reverse:focus, fieldset[disabled] .form .inputGroup .orange.reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .orange.reverse.input_addon:focus, fieldset[disabled] .form .inputGroup.inputGroup-reverse .orange.input_addon:focus, .form .inputGroup.inputGroup-reverse fieldset[disabled] .orange.input_addon:focus, fieldset[disabled] .btn.orange.reverse.focus, fieldset[disabled] .form .inputGroup .orange.reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .orange.reverse.focus.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .orange.focus.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .orange.focus.input_addon, fieldset[disabled] .btn.orange.reverse:active, fieldset[disabled] .form .inputGroup .orange.reverse.input_addon:active, .form .inputGroup fieldset[disabled] .orange.reverse.input_addon:active, fieldset[disabled] .form .inputGroup.inputGroup-reverse .orange.input_addon:active, .form .inputGroup.inputGroup-reverse fieldset[disabled] .orange.input_addon:active, fieldset[disabled] .btn.orange.reverse.active, fieldset[disabled] .form .inputGroup .orange.reverse.active.input_addon, .form .inputGroup fieldset[disabled] .orange.reverse.active.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .orange.active.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .orange.active.input_addon {
       background-color: white;
       border-color: #ff9800; }
@@ -1876,6 +1996,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
   color: white;
   background-color: #ff6705;
   border-color: #ff6705; }
+  .btn.yellow:focus, .form .inputGroup .yellow.input_addon:focus, .btn.yellow.focus, .form .inputGroup .yellow.focus.input_addon {
+    color: white;
+    background-color: #d15200;
+    border-color: #853400; }
+  .btn.yellow:hover, .form .inputGroup .yellow.input_addon:hover {
+    color: white;
+    background-color: #d15200;
+    border-color: #c74e00; }
+  .btn.yellow:active, .form .inputGroup .yellow.input_addon:active, .btn.yellow.active, .form .inputGroup .yellow.active.input_addon {
+    color: white;
+    background-color: #d15200;
+    border-color: #c74e00; }
+    .btn.yellow:active:hover, .form .inputGroup .yellow.input_addon:active:hover, .btn.yellow:active:focus, .form .inputGroup .yellow.input_addon:active:focus, .btn.yellow:active.focus, .form .inputGroup .yellow.input_addon:active.focus, .btn.yellow.active:hover, .form .inputGroup .yellow.active.input_addon:hover, .btn.yellow.active:focus, .form .inputGroup .yellow.active.input_addon:focus, .btn.yellow.active.focus, .form .inputGroup .yellow.active.focus.input_addon {
+      color: white;
+      background-color: #ad4400;
+      border-color: #853400; }
+  .btn.yellow:active, .form .inputGroup .yellow.input_addon:active, .btn.yellow.active, .form .inputGroup .yellow.active.input_addon {
+    background-image: none; }
   .btn.yellow.disabled, .form .inputGroup .yellow.disabled.input_addon, .btn.yellow.disabled:hover, .form .inputGroup .yellow.disabled.input_addon:hover, .btn.yellow.disabled:focus, .form .inputGroup .yellow.disabled.input_addon:focus, .btn.yellow.disabled.focus, .form .inputGroup .yellow.disabled.focus.input_addon, .btn.yellow.disabled:active, .form .inputGroup .yellow.disabled.input_addon:active, .btn.yellow.disabled.active, .form .inputGroup .yellow.disabled.active.input_addon, .btn.yellow[disabled], .form .inputGroup .yellow[disabled].input_addon, .btn.yellow[disabled]:hover, .form .inputGroup .yellow[disabled].input_addon:hover, .btn.yellow[disabled]:focus, .form .inputGroup .yellow[disabled].input_addon:focus, .btn.yellow[disabled].focus, .form .inputGroup .yellow[disabled].focus.input_addon, .btn.yellow[disabled]:active, .form .inputGroup .yellow[disabled].input_addon:active, .btn.yellow[disabled].active, .form .inputGroup .yellow[disabled].active.input_addon, fieldset[disabled] .btn.yellow, fieldset[disabled] .form .inputGroup .yellow.input_addon, .form .inputGroup fieldset[disabled] .yellow.input_addon, fieldset[disabled] .btn.yellow:hover, fieldset[disabled] .form .inputGroup .yellow.input_addon:hover, .form .inputGroup fieldset[disabled] .yellow.input_addon:hover, fieldset[disabled] .btn.yellow:focus, fieldset[disabled] .form .inputGroup .yellow.input_addon:focus, .form .inputGroup fieldset[disabled] .yellow.input_addon:focus, fieldset[disabled] .btn.yellow.focus, fieldset[disabled] .form .inputGroup .yellow.focus.input_addon, .form .inputGroup fieldset[disabled] .yellow.focus.input_addon, fieldset[disabled] .btn.yellow:active, fieldset[disabled] .form .inputGroup .yellow.input_addon:active, .form .inputGroup fieldset[disabled] .yellow.input_addon:active, fieldset[disabled] .btn.yellow.active, fieldset[disabled] .form .inputGroup .yellow.active.input_addon, .form .inputGroup fieldset[disabled] .yellow.active.input_addon {
     background-color: #ff6705;
     border-color: #ff6705; }
@@ -1886,6 +2024,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
     color: #ff6705;
     background-color: white;
     border-color: #ff6705; }
+    .btn.yellow.btn-reverse:focus, .form .inputGroup .yellow.btn-reverse.input_addon:focus, .btn.yellow.btn-reverse.focus, .form .inputGroup .yellow.btn-reverse.focus.input_addon, .btn.yellow.reverse:focus, .form .inputGroup .yellow.reverse.input_addon:focus, .form .inputGroup.inputGroup-reverse .yellow.input_addon:focus, .btn.yellow.reverse.focus, .form .inputGroup .yellow.reverse.focus.input_addon, .form .inputGroup.inputGroup-reverse .yellow.focus.input_addon {
+      color: #ff6705;
+      background-color: #e6e6e6;
+      border-color: #853400; }
+    .btn.yellow.btn-reverse:hover, .form .inputGroup .yellow.btn-reverse.input_addon:hover, .btn.yellow.reverse:hover, .form .inputGroup .yellow.reverse.input_addon:hover, .form .inputGroup.inputGroup-reverse .yellow.input_addon:hover {
+      color: #ff6705;
+      background-color: #e6e6e6;
+      border-color: #c74e00; }
+    .btn.yellow.btn-reverse:active, .form .inputGroup .yellow.btn-reverse.input_addon:active, .btn.yellow.btn-reverse.active, .form .inputGroup .yellow.btn-reverse.active.input_addon, .btn.yellow.reverse:active, .form .inputGroup .yellow.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .yellow.input_addon:active, .btn.yellow.reverse.active, .form .inputGroup .yellow.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .yellow.active.input_addon {
+      color: #ff6705;
+      background-color: #e6e6e6;
+      border-color: #c74e00; }
+      .btn.yellow.btn-reverse:active:hover, .form .inputGroup .yellow.btn-reverse.input_addon:active:hover, .btn.yellow.btn-reverse:active:focus, .form .inputGroup .yellow.btn-reverse.input_addon:active:focus, .btn.yellow.btn-reverse:active.focus, .form .inputGroup .yellow.btn-reverse.input_addon:active.focus, .btn.yellow.btn-reverse.active:hover, .form .inputGroup .yellow.btn-reverse.active.input_addon:hover, .btn.yellow.btn-reverse.active:focus, .form .inputGroup .yellow.btn-reverse.active.input_addon:focus, .btn.yellow.btn-reverse.active.focus, .form .inputGroup .yellow.btn-reverse.active.focus.input_addon, .btn.yellow.reverse:active:hover, .form .inputGroup .yellow.reverse.input_addon:active:hover, .form .inputGroup.inputGroup-reverse .yellow.input_addon:active:hover, .btn.yellow.reverse:active:focus, .form .inputGroup .yellow.reverse.input_addon:active:focus, .form .inputGroup.inputGroup-reverse .yellow.input_addon:active:focus, .btn.yellow.reverse:active.focus, .form .inputGroup .yellow.reverse.input_addon:active.focus, .form .inputGroup.inputGroup-reverse .yellow.input_addon:active.focus, .btn.yellow.reverse.active:hover, .form .inputGroup .yellow.reverse.active.input_addon:hover, .form .inputGroup.inputGroup-reverse .yellow.active.input_addon:hover, .btn.yellow.reverse.active:focus, .form .inputGroup .yellow.reverse.active.input_addon:focus, .form .inputGroup.inputGroup-reverse .yellow.active.input_addon:focus, .btn.yellow.reverse.active.focus, .form .inputGroup .yellow.reverse.active.focus.input_addon, .form .inputGroup.inputGroup-reverse .yellow.active.focus.input_addon {
+        color: #ff6705;
+        background-color: #d4d4d4;
+        border-color: #853400; }
+    .btn.yellow.btn-reverse:active, .form .inputGroup .yellow.btn-reverse.input_addon:active, .btn.yellow.btn-reverse.active, .form .inputGroup .yellow.btn-reverse.active.input_addon, .btn.yellow.reverse:active, .form .inputGroup .yellow.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .yellow.input_addon:active, .btn.yellow.reverse.active, .form .inputGroup .yellow.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .yellow.active.input_addon {
+      background-image: none; }
     .btn.yellow.btn-reverse.disabled, .form .inputGroup .yellow.btn-reverse.disabled.input_addon, .btn.yellow.btn-reverse.disabled:hover, .form .inputGroup .yellow.btn-reverse.disabled.input_addon:hover, .btn.yellow.btn-reverse.disabled:focus, .form .inputGroup .yellow.btn-reverse.disabled.input_addon:focus, .btn.yellow.btn-reverse.disabled.focus, .form .inputGroup .yellow.btn-reverse.disabled.focus.input_addon, .btn.yellow.btn-reverse.disabled:active, .form .inputGroup .yellow.btn-reverse.disabled.input_addon:active, .btn.yellow.btn-reverse.disabled.active, .form .inputGroup .yellow.btn-reverse.disabled.active.input_addon, .btn.yellow.btn-reverse[disabled], .form .inputGroup .yellow.btn-reverse[disabled].input_addon, .btn.yellow.btn-reverse[disabled]:hover, .form .inputGroup .yellow.btn-reverse[disabled].input_addon:hover, .btn.yellow.btn-reverse[disabled]:focus, .form .inputGroup .yellow.btn-reverse[disabled].input_addon:focus, .btn.yellow.btn-reverse[disabled].focus, .form .inputGroup .yellow.btn-reverse[disabled].focus.input_addon, .btn.yellow.btn-reverse[disabled]:active, .form .inputGroup .yellow.btn-reverse[disabled].input_addon:active, .btn.yellow.btn-reverse[disabled].active, .form .inputGroup .yellow.btn-reverse[disabled].active.input_addon, fieldset[disabled] .btn.yellow.btn-reverse, fieldset[disabled] .form .inputGroup .yellow.btn-reverse.input_addon, .form .inputGroup fieldset[disabled] .yellow.btn-reverse.input_addon, fieldset[disabled] .btn.yellow.btn-reverse:hover, fieldset[disabled] .form .inputGroup .yellow.btn-reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .yellow.btn-reverse.input_addon:hover, fieldset[disabled] .btn.yellow.btn-reverse:focus, fieldset[disabled] .form .inputGroup .yellow.btn-reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .yellow.btn-reverse.input_addon:focus, fieldset[disabled] .btn.yellow.btn-reverse.focus, fieldset[disabled] .form .inputGroup .yellow.btn-reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .yellow.btn-reverse.focus.input_addon, fieldset[disabled] .btn.yellow.btn-reverse:active, fieldset[disabled] .form .inputGroup .yellow.btn-reverse.input_addon:active, .form .inputGroup fieldset[disabled] .yellow.btn-reverse.input_addon:active, fieldset[disabled] .btn.yellow.btn-reverse.active, fieldset[disabled] .form .inputGroup .yellow.btn-reverse.active.input_addon, .form .inputGroup fieldset[disabled] .yellow.btn-reverse.active.input_addon, .btn.yellow.reverse.disabled, .form .inputGroup .yellow.reverse.disabled.input_addon, .form .inputGroup.inputGroup-reverse .yellow.disabled.input_addon, .btn.yellow.reverse.disabled:hover, .form .inputGroup .yellow.reverse.disabled.input_addon:hover, .form .inputGroup.inputGroup-reverse .yellow.disabled.input_addon:hover, .btn.yellow.reverse.disabled:focus, .form .inputGroup .yellow.reverse.disabled.input_addon:focus, .form .inputGroup.inputGroup-reverse .yellow.disabled.input_addon:focus, .btn.yellow.reverse.disabled.focus, .form .inputGroup .yellow.reverse.disabled.focus.input_addon, .form .inputGroup.inputGroup-reverse .yellow.disabled.focus.input_addon, .btn.yellow.reverse.disabled:active, .form .inputGroup .yellow.reverse.disabled.input_addon:active, .form .inputGroup.inputGroup-reverse .yellow.disabled.input_addon:active, .btn.yellow.reverse.disabled.active, .form .inputGroup .yellow.reverse.disabled.active.input_addon, .form .inputGroup.inputGroup-reverse .yellow.disabled.active.input_addon, .btn.yellow.reverse[disabled], .form .inputGroup .yellow.reverse[disabled].input_addon, .form .inputGroup.inputGroup-reverse .yellow[disabled].input_addon, .btn.yellow.reverse[disabled]:hover, .form .inputGroup .yellow.reverse[disabled].input_addon:hover, .form .inputGroup.inputGroup-reverse .yellow[disabled].input_addon:hover, .btn.yellow.reverse[disabled]:focus, .form .inputGroup .yellow.reverse[disabled].input_addon:focus, .form .inputGroup.inputGroup-reverse .yellow[disabled].input_addon:focus, .btn.yellow.reverse[disabled].focus, .form .inputGroup .yellow.reverse[disabled].focus.input_addon, .form .inputGroup.inputGroup-reverse .yellow[disabled].focus.input_addon, .btn.yellow.reverse[disabled]:active, .form .inputGroup .yellow.reverse[disabled].input_addon:active, .form .inputGroup.inputGroup-reverse .yellow[disabled].input_addon:active, .btn.yellow.reverse[disabled].active, .form .inputGroup .yellow.reverse[disabled].active.input_addon, .form .inputGroup.inputGroup-reverse .yellow[disabled].active.input_addon, fieldset[disabled] .btn.yellow.reverse, fieldset[disabled] .form .inputGroup .yellow.reverse.input_addon, .form .inputGroup fieldset[disabled] .yellow.reverse.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .yellow.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .yellow.input_addon, fieldset[disabled] .btn.yellow.reverse:hover, fieldset[disabled] .form .inputGroup .yellow.reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .yellow.reverse.input_addon:hover, fieldset[disabled] .form .inputGroup.inputGroup-reverse .yellow.input_addon:hover, .form .inputGroup.inputGroup-reverse fieldset[disabled] .yellow.input_addon:hover, fieldset[disabled] .btn.yellow.reverse:focus, fieldset[disabled] .form .inputGroup .yellow.reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .yellow.reverse.input_addon:focus, fieldset[disabled] .form .inputGroup.inputGroup-reverse .yellow.input_addon:focus, .form .inputGroup.inputGroup-reverse fieldset[disabled] .yellow.input_addon:focus, fieldset[disabled] .btn.yellow.reverse.focus, fieldset[disabled] .form .inputGroup .yellow.reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .yellow.reverse.focus.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .yellow.focus.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .yellow.focus.input_addon, fieldset[disabled] .btn.yellow.reverse:active, fieldset[disabled] .form .inputGroup .yellow.reverse.input_addon:active, .form .inputGroup fieldset[disabled] .yellow.reverse.input_addon:active, fieldset[disabled] .form .inputGroup.inputGroup-reverse .yellow.input_addon:active, .form .inputGroup.inputGroup-reverse fieldset[disabled] .yellow.input_addon:active, fieldset[disabled] .btn.yellow.reverse.active, fieldset[disabled] .form .inputGroup .yellow.reverse.active.input_addon, .form .inputGroup fieldset[disabled] .yellow.reverse.active.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .yellow.active.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .yellow.active.input_addon {
       background-color: white;
       border-color: #ff6705; }
@@ -1897,6 +2053,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
   color: white;
   background-color: #2eb252;
   border-color: #2eb252; }
+  .btn.green:focus, .form .inputGroup .green.input_addon:focus, .btn.green.focus, .form .inputGroup .green.focus.input_addon {
+    color: white;
+    background-color: #24893f;
+    border-color: #144d23; }
+  .btn.green:hover, .form .inputGroup .green.input_addon:hover {
+    color: white;
+    background-color: #24893f;
+    border-color: #21813c; }
+  .btn.green:active, .form .inputGroup .green.input_addon:active, .btn.green.active, .form .inputGroup .green.active.input_addon {
+    color: white;
+    background-color: #24893f;
+    border-color: #21813c; }
+    .btn.green:active:hover, .form .inputGroup .green.input_addon:active:hover, .btn.green:active:focus, .form .inputGroup .green.input_addon:active:focus, .btn.green:active.focus, .form .inputGroup .green.input_addon:active.focus, .btn.green.active:hover, .form .inputGroup .green.active.input_addon:hover, .btn.green.active:focus, .form .inputGroup .green.active.input_addon:focus, .btn.green.active.focus, .form .inputGroup .green.active.focus.input_addon {
+      color: white;
+      background-color: #1c6d32;
+      border-color: #144d23; }
+  .btn.green:active, .form .inputGroup .green.input_addon:active, .btn.green.active, .form .inputGroup .green.active.input_addon {
+    background-image: none; }
   .btn.green.disabled, .form .inputGroup .green.disabled.input_addon, .btn.green.disabled:hover, .form .inputGroup .green.disabled.input_addon:hover, .btn.green.disabled:focus, .form .inputGroup .green.disabled.input_addon:focus, .btn.green.disabled.focus, .form .inputGroup .green.disabled.focus.input_addon, .btn.green.disabled:active, .form .inputGroup .green.disabled.input_addon:active, .btn.green.disabled.active, .form .inputGroup .green.disabled.active.input_addon, .btn.green[disabled], .form .inputGroup .green[disabled].input_addon, .btn.green[disabled]:hover, .form .inputGroup .green[disabled].input_addon:hover, .btn.green[disabled]:focus, .form .inputGroup .green[disabled].input_addon:focus, .btn.green[disabled].focus, .form .inputGroup .green[disabled].focus.input_addon, .btn.green[disabled]:active, .form .inputGroup .green[disabled].input_addon:active, .btn.green[disabled].active, .form .inputGroup .green[disabled].active.input_addon, fieldset[disabled] .btn.green, fieldset[disabled] .form .inputGroup .green.input_addon, .form .inputGroup fieldset[disabled] .green.input_addon, fieldset[disabled] .btn.green:hover, fieldset[disabled] .form .inputGroup .green.input_addon:hover, .form .inputGroup fieldset[disabled] .green.input_addon:hover, fieldset[disabled] .btn.green:focus, fieldset[disabled] .form .inputGroup .green.input_addon:focus, .form .inputGroup fieldset[disabled] .green.input_addon:focus, fieldset[disabled] .btn.green.focus, fieldset[disabled] .form .inputGroup .green.focus.input_addon, .form .inputGroup fieldset[disabled] .green.focus.input_addon, fieldset[disabled] .btn.green:active, fieldset[disabled] .form .inputGroup .green.input_addon:active, .form .inputGroup fieldset[disabled] .green.input_addon:active, fieldset[disabled] .btn.green.active, fieldset[disabled] .form .inputGroup .green.active.input_addon, .form .inputGroup fieldset[disabled] .green.active.input_addon {
     background-color: #2eb252;
     border-color: #2eb252; }
@@ -1907,6 +2081,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
     color: #2eb252;
     background-color: white;
     border-color: #2eb252; }
+    .btn.green.btn-reverse:focus, .form .inputGroup .green.btn-reverse.input_addon:focus, .btn.green.btn-reverse.focus, .form .inputGroup .green.btn-reverse.focus.input_addon, .btn.green.reverse:focus, .form .inputGroup .green.reverse.input_addon:focus, .form .inputGroup.inputGroup-reverse .green.input_addon:focus, .btn.green.reverse.focus, .form .inputGroup .green.reverse.focus.input_addon, .form .inputGroup.inputGroup-reverse .green.focus.input_addon {
+      color: #2eb252;
+      background-color: #e6e6e6;
+      border-color: #144d23; }
+    .btn.green.btn-reverse:hover, .form .inputGroup .green.btn-reverse.input_addon:hover, .btn.green.reverse:hover, .form .inputGroup .green.reverse.input_addon:hover, .form .inputGroup.inputGroup-reverse .green.input_addon:hover {
+      color: #2eb252;
+      background-color: #e6e6e6;
+      border-color: #21813c; }
+    .btn.green.btn-reverse:active, .form .inputGroup .green.btn-reverse.input_addon:active, .btn.green.btn-reverse.active, .form .inputGroup .green.btn-reverse.active.input_addon, .btn.green.reverse:active, .form .inputGroup .green.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .green.input_addon:active, .btn.green.reverse.active, .form .inputGroup .green.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .green.active.input_addon {
+      color: #2eb252;
+      background-color: #e6e6e6;
+      border-color: #21813c; }
+      .btn.green.btn-reverse:active:hover, .form .inputGroup .green.btn-reverse.input_addon:active:hover, .btn.green.btn-reverse:active:focus, .form .inputGroup .green.btn-reverse.input_addon:active:focus, .btn.green.btn-reverse:active.focus, .form .inputGroup .green.btn-reverse.input_addon:active.focus, .btn.green.btn-reverse.active:hover, .form .inputGroup .green.btn-reverse.active.input_addon:hover, .btn.green.btn-reverse.active:focus, .form .inputGroup .green.btn-reverse.active.input_addon:focus, .btn.green.btn-reverse.active.focus, .form .inputGroup .green.btn-reverse.active.focus.input_addon, .btn.green.reverse:active:hover, .form .inputGroup .green.reverse.input_addon:active:hover, .form .inputGroup.inputGroup-reverse .green.input_addon:active:hover, .btn.green.reverse:active:focus, .form .inputGroup .green.reverse.input_addon:active:focus, .form .inputGroup.inputGroup-reverse .green.input_addon:active:focus, .btn.green.reverse:active.focus, .form .inputGroup .green.reverse.input_addon:active.focus, .form .inputGroup.inputGroup-reverse .green.input_addon:active.focus, .btn.green.reverse.active:hover, .form .inputGroup .green.reverse.active.input_addon:hover, .form .inputGroup.inputGroup-reverse .green.active.input_addon:hover, .btn.green.reverse.active:focus, .form .inputGroup .green.reverse.active.input_addon:focus, .form .inputGroup.inputGroup-reverse .green.active.input_addon:focus, .btn.green.reverse.active.focus, .form .inputGroup .green.reverse.active.focus.input_addon, .form .inputGroup.inputGroup-reverse .green.active.focus.input_addon {
+        color: #2eb252;
+        background-color: #d4d4d4;
+        border-color: #144d23; }
+    .btn.green.btn-reverse:active, .form .inputGroup .green.btn-reverse.input_addon:active, .btn.green.btn-reverse.active, .form .inputGroup .green.btn-reverse.active.input_addon, .btn.green.reverse:active, .form .inputGroup .green.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .green.input_addon:active, .btn.green.reverse.active, .form .inputGroup .green.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .green.active.input_addon {
+      background-image: none; }
     .btn.green.btn-reverse.disabled, .form .inputGroup .green.btn-reverse.disabled.input_addon, .btn.green.btn-reverse.disabled:hover, .form .inputGroup .green.btn-reverse.disabled.input_addon:hover, .btn.green.btn-reverse.disabled:focus, .form .inputGroup .green.btn-reverse.disabled.input_addon:focus, .btn.green.btn-reverse.disabled.focus, .form .inputGroup .green.btn-reverse.disabled.focus.input_addon, .btn.green.btn-reverse.disabled:active, .form .inputGroup .green.btn-reverse.disabled.input_addon:active, .btn.green.btn-reverse.disabled.active, .form .inputGroup .green.btn-reverse.disabled.active.input_addon, .btn.green.btn-reverse[disabled], .form .inputGroup .green.btn-reverse[disabled].input_addon, .btn.green.btn-reverse[disabled]:hover, .form .inputGroup .green.btn-reverse[disabled].input_addon:hover, .btn.green.btn-reverse[disabled]:focus, .form .inputGroup .green.btn-reverse[disabled].input_addon:focus, .btn.green.btn-reverse[disabled].focus, .form .inputGroup .green.btn-reverse[disabled].focus.input_addon, .btn.green.btn-reverse[disabled]:active, .form .inputGroup .green.btn-reverse[disabled].input_addon:active, .btn.green.btn-reverse[disabled].active, .form .inputGroup .green.btn-reverse[disabled].active.input_addon, fieldset[disabled] .btn.green.btn-reverse, fieldset[disabled] .form .inputGroup .green.btn-reverse.input_addon, .form .inputGroup fieldset[disabled] .green.btn-reverse.input_addon, fieldset[disabled] .btn.green.btn-reverse:hover, fieldset[disabled] .form .inputGroup .green.btn-reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .green.btn-reverse.input_addon:hover, fieldset[disabled] .btn.green.btn-reverse:focus, fieldset[disabled] .form .inputGroup .green.btn-reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .green.btn-reverse.input_addon:focus, fieldset[disabled] .btn.green.btn-reverse.focus, fieldset[disabled] .form .inputGroup .green.btn-reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .green.btn-reverse.focus.input_addon, fieldset[disabled] .btn.green.btn-reverse:active, fieldset[disabled] .form .inputGroup .green.btn-reverse.input_addon:active, .form .inputGroup fieldset[disabled] .green.btn-reverse.input_addon:active, fieldset[disabled] .btn.green.btn-reverse.active, fieldset[disabled] .form .inputGroup .green.btn-reverse.active.input_addon, .form .inputGroup fieldset[disabled] .green.btn-reverse.active.input_addon, .btn.green.reverse.disabled, .form .inputGroup .green.reverse.disabled.input_addon, .form .inputGroup.inputGroup-reverse .green.disabled.input_addon, .btn.green.reverse.disabled:hover, .form .inputGroup .green.reverse.disabled.input_addon:hover, .form .inputGroup.inputGroup-reverse .green.disabled.input_addon:hover, .btn.green.reverse.disabled:focus, .form .inputGroup .green.reverse.disabled.input_addon:focus, .form .inputGroup.inputGroup-reverse .green.disabled.input_addon:focus, .btn.green.reverse.disabled.focus, .form .inputGroup .green.reverse.disabled.focus.input_addon, .form .inputGroup.inputGroup-reverse .green.disabled.focus.input_addon, .btn.green.reverse.disabled:active, .form .inputGroup .green.reverse.disabled.input_addon:active, .form .inputGroup.inputGroup-reverse .green.disabled.input_addon:active, .btn.green.reverse.disabled.active, .form .inputGroup .green.reverse.disabled.active.input_addon, .form .inputGroup.inputGroup-reverse .green.disabled.active.input_addon, .btn.green.reverse[disabled], .form .inputGroup .green.reverse[disabled].input_addon, .form .inputGroup.inputGroup-reverse .green[disabled].input_addon, .btn.green.reverse[disabled]:hover, .form .inputGroup .green.reverse[disabled].input_addon:hover, .form .inputGroup.inputGroup-reverse .green[disabled].input_addon:hover, .btn.green.reverse[disabled]:focus, .form .inputGroup .green.reverse[disabled].input_addon:focus, .form .inputGroup.inputGroup-reverse .green[disabled].input_addon:focus, .btn.green.reverse[disabled].focus, .form .inputGroup .green.reverse[disabled].focus.input_addon, .form .inputGroup.inputGroup-reverse .green[disabled].focus.input_addon, .btn.green.reverse[disabled]:active, .form .inputGroup .green.reverse[disabled].input_addon:active, .form .inputGroup.inputGroup-reverse .green[disabled].input_addon:active, .btn.green.reverse[disabled].active, .form .inputGroup .green.reverse[disabled].active.input_addon, .form .inputGroup.inputGroup-reverse .green[disabled].active.input_addon, fieldset[disabled] .btn.green.reverse, fieldset[disabled] .form .inputGroup .green.reverse.input_addon, .form .inputGroup fieldset[disabled] .green.reverse.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .green.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .green.input_addon, fieldset[disabled] .btn.green.reverse:hover, fieldset[disabled] .form .inputGroup .green.reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .green.reverse.input_addon:hover, fieldset[disabled] .form .inputGroup.inputGroup-reverse .green.input_addon:hover, .form .inputGroup.inputGroup-reverse fieldset[disabled] .green.input_addon:hover, fieldset[disabled] .btn.green.reverse:focus, fieldset[disabled] .form .inputGroup .green.reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .green.reverse.input_addon:focus, fieldset[disabled] .form .inputGroup.inputGroup-reverse .green.input_addon:focus, .form .inputGroup.inputGroup-reverse fieldset[disabled] .green.input_addon:focus, fieldset[disabled] .btn.green.reverse.focus, fieldset[disabled] .form .inputGroup .green.reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .green.reverse.focus.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .green.focus.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .green.focus.input_addon, fieldset[disabled] .btn.green.reverse:active, fieldset[disabled] .form .inputGroup .green.reverse.input_addon:active, .form .inputGroup fieldset[disabled] .green.reverse.input_addon:active, fieldset[disabled] .form .inputGroup.inputGroup-reverse .green.input_addon:active, .form .inputGroup.inputGroup-reverse fieldset[disabled] .green.input_addon:active, fieldset[disabled] .btn.green.reverse.active, fieldset[disabled] .form .inputGroup .green.reverse.active.input_addon, .form .inputGroup fieldset[disabled] .green.reverse.active.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .green.active.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .green.active.input_addon {
       background-color: white;
       border-color: #2eb252; }
@@ -1918,6 +2110,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
   color: white;
   background-color: #853f3a;
   border-color: #853f3a; }
+  .btn.coffee:focus, .form .inputGroup .coffee.input_addon:focus, .btn.coffee.focus, .form .inputGroup .coffee.focus.input_addon {
+    color: white;
+    background-color: #612e2b;
+    border-color: #2c1513; }
+  .btn.coffee:hover, .form .inputGroup .coffee.input_addon:hover {
+    color: white;
+    background-color: #612e2b;
+    border-color: #5a2b27; }
+  .btn.coffee:active, .form .inputGroup .coffee.input_addon:active, .btn.coffee.active, .form .inputGroup .coffee.active.input_addon {
+    color: white;
+    background-color: #612e2b;
+    border-color: #5a2b27; }
+    .btn.coffee:active:hover, .form .inputGroup .coffee.input_addon:active:hover, .btn.coffee:active:focus, .form .inputGroup .coffee.input_addon:active:focus, .btn.coffee:active.focus, .form .inputGroup .coffee.input_addon:active.focus, .btn.coffee.active:hover, .form .inputGroup .coffee.active.input_addon:hover, .btn.coffee.active:focus, .form .inputGroup .coffee.active.input_addon:focus, .btn.coffee.active.focus, .form .inputGroup .coffee.active.focus.input_addon {
+      color: white;
+      background-color: #492220;
+      border-color: #2c1513; }
+  .btn.coffee:active, .form .inputGroup .coffee.input_addon:active, .btn.coffee.active, .form .inputGroup .coffee.active.input_addon {
+    background-image: none; }
   .btn.coffee.disabled, .form .inputGroup .coffee.disabled.input_addon, .btn.coffee.disabled:hover, .form .inputGroup .coffee.disabled.input_addon:hover, .btn.coffee.disabled:focus, .form .inputGroup .coffee.disabled.input_addon:focus, .btn.coffee.disabled.focus, .form .inputGroup .coffee.disabled.focus.input_addon, .btn.coffee.disabled:active, .form .inputGroup .coffee.disabled.input_addon:active, .btn.coffee.disabled.active, .form .inputGroup .coffee.disabled.active.input_addon, .btn.coffee[disabled], .form .inputGroup .coffee[disabled].input_addon, .btn.coffee[disabled]:hover, .form .inputGroup .coffee[disabled].input_addon:hover, .btn.coffee[disabled]:focus, .form .inputGroup .coffee[disabled].input_addon:focus, .btn.coffee[disabled].focus, .form .inputGroup .coffee[disabled].focus.input_addon, .btn.coffee[disabled]:active, .form .inputGroup .coffee[disabled].input_addon:active, .btn.coffee[disabled].active, .form .inputGroup .coffee[disabled].active.input_addon, fieldset[disabled] .btn.coffee, fieldset[disabled] .form .inputGroup .coffee.input_addon, .form .inputGroup fieldset[disabled] .coffee.input_addon, fieldset[disabled] .btn.coffee:hover, fieldset[disabled] .form .inputGroup .coffee.input_addon:hover, .form .inputGroup fieldset[disabled] .coffee.input_addon:hover, fieldset[disabled] .btn.coffee:focus, fieldset[disabled] .form .inputGroup .coffee.input_addon:focus, .form .inputGroup fieldset[disabled] .coffee.input_addon:focus, fieldset[disabled] .btn.coffee.focus, fieldset[disabled] .form .inputGroup .coffee.focus.input_addon, .form .inputGroup fieldset[disabled] .coffee.focus.input_addon, fieldset[disabled] .btn.coffee:active, fieldset[disabled] .form .inputGroup .coffee.input_addon:active, .form .inputGroup fieldset[disabled] .coffee.input_addon:active, fieldset[disabled] .btn.coffee.active, fieldset[disabled] .form .inputGroup .coffee.active.input_addon, .form .inputGroup fieldset[disabled] .coffee.active.input_addon {
     background-color: #853f3a;
     border-color: #853f3a; }
@@ -1928,6 +2138,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
     color: #853f3a;
     background-color: white;
     border-color: #853f3a; }
+    .btn.coffee.btn-reverse:focus, .form .inputGroup .coffee.btn-reverse.input_addon:focus, .btn.coffee.btn-reverse.focus, .form .inputGroup .coffee.btn-reverse.focus.input_addon, .btn.coffee.reverse:focus, .form .inputGroup .coffee.reverse.input_addon:focus, .form .inputGroup.inputGroup-reverse .coffee.input_addon:focus, .btn.coffee.reverse.focus, .form .inputGroup .coffee.reverse.focus.input_addon, .form .inputGroup.inputGroup-reverse .coffee.focus.input_addon {
+      color: #853f3a;
+      background-color: #e6e6e6;
+      border-color: #2c1513; }
+    .btn.coffee.btn-reverse:hover, .form .inputGroup .coffee.btn-reverse.input_addon:hover, .btn.coffee.reverse:hover, .form .inputGroup .coffee.reverse.input_addon:hover, .form .inputGroup.inputGroup-reverse .coffee.input_addon:hover {
+      color: #853f3a;
+      background-color: #e6e6e6;
+      border-color: #5a2b27; }
+    .btn.coffee.btn-reverse:active, .form .inputGroup .coffee.btn-reverse.input_addon:active, .btn.coffee.btn-reverse.active, .form .inputGroup .coffee.btn-reverse.active.input_addon, .btn.coffee.reverse:active, .form .inputGroup .coffee.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .coffee.input_addon:active, .btn.coffee.reverse.active, .form .inputGroup .coffee.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .coffee.active.input_addon {
+      color: #853f3a;
+      background-color: #e6e6e6;
+      border-color: #5a2b27; }
+      .btn.coffee.btn-reverse:active:hover, .form .inputGroup .coffee.btn-reverse.input_addon:active:hover, .btn.coffee.btn-reverse:active:focus, .form .inputGroup .coffee.btn-reverse.input_addon:active:focus, .btn.coffee.btn-reverse:active.focus, .form .inputGroup .coffee.btn-reverse.input_addon:active.focus, .btn.coffee.btn-reverse.active:hover, .form .inputGroup .coffee.btn-reverse.active.input_addon:hover, .btn.coffee.btn-reverse.active:focus, .form .inputGroup .coffee.btn-reverse.active.input_addon:focus, .btn.coffee.btn-reverse.active.focus, .form .inputGroup .coffee.btn-reverse.active.focus.input_addon, .btn.coffee.reverse:active:hover, .form .inputGroup .coffee.reverse.input_addon:active:hover, .form .inputGroup.inputGroup-reverse .coffee.input_addon:active:hover, .btn.coffee.reverse:active:focus, .form .inputGroup .coffee.reverse.input_addon:active:focus, .form .inputGroup.inputGroup-reverse .coffee.input_addon:active:focus, .btn.coffee.reverse:active.focus, .form .inputGroup .coffee.reverse.input_addon:active.focus, .form .inputGroup.inputGroup-reverse .coffee.input_addon:active.focus, .btn.coffee.reverse.active:hover, .form .inputGroup .coffee.reverse.active.input_addon:hover, .form .inputGroup.inputGroup-reverse .coffee.active.input_addon:hover, .btn.coffee.reverse.active:focus, .form .inputGroup .coffee.reverse.active.input_addon:focus, .form .inputGroup.inputGroup-reverse .coffee.active.input_addon:focus, .btn.coffee.reverse.active.focus, .form .inputGroup .coffee.reverse.active.focus.input_addon, .form .inputGroup.inputGroup-reverse .coffee.active.focus.input_addon {
+        color: #853f3a;
+        background-color: #d4d4d4;
+        border-color: #2c1513; }
+    .btn.coffee.btn-reverse:active, .form .inputGroup .coffee.btn-reverse.input_addon:active, .btn.coffee.btn-reverse.active, .form .inputGroup .coffee.btn-reverse.active.input_addon, .btn.coffee.reverse:active, .form .inputGroup .coffee.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .coffee.input_addon:active, .btn.coffee.reverse.active, .form .inputGroup .coffee.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .coffee.active.input_addon {
+      background-image: none; }
     .btn.coffee.btn-reverse.disabled, .form .inputGroup .coffee.btn-reverse.disabled.input_addon, .btn.coffee.btn-reverse.disabled:hover, .form .inputGroup .coffee.btn-reverse.disabled.input_addon:hover, .btn.coffee.btn-reverse.disabled:focus, .form .inputGroup .coffee.btn-reverse.disabled.input_addon:focus, .btn.coffee.btn-reverse.disabled.focus, .form .inputGroup .coffee.btn-reverse.disabled.focus.input_addon, .btn.coffee.btn-reverse.disabled:active, .form .inputGroup .coffee.btn-reverse.disabled.input_addon:active, .btn.coffee.btn-reverse.disabled.active, .form .inputGroup .coffee.btn-reverse.disabled.active.input_addon, .btn.coffee.btn-reverse[disabled], .form .inputGroup .coffee.btn-reverse[disabled].input_addon, .btn.coffee.btn-reverse[disabled]:hover, .form .inputGroup .coffee.btn-reverse[disabled].input_addon:hover, .btn.coffee.btn-reverse[disabled]:focus, .form .inputGroup .coffee.btn-reverse[disabled].input_addon:focus, .btn.coffee.btn-reverse[disabled].focus, .form .inputGroup .coffee.btn-reverse[disabled].focus.input_addon, .btn.coffee.btn-reverse[disabled]:active, .form .inputGroup .coffee.btn-reverse[disabled].input_addon:active, .btn.coffee.btn-reverse[disabled].active, .form .inputGroup .coffee.btn-reverse[disabled].active.input_addon, fieldset[disabled] .btn.coffee.btn-reverse, fieldset[disabled] .form .inputGroup .coffee.btn-reverse.input_addon, .form .inputGroup fieldset[disabled] .coffee.btn-reverse.input_addon, fieldset[disabled] .btn.coffee.btn-reverse:hover, fieldset[disabled] .form .inputGroup .coffee.btn-reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .coffee.btn-reverse.input_addon:hover, fieldset[disabled] .btn.coffee.btn-reverse:focus, fieldset[disabled] .form .inputGroup .coffee.btn-reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .coffee.btn-reverse.input_addon:focus, fieldset[disabled] .btn.coffee.btn-reverse.focus, fieldset[disabled] .form .inputGroup .coffee.btn-reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .coffee.btn-reverse.focus.input_addon, fieldset[disabled] .btn.coffee.btn-reverse:active, fieldset[disabled] .form .inputGroup .coffee.btn-reverse.input_addon:active, .form .inputGroup fieldset[disabled] .coffee.btn-reverse.input_addon:active, fieldset[disabled] .btn.coffee.btn-reverse.active, fieldset[disabled] .form .inputGroup .coffee.btn-reverse.active.input_addon, .form .inputGroup fieldset[disabled] .coffee.btn-reverse.active.input_addon, .btn.coffee.reverse.disabled, .form .inputGroup .coffee.reverse.disabled.input_addon, .form .inputGroup.inputGroup-reverse .coffee.disabled.input_addon, .btn.coffee.reverse.disabled:hover, .form .inputGroup .coffee.reverse.disabled.input_addon:hover, .form .inputGroup.inputGroup-reverse .coffee.disabled.input_addon:hover, .btn.coffee.reverse.disabled:focus, .form .inputGroup .coffee.reverse.disabled.input_addon:focus, .form .inputGroup.inputGroup-reverse .coffee.disabled.input_addon:focus, .btn.coffee.reverse.disabled.focus, .form .inputGroup .coffee.reverse.disabled.focus.input_addon, .form .inputGroup.inputGroup-reverse .coffee.disabled.focus.input_addon, .btn.coffee.reverse.disabled:active, .form .inputGroup .coffee.reverse.disabled.input_addon:active, .form .inputGroup.inputGroup-reverse .coffee.disabled.input_addon:active, .btn.coffee.reverse.disabled.active, .form .inputGroup .coffee.reverse.disabled.active.input_addon, .form .inputGroup.inputGroup-reverse .coffee.disabled.active.input_addon, .btn.coffee.reverse[disabled], .form .inputGroup .coffee.reverse[disabled].input_addon, .form .inputGroup.inputGroup-reverse .coffee[disabled].input_addon, .btn.coffee.reverse[disabled]:hover, .form .inputGroup .coffee.reverse[disabled].input_addon:hover, .form .inputGroup.inputGroup-reverse .coffee[disabled].input_addon:hover, .btn.coffee.reverse[disabled]:focus, .form .inputGroup .coffee.reverse[disabled].input_addon:focus, .form .inputGroup.inputGroup-reverse .coffee[disabled].input_addon:focus, .btn.coffee.reverse[disabled].focus, .form .inputGroup .coffee.reverse[disabled].focus.input_addon, .form .inputGroup.inputGroup-reverse .coffee[disabled].focus.input_addon, .btn.coffee.reverse[disabled]:active, .form .inputGroup .coffee.reverse[disabled].input_addon:active, .form .inputGroup.inputGroup-reverse .coffee[disabled].input_addon:active, .btn.coffee.reverse[disabled].active, .form .inputGroup .coffee.reverse[disabled].active.input_addon, .form .inputGroup.inputGroup-reverse .coffee[disabled].active.input_addon, fieldset[disabled] .btn.coffee.reverse, fieldset[disabled] .form .inputGroup .coffee.reverse.input_addon, .form .inputGroup fieldset[disabled] .coffee.reverse.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .coffee.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .coffee.input_addon, fieldset[disabled] .btn.coffee.reverse:hover, fieldset[disabled] .form .inputGroup .coffee.reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .coffee.reverse.input_addon:hover, fieldset[disabled] .form .inputGroup.inputGroup-reverse .coffee.input_addon:hover, .form .inputGroup.inputGroup-reverse fieldset[disabled] .coffee.input_addon:hover, fieldset[disabled] .btn.coffee.reverse:focus, fieldset[disabled] .form .inputGroup .coffee.reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .coffee.reverse.input_addon:focus, fieldset[disabled] .form .inputGroup.inputGroup-reverse .coffee.input_addon:focus, .form .inputGroup.inputGroup-reverse fieldset[disabled] .coffee.input_addon:focus, fieldset[disabled] .btn.coffee.reverse.focus, fieldset[disabled] .form .inputGroup .coffee.reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .coffee.reverse.focus.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .coffee.focus.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .coffee.focus.input_addon, fieldset[disabled] .btn.coffee.reverse:active, fieldset[disabled] .form .inputGroup .coffee.reverse.input_addon:active, .form .inputGroup fieldset[disabled] .coffee.reverse.input_addon:active, fieldset[disabled] .form .inputGroup.inputGroup-reverse .coffee.input_addon:active, .form .inputGroup.inputGroup-reverse fieldset[disabled] .coffee.input_addon:active, fieldset[disabled] .btn.coffee.reverse.active, fieldset[disabled] .form .inputGroup .coffee.reverse.active.input_addon, .form .inputGroup fieldset[disabled] .coffee.reverse.active.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .coffee.active.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .coffee.active.input_addon {
       background-color: white;
       border-color: #853f3a; }
@@ -1939,6 +2167,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
   color: white;
   background-color: #25aaff;
   border-color: #25aaff; }
+  .btn.blue:focus, .form .inputGroup .blue.input_addon:focus, .btn.blue.focus, .form .inputGroup .blue.focus.input_addon {
+    color: white;
+    background-color: #0093f1;
+    border-color: #0064a5; }
+  .btn.blue:hover, .form .inputGroup .blue.input_addon:hover {
+    color: white;
+    background-color: #0093f1;
+    border-color: #008de7; }
+  .btn.blue:active, .form .inputGroup .blue.input_addon:active, .btn.blue.active, .form .inputGroup .blue.active.input_addon {
+    color: white;
+    background-color: #0093f1;
+    border-color: #008de7; }
+    .btn.blue:active:hover, .form .inputGroup .blue.input_addon:active:hover, .btn.blue:active:focus, .form .inputGroup .blue.input_addon:active:focus, .btn.blue:active.focus, .form .inputGroup .blue.input_addon:active.focus, .btn.blue.active:hover, .form .inputGroup .blue.active.input_addon:hover, .btn.blue.active:focus, .form .inputGroup .blue.active.input_addon:focus, .btn.blue.active.focus, .form .inputGroup .blue.active.focus.input_addon {
+      color: white;
+      background-color: #007dcd;
+      border-color: #0064a5; }
+  .btn.blue:active, .form .inputGroup .blue.input_addon:active, .btn.blue.active, .form .inputGroup .blue.active.input_addon {
+    background-image: none; }
   .btn.blue.disabled, .form .inputGroup .blue.disabled.input_addon, .btn.blue.disabled:hover, .form .inputGroup .blue.disabled.input_addon:hover, .btn.blue.disabled:focus, .form .inputGroup .blue.disabled.input_addon:focus, .btn.blue.disabled.focus, .form .inputGroup .blue.disabled.focus.input_addon, .btn.blue.disabled:active, .form .inputGroup .blue.disabled.input_addon:active, .btn.blue.disabled.active, .form .inputGroup .blue.disabled.active.input_addon, .btn.blue[disabled], .form .inputGroup .blue[disabled].input_addon, .btn.blue[disabled]:hover, .form .inputGroup .blue[disabled].input_addon:hover, .btn.blue[disabled]:focus, .form .inputGroup .blue[disabled].input_addon:focus, .btn.blue[disabled].focus, .form .inputGroup .blue[disabled].focus.input_addon, .btn.blue[disabled]:active, .form .inputGroup .blue[disabled].input_addon:active, .btn.blue[disabled].active, .form .inputGroup .blue[disabled].active.input_addon, fieldset[disabled] .btn.blue, fieldset[disabled] .form .inputGroup .blue.input_addon, .form .inputGroup fieldset[disabled] .blue.input_addon, fieldset[disabled] .btn.blue:hover, fieldset[disabled] .form .inputGroup .blue.input_addon:hover, .form .inputGroup fieldset[disabled] .blue.input_addon:hover, fieldset[disabled] .btn.blue:focus, fieldset[disabled] .form .inputGroup .blue.input_addon:focus, .form .inputGroup fieldset[disabled] .blue.input_addon:focus, fieldset[disabled] .btn.blue.focus, fieldset[disabled] .form .inputGroup .blue.focus.input_addon, .form .inputGroup fieldset[disabled] .blue.focus.input_addon, fieldset[disabled] .btn.blue:active, fieldset[disabled] .form .inputGroup .blue.input_addon:active, .form .inputGroup fieldset[disabled] .blue.input_addon:active, fieldset[disabled] .btn.blue.active, fieldset[disabled] .form .inputGroup .blue.active.input_addon, .form .inputGroup fieldset[disabled] .blue.active.input_addon {
     background-color: #25aaff;
     border-color: #25aaff; }
@@ -1949,6 +2195,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
     color: #25aaff;
     background-color: white;
     border-color: #25aaff; }
+    .btn.blue.btn-reverse:focus, .form .inputGroup .blue.btn-reverse.input_addon:focus, .btn.blue.btn-reverse.focus, .form .inputGroup .blue.btn-reverse.focus.input_addon, .btn.blue.reverse:focus, .form .inputGroup .blue.reverse.input_addon:focus, .form .inputGroup.inputGroup-reverse .blue.input_addon:focus, .btn.blue.reverse.focus, .form .inputGroup .blue.reverse.focus.input_addon, .form .inputGroup.inputGroup-reverse .blue.focus.input_addon {
+      color: #25aaff;
+      background-color: #e6e6e6;
+      border-color: #0064a5; }
+    .btn.blue.btn-reverse:hover, .form .inputGroup .blue.btn-reverse.input_addon:hover, .btn.blue.reverse:hover, .form .inputGroup .blue.reverse.input_addon:hover, .form .inputGroup.inputGroup-reverse .blue.input_addon:hover {
+      color: #25aaff;
+      background-color: #e6e6e6;
+      border-color: #008de7; }
+    .btn.blue.btn-reverse:active, .form .inputGroup .blue.btn-reverse.input_addon:active, .btn.blue.btn-reverse.active, .form .inputGroup .blue.btn-reverse.active.input_addon, .btn.blue.reverse:active, .form .inputGroup .blue.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .blue.input_addon:active, .btn.blue.reverse.active, .form .inputGroup .blue.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .blue.active.input_addon {
+      color: #25aaff;
+      background-color: #e6e6e6;
+      border-color: #008de7; }
+      .btn.blue.btn-reverse:active:hover, .form .inputGroup .blue.btn-reverse.input_addon:active:hover, .btn.blue.btn-reverse:active:focus, .form .inputGroup .blue.btn-reverse.input_addon:active:focus, .btn.blue.btn-reverse:active.focus, .form .inputGroup .blue.btn-reverse.input_addon:active.focus, .btn.blue.btn-reverse.active:hover, .form .inputGroup .blue.btn-reverse.active.input_addon:hover, .btn.blue.btn-reverse.active:focus, .form .inputGroup .blue.btn-reverse.active.input_addon:focus, .btn.blue.btn-reverse.active.focus, .form .inputGroup .blue.btn-reverse.active.focus.input_addon, .btn.blue.reverse:active:hover, .form .inputGroup .blue.reverse.input_addon:active:hover, .form .inputGroup.inputGroup-reverse .blue.input_addon:active:hover, .btn.blue.reverse:active:focus, .form .inputGroup .blue.reverse.input_addon:active:focus, .form .inputGroup.inputGroup-reverse .blue.input_addon:active:focus, .btn.blue.reverse:active.focus, .form .inputGroup .blue.reverse.input_addon:active.focus, .form .inputGroup.inputGroup-reverse .blue.input_addon:active.focus, .btn.blue.reverse.active:hover, .form .inputGroup .blue.reverse.active.input_addon:hover, .form .inputGroup.inputGroup-reverse .blue.active.input_addon:hover, .btn.blue.reverse.active:focus, .form .inputGroup .blue.reverse.active.input_addon:focus, .form .inputGroup.inputGroup-reverse .blue.active.input_addon:focus, .btn.blue.reverse.active.focus, .form .inputGroup .blue.reverse.active.focus.input_addon, .form .inputGroup.inputGroup-reverse .blue.active.focus.input_addon {
+        color: #25aaff;
+        background-color: #d4d4d4;
+        border-color: #0064a5; }
+    .btn.blue.btn-reverse:active, .form .inputGroup .blue.btn-reverse.input_addon:active, .btn.blue.btn-reverse.active, .form .inputGroup .blue.btn-reverse.active.input_addon, .btn.blue.reverse:active, .form .inputGroup .blue.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .blue.input_addon:active, .btn.blue.reverse.active, .form .inputGroup .blue.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .blue.active.input_addon {
+      background-image: none; }
     .btn.blue.btn-reverse.disabled, .form .inputGroup .blue.btn-reverse.disabled.input_addon, .btn.blue.btn-reverse.disabled:hover, .form .inputGroup .blue.btn-reverse.disabled.input_addon:hover, .btn.blue.btn-reverse.disabled:focus, .form .inputGroup .blue.btn-reverse.disabled.input_addon:focus, .btn.blue.btn-reverse.disabled.focus, .form .inputGroup .blue.btn-reverse.disabled.focus.input_addon, .btn.blue.btn-reverse.disabled:active, .form .inputGroup .blue.btn-reverse.disabled.input_addon:active, .btn.blue.btn-reverse.disabled.active, .form .inputGroup .blue.btn-reverse.disabled.active.input_addon, .btn.blue.btn-reverse[disabled], .form .inputGroup .blue.btn-reverse[disabled].input_addon, .btn.blue.btn-reverse[disabled]:hover, .form .inputGroup .blue.btn-reverse[disabled].input_addon:hover, .btn.blue.btn-reverse[disabled]:focus, .form .inputGroup .blue.btn-reverse[disabled].input_addon:focus, .btn.blue.btn-reverse[disabled].focus, .form .inputGroup .blue.btn-reverse[disabled].focus.input_addon, .btn.blue.btn-reverse[disabled]:active, .form .inputGroup .blue.btn-reverse[disabled].input_addon:active, .btn.blue.btn-reverse[disabled].active, .form .inputGroup .blue.btn-reverse[disabled].active.input_addon, fieldset[disabled] .btn.blue.btn-reverse, fieldset[disabled] .form .inputGroup .blue.btn-reverse.input_addon, .form .inputGroup fieldset[disabled] .blue.btn-reverse.input_addon, fieldset[disabled] .btn.blue.btn-reverse:hover, fieldset[disabled] .form .inputGroup .blue.btn-reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .blue.btn-reverse.input_addon:hover, fieldset[disabled] .btn.blue.btn-reverse:focus, fieldset[disabled] .form .inputGroup .blue.btn-reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .blue.btn-reverse.input_addon:focus, fieldset[disabled] .btn.blue.btn-reverse.focus, fieldset[disabled] .form .inputGroup .blue.btn-reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .blue.btn-reverse.focus.input_addon, fieldset[disabled] .btn.blue.btn-reverse:active, fieldset[disabled] .form .inputGroup .blue.btn-reverse.input_addon:active, .form .inputGroup fieldset[disabled] .blue.btn-reverse.input_addon:active, fieldset[disabled] .btn.blue.btn-reverse.active, fieldset[disabled] .form .inputGroup .blue.btn-reverse.active.input_addon, .form .inputGroup fieldset[disabled] .blue.btn-reverse.active.input_addon, .btn.blue.reverse.disabled, .form .inputGroup .blue.reverse.disabled.input_addon, .form .inputGroup.inputGroup-reverse .blue.disabled.input_addon, .btn.blue.reverse.disabled:hover, .form .inputGroup .blue.reverse.disabled.input_addon:hover, .form .inputGroup.inputGroup-reverse .blue.disabled.input_addon:hover, .btn.blue.reverse.disabled:focus, .form .inputGroup .blue.reverse.disabled.input_addon:focus, .form .inputGroup.inputGroup-reverse .blue.disabled.input_addon:focus, .btn.blue.reverse.disabled.focus, .form .inputGroup .blue.reverse.disabled.focus.input_addon, .form .inputGroup.inputGroup-reverse .blue.disabled.focus.input_addon, .btn.blue.reverse.disabled:active, .form .inputGroup .blue.reverse.disabled.input_addon:active, .form .inputGroup.inputGroup-reverse .blue.disabled.input_addon:active, .btn.blue.reverse.disabled.active, .form .inputGroup .blue.reverse.disabled.active.input_addon, .form .inputGroup.inputGroup-reverse .blue.disabled.active.input_addon, .btn.blue.reverse[disabled], .form .inputGroup .blue.reverse[disabled].input_addon, .form .inputGroup.inputGroup-reverse .blue[disabled].input_addon, .btn.blue.reverse[disabled]:hover, .form .inputGroup .blue.reverse[disabled].input_addon:hover, .form .inputGroup.inputGroup-reverse .blue[disabled].input_addon:hover, .btn.blue.reverse[disabled]:focus, .form .inputGroup .blue.reverse[disabled].input_addon:focus, .form .inputGroup.inputGroup-reverse .blue[disabled].input_addon:focus, .btn.blue.reverse[disabled].focus, .form .inputGroup .blue.reverse[disabled].focus.input_addon, .form .inputGroup.inputGroup-reverse .blue[disabled].focus.input_addon, .btn.blue.reverse[disabled]:active, .form .inputGroup .blue.reverse[disabled].input_addon:active, .form .inputGroup.inputGroup-reverse .blue[disabled].input_addon:active, .btn.blue.reverse[disabled].active, .form .inputGroup .blue.reverse[disabled].active.input_addon, .form .inputGroup.inputGroup-reverse .blue[disabled].active.input_addon, fieldset[disabled] .btn.blue.reverse, fieldset[disabled] .form .inputGroup .blue.reverse.input_addon, .form .inputGroup fieldset[disabled] .blue.reverse.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .blue.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .blue.input_addon, fieldset[disabled] .btn.blue.reverse:hover, fieldset[disabled] .form .inputGroup .blue.reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .blue.reverse.input_addon:hover, fieldset[disabled] .form .inputGroup.inputGroup-reverse .blue.input_addon:hover, .form .inputGroup.inputGroup-reverse fieldset[disabled] .blue.input_addon:hover, fieldset[disabled] .btn.blue.reverse:focus, fieldset[disabled] .form .inputGroup .blue.reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .blue.reverse.input_addon:focus, fieldset[disabled] .form .inputGroup.inputGroup-reverse .blue.input_addon:focus, .form .inputGroup.inputGroup-reverse fieldset[disabled] .blue.input_addon:focus, fieldset[disabled] .btn.blue.reverse.focus, fieldset[disabled] .form .inputGroup .blue.reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .blue.reverse.focus.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .blue.focus.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .blue.focus.input_addon, fieldset[disabled] .btn.blue.reverse:active, fieldset[disabled] .form .inputGroup .blue.reverse.input_addon:active, .form .inputGroup fieldset[disabled] .blue.reverse.input_addon:active, fieldset[disabled] .form .inputGroup.inputGroup-reverse .blue.input_addon:active, .form .inputGroup.inputGroup-reverse fieldset[disabled] .blue.input_addon:active, fieldset[disabled] .btn.blue.reverse.active, fieldset[disabled] .form .inputGroup .blue.reverse.active.input_addon, .form .inputGroup fieldset[disabled] .blue.reverse.active.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .blue.active.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .blue.active.input_addon {
       background-color: white;
       border-color: #25aaff; }
@@ -1960,6 +2224,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
   color: white;
   background-color: #7000C8;
   border-color: #7000C8; }
+  .btn.purple:focus, .form .inputGroup .purple.input_addon:focus, .btn.purple.focus, .form .inputGroup .purple.focus.input_addon {
+    color: white;
+    background-color: #530095;
+    border-color: #290049; }
+  .btn.purple:hover, .form .inputGroup .purple.input_addon:hover {
+    color: white;
+    background-color: #530095;
+    border-color: #4e008b; }
+  .btn.purple:active, .form .inputGroup .purple.input_addon:active, .btn.purple.active, .form .inputGroup .purple.active.input_addon {
+    color: white;
+    background-color: #530095;
+    border-color: #4e008b; }
+    .btn.purple:active:hover, .form .inputGroup .purple.input_addon:active:hover, .btn.purple:active:focus, .form .inputGroup .purple.input_addon:active:focus, .btn.purple:active.focus, .form .inputGroup .purple.input_addon:active.focus, .btn.purple.active:hover, .form .inputGroup .purple.active.input_addon:hover, .btn.purple.active:focus, .form .inputGroup .purple.active.input_addon:focus, .btn.purple.active.focus, .form .inputGroup .purple.active.focus.input_addon {
+      color: white;
+      background-color: #3f0071;
+      border-color: #290049; }
+  .btn.purple:active, .form .inputGroup .purple.input_addon:active, .btn.purple.active, .form .inputGroup .purple.active.input_addon {
+    background-image: none; }
   .btn.purple.disabled, .form .inputGroup .purple.disabled.input_addon, .btn.purple.disabled:hover, .form .inputGroup .purple.disabled.input_addon:hover, .btn.purple.disabled:focus, .form .inputGroup .purple.disabled.input_addon:focus, .btn.purple.disabled.focus, .form .inputGroup .purple.disabled.focus.input_addon, .btn.purple.disabled:active, .form .inputGroup .purple.disabled.input_addon:active, .btn.purple.disabled.active, .form .inputGroup .purple.disabled.active.input_addon, .btn.purple[disabled], .form .inputGroup .purple[disabled].input_addon, .btn.purple[disabled]:hover, .form .inputGroup .purple[disabled].input_addon:hover, .btn.purple[disabled]:focus, .form .inputGroup .purple[disabled].input_addon:focus, .btn.purple[disabled].focus, .form .inputGroup .purple[disabled].focus.input_addon, .btn.purple[disabled]:active, .form .inputGroup .purple[disabled].input_addon:active, .btn.purple[disabled].active, .form .inputGroup .purple[disabled].active.input_addon, fieldset[disabled] .btn.purple, fieldset[disabled] .form .inputGroup .purple.input_addon, .form .inputGroup fieldset[disabled] .purple.input_addon, fieldset[disabled] .btn.purple:hover, fieldset[disabled] .form .inputGroup .purple.input_addon:hover, .form .inputGroup fieldset[disabled] .purple.input_addon:hover, fieldset[disabled] .btn.purple:focus, fieldset[disabled] .form .inputGroup .purple.input_addon:focus, .form .inputGroup fieldset[disabled] .purple.input_addon:focus, fieldset[disabled] .btn.purple.focus, fieldset[disabled] .form .inputGroup .purple.focus.input_addon, .form .inputGroup fieldset[disabled] .purple.focus.input_addon, fieldset[disabled] .btn.purple:active, fieldset[disabled] .form .inputGroup .purple.input_addon:active, .form .inputGroup fieldset[disabled] .purple.input_addon:active, fieldset[disabled] .btn.purple.active, fieldset[disabled] .form .inputGroup .purple.active.input_addon, .form .inputGroup fieldset[disabled] .purple.active.input_addon {
     background-color: #7000C8;
     border-color: #7000C8; }
@@ -1970,6 +2252,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
     color: #7000C8;
     background-color: white;
     border-color: #7000C8; }
+    .btn.purple.btn-reverse:focus, .form .inputGroup .purple.btn-reverse.input_addon:focus, .btn.purple.btn-reverse.focus, .form .inputGroup .purple.btn-reverse.focus.input_addon, .btn.purple.reverse:focus, .form .inputGroup .purple.reverse.input_addon:focus, .form .inputGroup.inputGroup-reverse .purple.input_addon:focus, .btn.purple.reverse.focus, .form .inputGroup .purple.reverse.focus.input_addon, .form .inputGroup.inputGroup-reverse .purple.focus.input_addon {
+      color: #7000C8;
+      background-color: #e6e6e6;
+      border-color: #290049; }
+    .btn.purple.btn-reverse:hover, .form .inputGroup .purple.btn-reverse.input_addon:hover, .btn.purple.reverse:hover, .form .inputGroup .purple.reverse.input_addon:hover, .form .inputGroup.inputGroup-reverse .purple.input_addon:hover {
+      color: #7000C8;
+      background-color: #e6e6e6;
+      border-color: #4e008b; }
+    .btn.purple.btn-reverse:active, .form .inputGroup .purple.btn-reverse.input_addon:active, .btn.purple.btn-reverse.active, .form .inputGroup .purple.btn-reverse.active.input_addon, .btn.purple.reverse:active, .form .inputGroup .purple.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .purple.input_addon:active, .btn.purple.reverse.active, .form .inputGroup .purple.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .purple.active.input_addon {
+      color: #7000C8;
+      background-color: #e6e6e6;
+      border-color: #4e008b; }
+      .btn.purple.btn-reverse:active:hover, .form .inputGroup .purple.btn-reverse.input_addon:active:hover, .btn.purple.btn-reverse:active:focus, .form .inputGroup .purple.btn-reverse.input_addon:active:focus, .btn.purple.btn-reverse:active.focus, .form .inputGroup .purple.btn-reverse.input_addon:active.focus, .btn.purple.btn-reverse.active:hover, .form .inputGroup .purple.btn-reverse.active.input_addon:hover, .btn.purple.btn-reverse.active:focus, .form .inputGroup .purple.btn-reverse.active.input_addon:focus, .btn.purple.btn-reverse.active.focus, .form .inputGroup .purple.btn-reverse.active.focus.input_addon, .btn.purple.reverse:active:hover, .form .inputGroup .purple.reverse.input_addon:active:hover, .form .inputGroup.inputGroup-reverse .purple.input_addon:active:hover, .btn.purple.reverse:active:focus, .form .inputGroup .purple.reverse.input_addon:active:focus, .form .inputGroup.inputGroup-reverse .purple.input_addon:active:focus, .btn.purple.reverse:active.focus, .form .inputGroup .purple.reverse.input_addon:active.focus, .form .inputGroup.inputGroup-reverse .purple.input_addon:active.focus, .btn.purple.reverse.active:hover, .form .inputGroup .purple.reverse.active.input_addon:hover, .form .inputGroup.inputGroup-reverse .purple.active.input_addon:hover, .btn.purple.reverse.active:focus, .form .inputGroup .purple.reverse.active.input_addon:focus, .form .inputGroup.inputGroup-reverse .purple.active.input_addon:focus, .btn.purple.reverse.active.focus, .form .inputGroup .purple.reverse.active.focus.input_addon, .form .inputGroup.inputGroup-reverse .purple.active.focus.input_addon {
+        color: #7000C8;
+        background-color: #d4d4d4;
+        border-color: #290049; }
+    .btn.purple.btn-reverse:active, .form .inputGroup .purple.btn-reverse.input_addon:active, .btn.purple.btn-reverse.active, .form .inputGroup .purple.btn-reverse.active.input_addon, .btn.purple.reverse:active, .form .inputGroup .purple.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .purple.input_addon:active, .btn.purple.reverse.active, .form .inputGroup .purple.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .purple.active.input_addon {
+      background-image: none; }
     .btn.purple.btn-reverse.disabled, .form .inputGroup .purple.btn-reverse.disabled.input_addon, .btn.purple.btn-reverse.disabled:hover, .form .inputGroup .purple.btn-reverse.disabled.input_addon:hover, .btn.purple.btn-reverse.disabled:focus, .form .inputGroup .purple.btn-reverse.disabled.input_addon:focus, .btn.purple.btn-reverse.disabled.focus, .form .inputGroup .purple.btn-reverse.disabled.focus.input_addon, .btn.purple.btn-reverse.disabled:active, .form .inputGroup .purple.btn-reverse.disabled.input_addon:active, .btn.purple.btn-reverse.disabled.active, .form .inputGroup .purple.btn-reverse.disabled.active.input_addon, .btn.purple.btn-reverse[disabled], .form .inputGroup .purple.btn-reverse[disabled].input_addon, .btn.purple.btn-reverse[disabled]:hover, .form .inputGroup .purple.btn-reverse[disabled].input_addon:hover, .btn.purple.btn-reverse[disabled]:focus, .form .inputGroup .purple.btn-reverse[disabled].input_addon:focus, .btn.purple.btn-reverse[disabled].focus, .form .inputGroup .purple.btn-reverse[disabled].focus.input_addon, .btn.purple.btn-reverse[disabled]:active, .form .inputGroup .purple.btn-reverse[disabled].input_addon:active, .btn.purple.btn-reverse[disabled].active, .form .inputGroup .purple.btn-reverse[disabled].active.input_addon, fieldset[disabled] .btn.purple.btn-reverse, fieldset[disabled] .form .inputGroup .purple.btn-reverse.input_addon, .form .inputGroup fieldset[disabled] .purple.btn-reverse.input_addon, fieldset[disabled] .btn.purple.btn-reverse:hover, fieldset[disabled] .form .inputGroup .purple.btn-reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .purple.btn-reverse.input_addon:hover, fieldset[disabled] .btn.purple.btn-reverse:focus, fieldset[disabled] .form .inputGroup .purple.btn-reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .purple.btn-reverse.input_addon:focus, fieldset[disabled] .btn.purple.btn-reverse.focus, fieldset[disabled] .form .inputGroup .purple.btn-reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .purple.btn-reverse.focus.input_addon, fieldset[disabled] .btn.purple.btn-reverse:active, fieldset[disabled] .form .inputGroup .purple.btn-reverse.input_addon:active, .form .inputGroup fieldset[disabled] .purple.btn-reverse.input_addon:active, fieldset[disabled] .btn.purple.btn-reverse.active, fieldset[disabled] .form .inputGroup .purple.btn-reverse.active.input_addon, .form .inputGroup fieldset[disabled] .purple.btn-reverse.active.input_addon, .btn.purple.reverse.disabled, .form .inputGroup .purple.reverse.disabled.input_addon, .form .inputGroup.inputGroup-reverse .purple.disabled.input_addon, .btn.purple.reverse.disabled:hover, .form .inputGroup .purple.reverse.disabled.input_addon:hover, .form .inputGroup.inputGroup-reverse .purple.disabled.input_addon:hover, .btn.purple.reverse.disabled:focus, .form .inputGroup .purple.reverse.disabled.input_addon:focus, .form .inputGroup.inputGroup-reverse .purple.disabled.input_addon:focus, .btn.purple.reverse.disabled.focus, .form .inputGroup .purple.reverse.disabled.focus.input_addon, .form .inputGroup.inputGroup-reverse .purple.disabled.focus.input_addon, .btn.purple.reverse.disabled:active, .form .inputGroup .purple.reverse.disabled.input_addon:active, .form .inputGroup.inputGroup-reverse .purple.disabled.input_addon:active, .btn.purple.reverse.disabled.active, .form .inputGroup .purple.reverse.disabled.active.input_addon, .form .inputGroup.inputGroup-reverse .purple.disabled.active.input_addon, .btn.purple.reverse[disabled], .form .inputGroup .purple.reverse[disabled].input_addon, .form .inputGroup.inputGroup-reverse .purple[disabled].input_addon, .btn.purple.reverse[disabled]:hover, .form .inputGroup .purple.reverse[disabled].input_addon:hover, .form .inputGroup.inputGroup-reverse .purple[disabled].input_addon:hover, .btn.purple.reverse[disabled]:focus, .form .inputGroup .purple.reverse[disabled].input_addon:focus, .form .inputGroup.inputGroup-reverse .purple[disabled].input_addon:focus, .btn.purple.reverse[disabled].focus, .form .inputGroup .purple.reverse[disabled].focus.input_addon, .form .inputGroup.inputGroup-reverse .purple[disabled].focus.input_addon, .btn.purple.reverse[disabled]:active, .form .inputGroup .purple.reverse[disabled].input_addon:active, .form .inputGroup.inputGroup-reverse .purple[disabled].input_addon:active, .btn.purple.reverse[disabled].active, .form .inputGroup .purple.reverse[disabled].active.input_addon, .form .inputGroup.inputGroup-reverse .purple[disabled].active.input_addon, fieldset[disabled] .btn.purple.reverse, fieldset[disabled] .form .inputGroup .purple.reverse.input_addon, .form .inputGroup fieldset[disabled] .purple.reverse.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .purple.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .purple.input_addon, fieldset[disabled] .btn.purple.reverse:hover, fieldset[disabled] .form .inputGroup .purple.reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .purple.reverse.input_addon:hover, fieldset[disabled] .form .inputGroup.inputGroup-reverse .purple.input_addon:hover, .form .inputGroup.inputGroup-reverse fieldset[disabled] .purple.input_addon:hover, fieldset[disabled] .btn.purple.reverse:focus, fieldset[disabled] .form .inputGroup .purple.reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .purple.reverse.input_addon:focus, fieldset[disabled] .form .inputGroup.inputGroup-reverse .purple.input_addon:focus, .form .inputGroup.inputGroup-reverse fieldset[disabled] .purple.input_addon:focus, fieldset[disabled] .btn.purple.reverse.focus, fieldset[disabled] .form .inputGroup .purple.reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .purple.reverse.focus.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .purple.focus.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .purple.focus.input_addon, fieldset[disabled] .btn.purple.reverse:active, fieldset[disabled] .form .inputGroup .purple.reverse.input_addon:active, .form .inputGroup fieldset[disabled] .purple.reverse.input_addon:active, fieldset[disabled] .form .inputGroup.inputGroup-reverse .purple.input_addon:active, .form .inputGroup.inputGroup-reverse fieldset[disabled] .purple.input_addon:active, fieldset[disabled] .btn.purple.reverse.active, fieldset[disabled] .form .inputGroup .purple.reverse.active.input_addon, .form .inputGroup fieldset[disabled] .purple.reverse.active.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .purple.active.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .purple.active.input_addon {
       background-color: white;
       border-color: #7000C8; }
@@ -1981,6 +2281,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
   color: white;
   background-color: #000000;
   border-color: #000000; }
+  .btn.black:focus, .form .inputGroup .black.input_addon:focus, .btn.black.focus, .form .inputGroup .black.focus.input_addon {
+    color: white;
+    background-color: black;
+    border-color: black; }
+  .btn.black:hover, .form .inputGroup .black.input_addon:hover {
+    color: white;
+    background-color: black;
+    border-color: black; }
+  .btn.black:active, .form .inputGroup .black.input_addon:active, .btn.black.active, .form .inputGroup .black.active.input_addon {
+    color: white;
+    background-color: black;
+    border-color: black; }
+    .btn.black:active:hover, .form .inputGroup .black.input_addon:active:hover, .btn.black:active:focus, .form .inputGroup .black.input_addon:active:focus, .btn.black:active.focus, .form .inputGroup .black.input_addon:active.focus, .btn.black.active:hover, .form .inputGroup .black.active.input_addon:hover, .btn.black.active:focus, .form .inputGroup .black.active.input_addon:focus, .btn.black.active.focus, .form .inputGroup .black.active.focus.input_addon {
+      color: white;
+      background-color: black;
+      border-color: black; }
+  .btn.black:active, .form .inputGroup .black.input_addon:active, .btn.black.active, .form .inputGroup .black.active.input_addon {
+    background-image: none; }
   .btn.black.disabled, .form .inputGroup .black.disabled.input_addon, .btn.black.disabled:hover, .form .inputGroup .black.disabled.input_addon:hover, .btn.black.disabled:focus, .form .inputGroup .black.disabled.input_addon:focus, .btn.black.disabled.focus, .form .inputGroup .black.disabled.focus.input_addon, .btn.black.disabled:active, .form .inputGroup .black.disabled.input_addon:active, .btn.black.disabled.active, .form .inputGroup .black.disabled.active.input_addon, .btn.black[disabled], .form .inputGroup .black[disabled].input_addon, .btn.black[disabled]:hover, .form .inputGroup .black[disabled].input_addon:hover, .btn.black[disabled]:focus, .form .inputGroup .black[disabled].input_addon:focus, .btn.black[disabled].focus, .form .inputGroup .black[disabled].focus.input_addon, .btn.black[disabled]:active, .form .inputGroup .black[disabled].input_addon:active, .btn.black[disabled].active, .form .inputGroup .black[disabled].active.input_addon, fieldset[disabled] .btn.black, fieldset[disabled] .form .inputGroup .black.input_addon, .form .inputGroup fieldset[disabled] .black.input_addon, fieldset[disabled] .btn.black:hover, fieldset[disabled] .form .inputGroup .black.input_addon:hover, .form .inputGroup fieldset[disabled] .black.input_addon:hover, fieldset[disabled] .btn.black:focus, fieldset[disabled] .form .inputGroup .black.input_addon:focus, .form .inputGroup fieldset[disabled] .black.input_addon:focus, fieldset[disabled] .btn.black.focus, fieldset[disabled] .form .inputGroup .black.focus.input_addon, .form .inputGroup fieldset[disabled] .black.focus.input_addon, fieldset[disabled] .btn.black:active, fieldset[disabled] .form .inputGroup .black.input_addon:active, .form .inputGroup fieldset[disabled] .black.input_addon:active, fieldset[disabled] .btn.black.active, fieldset[disabled] .form .inputGroup .black.active.input_addon, .form .inputGroup fieldset[disabled] .black.active.input_addon {
     background-color: #000000;
     border-color: #000000; }
@@ -1990,6 +2308,20 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
   .btn.black.btn-reverse, .form .inputGroup .black.btn-reverse.input_addon, .btn.black.reverse, .form .inputGroup .black.reverse.input_addon, .form .inputGroup.inputGroup-reverse .black.input_addon {
     background-color: white;
     border-color: #000000; }
+    .btn.black.btn-reverse:focus, .form .inputGroup .black.btn-reverse.input_addon:focus, .btn.black.btn-reverse.focus, .form .inputGroup .black.btn-reverse.focus.input_addon, .btn.black.reverse:focus, .form .inputGroup .black.reverse.input_addon:focus, .form .inputGroup.inputGroup-reverse .black.input_addon:focus, .btn.black.reverse.focus, .form .inputGroup .black.reverse.focus.input_addon, .form .inputGroup.inputGroup-reverse .black.focus.input_addon {
+      background-color: #e6e6e6;
+      border-color: black; }
+    .btn.black.btn-reverse:hover, .form .inputGroup .black.btn-reverse.input_addon:hover, .btn.black.reverse:hover, .form .inputGroup .black.reverse.input_addon:hover, .form .inputGroup.inputGroup-reverse .black.input_addon:hover {
+      background-color: #e6e6e6;
+      border-color: black; }
+    .btn.black.btn-reverse:active, .form .inputGroup .black.btn-reverse.input_addon:active, .btn.black.btn-reverse.active, .form .inputGroup .black.btn-reverse.active.input_addon, .btn.black.reverse:active, .form .inputGroup .black.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .black.input_addon:active, .btn.black.reverse.active, .form .inputGroup .black.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .black.active.input_addon {
+      background-color: #e6e6e6;
+      border-color: black; }
+      .btn.black.btn-reverse:active:hover, .form .inputGroup .black.btn-reverse.input_addon:active:hover, .btn.black.btn-reverse:active:focus, .form .inputGroup .black.btn-reverse.input_addon:active:focus, .btn.black.btn-reverse:active.focus, .form .inputGroup .black.btn-reverse.input_addon:active.focus, .btn.black.btn-reverse.active:hover, .form .inputGroup .black.btn-reverse.active.input_addon:hover, .btn.black.btn-reverse.active:focus, .form .inputGroup .black.btn-reverse.active.input_addon:focus, .btn.black.btn-reverse.active.focus, .form .inputGroup .black.btn-reverse.active.focus.input_addon, .btn.black.reverse:active:hover, .form .inputGroup .black.reverse.input_addon:active:hover, .form .inputGroup.inputGroup-reverse .black.input_addon:active:hover, .btn.black.reverse:active:focus, .form .inputGroup .black.reverse.input_addon:active:focus, .form .inputGroup.inputGroup-reverse .black.input_addon:active:focus, .btn.black.reverse:active.focus, .form .inputGroup .black.reverse.input_addon:active.focus, .form .inputGroup.inputGroup-reverse .black.input_addon:active.focus, .btn.black.reverse.active:hover, .form .inputGroup .black.reverse.active.input_addon:hover, .form .inputGroup.inputGroup-reverse .black.active.input_addon:hover, .btn.black.reverse.active:focus, .form .inputGroup .black.reverse.active.input_addon:focus, .form .inputGroup.inputGroup-reverse .black.active.input_addon:focus, .btn.black.reverse.active.focus, .form .inputGroup .black.reverse.active.focus.input_addon, .form .inputGroup.inputGroup-reverse .black.active.focus.input_addon {
+        background-color: #d4d4d4;
+        border-color: black; }
+    .btn.black.btn-reverse:active, .form .inputGroup .black.btn-reverse.input_addon:active, .btn.black.btn-reverse.active, .form .inputGroup .black.btn-reverse.active.input_addon, .btn.black.reverse:active, .form .inputGroup .black.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .black.input_addon:active, .btn.black.reverse.active, .form .inputGroup .black.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .black.active.input_addon {
+      background-image: none; }
     .btn.black.btn-reverse.disabled, .form .inputGroup .black.btn-reverse.disabled.input_addon, .btn.black.btn-reverse.disabled:hover, .form .inputGroup .black.btn-reverse.disabled.input_addon:hover, .btn.black.btn-reverse.disabled:focus, .form .inputGroup .black.btn-reverse.disabled.input_addon:focus, .btn.black.btn-reverse.disabled.focus, .form .inputGroup .black.btn-reverse.disabled.focus.input_addon, .btn.black.btn-reverse.disabled:active, .form .inputGroup .black.btn-reverse.disabled.input_addon:active, .btn.black.btn-reverse.disabled.active, .form .inputGroup .black.btn-reverse.disabled.active.input_addon, .btn.black.btn-reverse[disabled], .form .inputGroup .black.btn-reverse[disabled].input_addon, .btn.black.btn-reverse[disabled]:hover, .form .inputGroup .black.btn-reverse[disabled].input_addon:hover, .btn.black.btn-reverse[disabled]:focus, .form .inputGroup .black.btn-reverse[disabled].input_addon:focus, .btn.black.btn-reverse[disabled].focus, .form .inputGroup .black.btn-reverse[disabled].focus.input_addon, .btn.black.btn-reverse[disabled]:active, .form .inputGroup .black.btn-reverse[disabled].input_addon:active, .btn.black.btn-reverse[disabled].active, .form .inputGroup .black.btn-reverse[disabled].active.input_addon, fieldset[disabled] .btn.black.btn-reverse, fieldset[disabled] .form .inputGroup .black.btn-reverse.input_addon, .form .inputGroup fieldset[disabled] .black.btn-reverse.input_addon, fieldset[disabled] .btn.black.btn-reverse:hover, fieldset[disabled] .form .inputGroup .black.btn-reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .black.btn-reverse.input_addon:hover, fieldset[disabled] .btn.black.btn-reverse:focus, fieldset[disabled] .form .inputGroup .black.btn-reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .black.btn-reverse.input_addon:focus, fieldset[disabled] .btn.black.btn-reverse.focus, fieldset[disabled] .form .inputGroup .black.btn-reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .black.btn-reverse.focus.input_addon, fieldset[disabled] .btn.black.btn-reverse:active, fieldset[disabled] .form .inputGroup .black.btn-reverse.input_addon:active, .form .inputGroup fieldset[disabled] .black.btn-reverse.input_addon:active, fieldset[disabled] .btn.black.btn-reverse.active, fieldset[disabled] .form .inputGroup .black.btn-reverse.active.input_addon, .form .inputGroup fieldset[disabled] .black.btn-reverse.active.input_addon, .btn.black.reverse.disabled, .form .inputGroup .black.reverse.disabled.input_addon, .form .inputGroup.inputGroup-reverse .black.disabled.input_addon, .btn.black.reverse.disabled:hover, .form .inputGroup .black.reverse.disabled.input_addon:hover, .form .inputGroup.inputGroup-reverse .black.disabled.input_addon:hover, .btn.black.reverse.disabled:focus, .form .inputGroup .black.reverse.disabled.input_addon:focus, .form .inputGroup.inputGroup-reverse .black.disabled.input_addon:focus, .btn.black.reverse.disabled.focus, .form .inputGroup .black.reverse.disabled.focus.input_addon, .form .inputGroup.inputGroup-reverse .black.disabled.focus.input_addon, .btn.black.reverse.disabled:active, .form .inputGroup .black.reverse.disabled.input_addon:active, .form .inputGroup.inputGroup-reverse .black.disabled.input_addon:active, .btn.black.reverse.disabled.active, .form .inputGroup .black.reverse.disabled.active.input_addon, .form .inputGroup.inputGroup-reverse .black.disabled.active.input_addon, .btn.black.reverse[disabled], .form .inputGroup .black.reverse[disabled].input_addon, .form .inputGroup.inputGroup-reverse .black[disabled].input_addon, .btn.black.reverse[disabled]:hover, .form .inputGroup .black.reverse[disabled].input_addon:hover, .form .inputGroup.inputGroup-reverse .black[disabled].input_addon:hover, .btn.black.reverse[disabled]:focus, .form .inputGroup .black.reverse[disabled].input_addon:focus, .form .inputGroup.inputGroup-reverse .black[disabled].input_addon:focus, .btn.black.reverse[disabled].focus, .form .inputGroup .black.reverse[disabled].focus.input_addon, .form .inputGroup.inputGroup-reverse .black[disabled].focus.input_addon, .btn.black.reverse[disabled]:active, .form .inputGroup .black.reverse[disabled].input_addon:active, .form .inputGroup.inputGroup-reverse .black[disabled].input_addon:active, .btn.black.reverse[disabled].active, .form .inputGroup .black.reverse[disabled].active.input_addon, .form .inputGroup.inputGroup-reverse .black[disabled].active.input_addon, fieldset[disabled] .btn.black.reverse, fieldset[disabled] .form .inputGroup .black.reverse.input_addon, .form .inputGroup fieldset[disabled] .black.reverse.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .black.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .black.input_addon, fieldset[disabled] .btn.black.reverse:hover, fieldset[disabled] .form .inputGroup .black.reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .black.reverse.input_addon:hover, fieldset[disabled] .form .inputGroup.inputGroup-reverse .black.input_addon:hover, .form .inputGroup.inputGroup-reverse fieldset[disabled] .black.input_addon:hover, fieldset[disabled] .btn.black.reverse:focus, fieldset[disabled] .form .inputGroup .black.reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .black.reverse.input_addon:focus, fieldset[disabled] .form .inputGroup.inputGroup-reverse .black.input_addon:focus, .form .inputGroup.inputGroup-reverse fieldset[disabled] .black.input_addon:focus, fieldset[disabled] .btn.black.reverse.focus, fieldset[disabled] .form .inputGroup .black.reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .black.reverse.focus.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .black.focus.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .black.focus.input_addon, fieldset[disabled] .btn.black.reverse:active, fieldset[disabled] .form .inputGroup .black.reverse.input_addon:active, .form .inputGroup fieldset[disabled] .black.reverse.input_addon:active, fieldset[disabled] .form .inputGroup.inputGroup-reverse .black.input_addon:active, .form .inputGroup.inputGroup-reverse fieldset[disabled] .black.input_addon:active, fieldset[disabled] .btn.black.reverse.active, fieldset[disabled] .form .inputGroup .black.reverse.active.input_addon, .form .inputGroup fieldset[disabled] .black.reverse.active.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .black.active.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .black.active.input_addon {
       background-color: white;
       border-color: #000000; }
@@ -2000,6 +2332,24 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
   color: white;
   background-color: #ffffff;
   border-color: #ffffff; }
+  .btn.white:focus, .form .inputGroup .white.input_addon:focus, .btn.white.focus, .form .inputGroup .white.focus.input_addon {
+    color: white;
+    background-color: #e6e6e6;
+    border-color: #bfbfbf; }
+  .btn.white:hover, .form .inputGroup .white.input_addon:hover {
+    color: white;
+    background-color: #e6e6e6;
+    border-color: #e0e0e0; }
+  .btn.white:active, .form .inputGroup .white.input_addon:active, .btn.white.active, .form .inputGroup .white.active.input_addon {
+    color: white;
+    background-color: #e6e6e6;
+    border-color: #e0e0e0; }
+    .btn.white:active:hover, .form .inputGroup .white.input_addon:active:hover, .btn.white:active:focus, .form .inputGroup .white.input_addon:active:focus, .btn.white:active.focus, .form .inputGroup .white.input_addon:active.focus, .btn.white.active:hover, .form .inputGroup .white.active.input_addon:hover, .btn.white.active:focus, .form .inputGroup .white.active.input_addon:focus, .btn.white.active.focus, .form .inputGroup .white.active.focus.input_addon {
+      color: white;
+      background-color: #d4d4d4;
+      border-color: #bfbfbf; }
+  .btn.white:active, .form .inputGroup .white.input_addon:active, .btn.white.active, .form .inputGroup .white.active.input_addon {
+    background-image: none; }
   .btn.white.disabled, .form .inputGroup .white.disabled.input_addon, .btn.white.disabled:hover, .form .inputGroup .white.disabled.input_addon:hover, .btn.white.disabled:focus, .form .inputGroup .white.disabled.input_addon:focus, .btn.white.disabled.focus, .form .inputGroup .white.disabled.focus.input_addon, .btn.white.disabled:active, .form .inputGroup .white.disabled.input_addon:active, .btn.white.disabled.active, .form .inputGroup .white.disabled.active.input_addon, .btn.white[disabled], .form .inputGroup .white[disabled].input_addon, .btn.white[disabled]:hover, .form .inputGroup .white[disabled].input_addon:hover, .btn.white[disabled]:focus, .form .inputGroup .white[disabled].input_addon:focus, .btn.white[disabled].focus, .form .inputGroup .white[disabled].focus.input_addon, .btn.white[disabled]:active, .form .inputGroup .white[disabled].input_addon:active, .btn.white[disabled].active, .form .inputGroup .white[disabled].active.input_addon, fieldset[disabled] .btn.white, fieldset[disabled] .form .inputGroup .white.input_addon, .form .inputGroup fieldset[disabled] .white.input_addon, fieldset[disabled] .btn.white:hover, fieldset[disabled] .form .inputGroup .white.input_addon:hover, .form .inputGroup fieldset[disabled] .white.input_addon:hover, fieldset[disabled] .btn.white:focus, fieldset[disabled] .form .inputGroup .white.input_addon:focus, .form .inputGroup fieldset[disabled] .white.input_addon:focus, fieldset[disabled] .btn.white.focus, fieldset[disabled] .form .inputGroup .white.focus.input_addon, .form .inputGroup fieldset[disabled] .white.focus.input_addon, fieldset[disabled] .btn.white:active, fieldset[disabled] .form .inputGroup .white.input_addon:active, .form .inputGroup fieldset[disabled] .white.input_addon:active, fieldset[disabled] .btn.white.active, fieldset[disabled] .form .inputGroup .white.active.input_addon, .form .inputGroup fieldset[disabled] .white.active.input_addon {
     background-color: #ffffff;
     border-color: #ffffff; }
@@ -2009,6 +2359,20 @@ a.btn.disabled, .form .inputGroup a.disabled.input_addon, fieldset[disabled] a.b
   .btn.white.btn-reverse, .form .inputGroup .white.btn-reverse.input_addon, .btn.white.reverse, .form .inputGroup .white.reverse.input_addon, .form .inputGroup.inputGroup-reverse .white.input_addon {
     background-color: white;
     border-color: #ffffff; }
+    .btn.white.btn-reverse:focus, .form .inputGroup .white.btn-reverse.input_addon:focus, .btn.white.btn-reverse.focus, .form .inputGroup .white.btn-reverse.focus.input_addon, .btn.white.reverse:focus, .form .inputGroup .white.reverse.input_addon:focus, .form .inputGroup.inputGroup-reverse .white.input_addon:focus, .btn.white.reverse.focus, .form .inputGroup .white.reverse.focus.input_addon, .form .inputGroup.inputGroup-reverse .white.focus.input_addon {
+      background-color: #e6e6e6;
+      border-color: #bfbfbf; }
+    .btn.white.btn-reverse:hover, .form .inputGroup .white.btn-reverse.input_addon:hover, .btn.white.reverse:hover, .form .inputGroup .white.reverse.input_addon:hover, .form .inputGroup.inputGroup-reverse .white.input_addon:hover {
+      background-color: #e6e6e6;
+      border-color: #e0e0e0; }
+    .btn.white.btn-reverse:active, .form .inputGroup .white.btn-reverse.input_addon:active, .btn.white.btn-reverse.active, .form .inputGroup .white.btn-reverse.active.input_addon, .btn.white.reverse:active, .form .inputGroup .white.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .white.input_addon:active, .btn.white.reverse.active, .form .inputGroup .white.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .white.active.input_addon {
+      background-color: #e6e6e6;
+      border-color: #e0e0e0; }
+      .btn.white.btn-reverse:active:hover, .form .inputGroup .white.btn-reverse.input_addon:active:hover, .btn.white.btn-reverse:active:focus, .form .inputGroup .white.btn-reverse.input_addon:active:focus, .btn.white.btn-reverse:active.focus, .form .inputGroup .white.btn-reverse.input_addon:active.focus, .btn.white.btn-reverse.active:hover, .form .inputGroup .white.btn-reverse.active.input_addon:hover, .btn.white.btn-reverse.active:focus, .form .inputGroup .white.btn-reverse.active.input_addon:focus, .btn.white.btn-reverse.active.focus, .form .inputGroup .white.btn-reverse.active.focus.input_addon, .btn.white.reverse:active:hover, .form .inputGroup .white.reverse.input_addon:active:hover, .form .inputGroup.inputGroup-reverse .white.input_addon:active:hover, .btn.white.reverse:active:focus, .form .inputGroup .white.reverse.input_addon:active:focus, .form .inputGroup.inputGroup-reverse .white.input_addon:active:focus, .btn.white.reverse:active.focus, .form .inputGroup .white.reverse.input_addon:active.focus, .form .inputGroup.inputGroup-reverse .white.input_addon:active.focus, .btn.white.reverse.active:hover, .form .inputGroup .white.reverse.active.input_addon:hover, .form .inputGroup.inputGroup-reverse .white.active.input_addon:hover, .btn.white.reverse.active:focus, .form .inputGroup .white.reverse.active.input_addon:focus, .form .inputGroup.inputGroup-reverse .white.active.input_addon:focus, .btn.white.reverse.active.focus, .form .inputGroup .white.reverse.active.focus.input_addon, .form .inputGroup.inputGroup-reverse .white.active.focus.input_addon {
+        background-color: #d4d4d4;
+        border-color: #bfbfbf; }
+    .btn.white.btn-reverse:active, .form .inputGroup .white.btn-reverse.input_addon:active, .btn.white.btn-reverse.active, .form .inputGroup .white.btn-reverse.active.input_addon, .btn.white.reverse:active, .form .inputGroup .white.reverse.input_addon:active, .form .inputGroup.inputGroup-reverse .white.input_addon:active, .btn.white.reverse.active, .form .inputGroup .white.reverse.active.input_addon, .form .inputGroup.inputGroup-reverse .white.active.input_addon {
+      background-image: none; }
     .btn.white.btn-reverse.disabled, .form .inputGroup .white.btn-reverse.disabled.input_addon, .btn.white.btn-reverse.disabled:hover, .form .inputGroup .white.btn-reverse.disabled.input_addon:hover, .btn.white.btn-reverse.disabled:focus, .form .inputGroup .white.btn-reverse.disabled.input_addon:focus, .btn.white.btn-reverse.disabled.focus, .form .inputGroup .white.btn-reverse.disabled.focus.input_addon, .btn.white.btn-reverse.disabled:active, .form .inputGroup .white.btn-reverse.disabled.input_addon:active, .btn.white.btn-reverse.disabled.active, .form .inputGroup .white.btn-reverse.disabled.active.input_addon, .btn.white.btn-reverse[disabled], .form .inputGroup .white.btn-reverse[disabled].input_addon, .btn.white.btn-reverse[disabled]:hover, .form .inputGroup .white.btn-reverse[disabled].input_addon:hover, .btn.white.btn-reverse[disabled]:focus, .form .inputGroup .white.btn-reverse[disabled].input_addon:focus, .btn.white.btn-reverse[disabled].focus, .form .inputGroup .white.btn-reverse[disabled].focus.input_addon, .btn.white.btn-reverse[disabled]:active, .form .inputGroup .white.btn-reverse[disabled].input_addon:active, .btn.white.btn-reverse[disabled].active, .form .inputGroup .white.btn-reverse[disabled].active.input_addon, fieldset[disabled] .btn.white.btn-reverse, fieldset[disabled] .form .inputGroup .white.btn-reverse.input_addon, .form .inputGroup fieldset[disabled] .white.btn-reverse.input_addon, fieldset[disabled] .btn.white.btn-reverse:hover, fieldset[disabled] .form .inputGroup .white.btn-reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .white.btn-reverse.input_addon:hover, fieldset[disabled] .btn.white.btn-reverse:focus, fieldset[disabled] .form .inputGroup .white.btn-reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .white.btn-reverse.input_addon:focus, fieldset[disabled] .btn.white.btn-reverse.focus, fieldset[disabled] .form .inputGroup .white.btn-reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .white.btn-reverse.focus.input_addon, fieldset[disabled] .btn.white.btn-reverse:active, fieldset[disabled] .form .inputGroup .white.btn-reverse.input_addon:active, .form .inputGroup fieldset[disabled] .white.btn-reverse.input_addon:active, fieldset[disabled] .btn.white.btn-reverse.active, fieldset[disabled] .form .inputGroup .white.btn-reverse.active.input_addon, .form .inputGroup fieldset[disabled] .white.btn-reverse.active.input_addon, .btn.white.reverse.disabled, .form .inputGroup .white.reverse.disabled.input_addon, .form .inputGroup.inputGroup-reverse .white.disabled.input_addon, .btn.white.reverse.disabled:hover, .form .inputGroup .white.reverse.disabled.input_addon:hover, .form .inputGroup.inputGroup-reverse .white.disabled.input_addon:hover, .btn.white.reverse.disabled:focus, .form .inputGroup .white.reverse.disabled.input_addon:focus, .form .inputGroup.inputGroup-reverse .white.disabled.input_addon:focus, .btn.white.reverse.disabled.focus, .form .inputGroup .white.reverse.disabled.focus.input_addon, .form .inputGroup.inputGroup-reverse .white.disabled.focus.input_addon, .btn.white.reverse.disabled:active, .form .inputGroup .white.reverse.disabled.input_addon:active, .form .inputGroup.inputGroup-reverse .white.disabled.input_addon:active, .btn.white.reverse.disabled.active, .form .inputGroup .white.reverse.disabled.active.input_addon, .form .inputGroup.inputGroup-reverse .white.disabled.active.input_addon, .btn.white.reverse[disabled], .form .inputGroup .white.reverse[disabled].input_addon, .form .inputGroup.inputGroup-reverse .white[disabled].input_addon, .btn.white.reverse[disabled]:hover, .form .inputGroup .white.reverse[disabled].input_addon:hover, .form .inputGroup.inputGroup-reverse .white[disabled].input_addon:hover, .btn.white.reverse[disabled]:focus, .form .inputGroup .white.reverse[disabled].input_addon:focus, .form .inputGroup.inputGroup-reverse .white[disabled].input_addon:focus, .btn.white.reverse[disabled].focus, .form .inputGroup .white.reverse[disabled].focus.input_addon, .form .inputGroup.inputGroup-reverse .white[disabled].focus.input_addon, .btn.white.reverse[disabled]:active, .form .inputGroup .white.reverse[disabled].input_addon:active, .form .inputGroup.inputGroup-reverse .white[disabled].input_addon:active, .btn.white.reverse[disabled].active, .form .inputGroup .white.reverse[disabled].active.input_addon, .form .inputGroup.inputGroup-reverse .white[disabled].active.input_addon, fieldset[disabled] .btn.white.reverse, fieldset[disabled] .form .inputGroup .white.reverse.input_addon, .form .inputGroup fieldset[disabled] .white.reverse.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .white.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .white.input_addon, fieldset[disabled] .btn.white.reverse:hover, fieldset[disabled] .form .inputGroup .white.reverse.input_addon:hover, .form .inputGroup fieldset[disabled] .white.reverse.input_addon:hover, fieldset[disabled] .form .inputGroup.inputGroup-reverse .white.input_addon:hover, .form .inputGroup.inputGroup-reverse fieldset[disabled] .white.input_addon:hover, fieldset[disabled] .btn.white.reverse:focus, fieldset[disabled] .form .inputGroup .white.reverse.input_addon:focus, .form .inputGroup fieldset[disabled] .white.reverse.input_addon:focus, fieldset[disabled] .form .inputGroup.inputGroup-reverse .white.input_addon:focus, .form .inputGroup.inputGroup-reverse fieldset[disabled] .white.input_addon:focus, fieldset[disabled] .btn.white.reverse.focus, fieldset[disabled] .form .inputGroup .white.reverse.focus.input_addon, .form .inputGroup fieldset[disabled] .white.reverse.focus.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .white.focus.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .white.focus.input_addon, fieldset[disabled] .btn.white.reverse:active, fieldset[disabled] .form .inputGroup .white.reverse.input_addon:active, .form .inputGroup fieldset[disabled] .white.reverse.input_addon:active, fieldset[disabled] .form .inputGroup.inputGroup-reverse .white.input_addon:active, .form .inputGroup.inputGroup-reverse fieldset[disabled] .white.input_addon:active, fieldset[disabled] .btn.white.reverse.active, fieldset[disabled] .form .inputGroup .white.reverse.active.input_addon, .form .inputGroup fieldset[disabled] .white.reverse.active.input_addon, fieldset[disabled] .form .inputGroup.inputGroup-reverse .white.active.input_addon, .form .inputGroup.inputGroup-reverse fieldset[disabled] .white.active.input_addon {
       background-color: white;
       border-color: #ffffff; }
@@ -2250,42 +2614,6 @@ input[type="button"].btn.block,
   .border.radius {
     border-radius: 4px; }
 
-.bordert.light, .borderr.light, .borderb.light, .borderl.light {
-  position: relative; }
-  .bordert.light:before, .borderr.light:before, .borderb.light:before, .borderl.light:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: #ccc; }
-
-.bordert.light:before {
-  bottom: auto;
-  height: 1px;
-  -webkit-transform: scaleY(0.5);
-          transform: scaleY(0.5); }
-
-.borderr.light:before {
-  left: auto;
-  width: 1px;
-  -webkit-transform: scaleX(0.5);
-          transform: scaleX(0.5); }
-
-.borderb.light:before {
-  top: auto;
-  height: 1px;
-  -webkit-transform: scaleY(0.5);
-          transform: scaleY(0.5); }
-
-.borderl.light:before {
-  right: auto;
-  width: 1px;
-  -webkit-transform: scaleX(0.5);
-          transform: scaleX(0.5); }
-
 input, select, textarea {
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: transparent; }
@@ -2406,7 +2734,7 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0.133333333rem;
+  right: 10px;
   width: 36px;
   display: none;
   text-align: center; }
@@ -2418,7 +2746,7 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
 .form .input-reset, .form .input-changeType {
   -webkit-user-modify: read-write-plaintext-only; }
 .form .input-search {
-  left: 0.133333333rem;
+  left: 10px;
   right: auto; }
 .form .inputGroup {
   padding-left: 1px; }
@@ -4992,10 +5320,11 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
   color: #666; }
 
 .nav {
-  height: 74px;
-  margin-top: 60px; }
+  padding-top: 60px;
+  z-index: 10;
+  overflow: hidden; }
   .nav .nav_bg {
-    width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
     height: 74px; }
     .nav .nav_bg:before {
@@ -5034,3 +5363,43 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
     .nav .nav_bg .logo {
       top: -24px;
       width: 190px; }
+    .nav .nav_bg .nav_title {
+      margin-left: 200px;
+      z-index: 10; }
+    .nav .nav_bg .navList {
+      z-index: 10;
+      margin-top: 25px; }
+      .nav .nav_bg .navList ul li {
+        float: left;
+        margin-left: 70px; }
+        .nav .nav_bg .navList ul li a {
+          color: #fff;
+          font-size: 20px; }
+          .nav .nav_bg .navList ul li a:hover {
+            color: rgba(255, 255, 255, 0.5); }
+        .nav .nav_bg .navList ul li:first-child {
+          margin-left: 0; }
+
+.content {
+  min-width: 375px; }
+  @media screen and (max-width: 1380px) {
+    .content .nav_title {
+      display: none; } }
+  @media screen and (max-width: 950px) {
+    .content .nav_bg {
+      background: #012697; }
+    .content .logo_bg {
+      display: none; }
+    .content .logo {
+      display: none; }
+    .content .navList {
+      width: 100%;
+      margin-top: 0 !important; }
+      .content .navList li {
+        height: 74px;
+        float: none !important;
+        display: table-cell;
+        vertical-align: middle;
+        margin-left: 0 !important;
+        width: 20%;
+        text-align: center; } }

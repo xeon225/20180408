@@ -18,10 +18,11 @@
 // @import "effect/hover";
 
 .nav{
-	height:74px;
-	margin-top:60px;
+	padding-top:60px;
+	z-index:10;
+	overflow:hidden;
 	.nav_bg{
-		width:1600px;
+		max-width:1600px;
 		margin:0 auto;
 		height:74px;
 		&:before{
@@ -66,6 +67,65 @@
 			top:-24px;
 			width: 190px;
 		}
+		.nav_title{
+			margin-left:200px;
+			z-index:10;
+		}
+		.navList{
+			z-index:10;
+			margin-top:25px;
+			ul{
+				li{
+					float:left;
+					margin-left:70px;
+					a{
+						color:#fff;
+						font-size:20px;
+						&:hover{
+							color:rgba(255,255,255,.5);
+						}
+					}
+					&:first-child{
+						margin-left:0;
+					}
+				}
+			}
+		}
 	}
-
 }
+
+.content{
+	min-width:375px;
+	@media screen and (max-width: 1380px) {
+	    .nav_title {
+	        display:none;
+	    }
+	}
+	@media screen and (max-width: 950px) {
+	    .nav_bg{
+	    	background:#012697;
+	    }
+	    .logo_bg {
+	        display:none;
+	    }
+	    .logo {
+	        display:none;
+	    }
+	    .navList{
+	    	width:100%;
+	    	margin-top:0 !important;
+			li{
+				height:74px;
+				float:none !important;
+				display: table-cell;
+    			vertical-align: middle;
+				margin-left:0 !important;
+				width:20%;
+				text-align:center;
+			}
+		}
+	}
+}
+
+
+
