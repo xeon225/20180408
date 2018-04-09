@@ -157,13 +157,36 @@
 	.contactUsTitle{
 		margin-top:30px;
 	}
+	.wechatEmail{
+		&>div:first-child{
+			width:60%;
+		}
+		&>div:last-child{
+			width:40%;
+		}
+	}
+	.wechat{
+		min-width:440px;
+	}
 	.email{
-		width:320px;
-		margin:0 auto;
+		max-width:320px;
 		input,textarea{
 			border:1px solid #102e83;
 			padding:5px;
+
 		}
+		input::-webkit-input-placeholder,textarea::-webkit-input-placeholder { /* WebKit browsers */ 
+			color: #102e83; 
+		} 
+		input:-moz-placeholder,textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+			color: #102e83; 
+		} 
+		input::-moz-placeholder,textarea::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+			color: #102e83; 
+		} 
+		input:-ms-input-placeholder,textarea:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+			color: #102e83; 
+		} 
 	}
 }
 
@@ -299,6 +322,27 @@
 				padding:10px 10px 0;
 				float:none;
 				width:100%;
+			}
+		}
+		.wechatEmail{
+			.float-left{
+				float:none !important;
+			}
+			&>div:first-child{
+				width:100%;
+				img{
+					width:100%;
+				}
+			}
+			&>div:last-child{
+				width:100%;
+			}
+			.wechat{
+				min-width: 100% !important;
+			}
+			.email{
+				padding:10px;
+				max-width:100% !important;
 			}
 		}
 	}

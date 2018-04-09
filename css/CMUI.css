@@ -5044,12 +5044,29 @@ input[type="button"].btn.block {
   margin: 0 auto; }
   .contactUs .contactUsTitle {
     margin-top: 30px; }
+  .contactUs .wechatEmail > div:first-child {
+    width: 60%; }
+  .contactUs .wechatEmail > div:last-child {
+    width: 40%; }
+  .contactUs .wechat {
+    min-width: 440px; }
   .contactUs .email {
-    width: 320px;
-    margin: 0 auto; }
+    max-width: 320px; }
     .contactUs .email input, .contactUs .email textarea {
       border: 1px solid #102e83;
       padding: 5px; }
+    .contactUs .email input::-webkit-input-placeholder, .contactUs .email textarea::-webkit-input-placeholder {
+      /* WebKit browsers */
+      color: #102e83; }
+    .contactUs .email input:-moz-placeholder, .contactUs .email textarea:-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      color: #102e83; }
+    .contactUs .email input::-moz-placeholder, .contactUs .email textarea::-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: #102e83; }
+    .contactUs .email input:-ms-input-placeholder, .contactUs .email textarea:-ms-input-placeholder {
+      /* Internet Explorer 10+ */
+      color: #102e83; }
 
 .content {
   min-width: 375px; }
@@ -5148,4 +5165,17 @@ input[type="button"].btn.block {
       .content .aboutUsList li {
         padding: 10px 10px 0;
         float: none;
-        width: 100%; } }
+        width: 100%; }
+    .content .wechatEmail .float-left {
+      float: none !important; }
+    .content .wechatEmail > div:first-child {
+      width: 100%; }
+      .content .wechatEmail > div:first-child img {
+        width: 100%; }
+    .content .wechatEmail > div:last-child {
+      width: 100%; }
+    .content .wechatEmail .wechat {
+      min-width: 100% !important; }
+    .content .wechatEmail .email {
+      padding: 10px;
+      max-width: 100% !important; } }
