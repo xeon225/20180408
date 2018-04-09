@@ -7,11 +7,11 @@
 @import "base/button";
 @import "base/badge";
 @import "base/border";
-@import "base/form";
+// @import "base/form";
 @import "base/animate";
 @import "base/listGroup";
 @import "ui/notice";
-@import "ui/mask";
+// @import "ui/mask";
 @import "ui/popup";
 // @import "vueAnimate/index";
 
@@ -30,7 +30,7 @@
 			position:absolute;
 			width: 1000px;
 			height:74px;
-			background:#012697;
+			background:#0692fa;
 			left:-990px;
 			top:0;
 		}
@@ -39,7 +39,7 @@
 			position:absolute;
 			width: 100%;
 			height:74px;
-			background:#012697;
+			background:#0692fa;
 			left:180px;
 			top:0;
 		}
@@ -52,7 +52,7 @@
 				width: 190px;
 				height:190px;
 				border-radius:100px;
-				border:10px solid #012697
+				border:10px solid #0692fa
 			}
 			&:after{
 				content:'';
@@ -60,7 +60,7 @@
 				width: 160px;
 				height:160px;
 				border-radius:100px;
-				border:2px solid #012697
+				border:2px solid #0692fa
 			}
 		}
 		.logo{
@@ -71,7 +71,10 @@
 			margin-left:200px;
 			z-index:10;
 		}
-		.navList{
+		.navListM{
+			display:none;
+		}
+		.navList,.navListM{
 			z-index:10;
 			margin-top:25px;
 			ul{
@@ -91,20 +94,44 @@
 					.second{
 						position:absolute;
 						display:none;
-						background:#012697;
-						padding:10px 10px 0 10px;
+						background:rgba(6,146,250,.7);
+						padding:30px 10px 0 10px;
 						left:-10px;
 						right:-10px;
-						line-height:36px;
-
-					}
-					&:hover{
-						.second{
-							display:block;
+						div{
+							padding:5px 0;
+						}
+						a{
+							font-size:14px;
+							.hover{
+								display:none;
+							}
+							&:hover{
+								color:#fff;
+								.a{
+									display:none;
+								}
+								.hover{
+									display:inline-block;
+								}
+							}
 						}
 					}
 				}
 			}
+		}
+		.navList{
+			li{
+				&:hover{
+					.second{
+						display:block;
+					}
+				}
+			}
+
+		}
+		.navListM{
+			display:none;
 		}
 	}
 }
@@ -121,7 +148,7 @@
 			padding-top:0 !important;
 		}
 	    .nav_bg{
-	    	background:#012697;
+	    	background:#0692fa;
 	    	height:50px;
 	    	&:before,&:after{
 	    		height:50px;
@@ -152,7 +179,11 @@
 				}
 				.second{
 					line-height:24px !important;
-
+					text-align:left;
+					padding: 20px 10px 0 10px !important;
+					div{
+					    padding: 3px 0 !important;
+					}
 				}
 			}
 		}
@@ -166,16 +197,53 @@
 	    }
 	    .nav{
 			padding-top:0 !important;
+			overflow: inherit !important;
 		}
 	    .nav_bg{
-	    	background:#012697;
+	    	background:#0692fa;
 	    	height:50px;
 	    	&:before,&:after{
 	    		height:50px;
+	    		content:none !important;
 	    	}
 	    }
-	    .navList {
-	        display:none;
+	    .navList{
+	    	display:none;
+	    }
+	    .navListM {
+	        display:block !important;
+	        top: 50px;
+	        margin-top:0px !important;
+	        float: none !important;
+	        li{
+	        	padding:10px;
+	        	float: none !important;
+	        	margin-left:0 !important;
+	        	background:rgba(255,255,255,.9);
+	        	border-bottom:1px solid #999;
+	        	a{
+	        		font-size:14px !important;
+	        		color:#666 !important;
+	        	}
+	        	.second{
+	        		margin-top:5px;
+					// display:block !important;
+					position:initial !important;
+					background:none !important;
+					padding:0 !important;
+					left:0px !important;
+					right:0px !important;
+					line-height:36px !important;
+					div{
+						&:last-child{
+							border-bottom:0;
+						}
+					}
+				}
+	        }
+	    }
+	    .menu{
+	    	display:block !important;
 	    }
 	}
 }
