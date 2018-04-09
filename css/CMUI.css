@@ -213,6 +213,30 @@ ol, ul {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.icon-nav_health:before {
+  content: "\e903"; }
+
+.icon-nav_travel:before {
+  content: "\e904"; }
+
+.icon-nav_immigrant:before {
+  content: "\e905"; }
+
+.icon-nav_ma:before {
+  content: "\e906"; }
+
+.icon-nav_oem:before {
+  content: "\e907"; }
+
+.icon-nav_welfare:before {
+  content: "\e908"; }
+
+.icon-nav_estate:before {
+  content: "\e909"; }
+
+.icon-nav_earth:before {
+  content: "\e90a"; }
+
 .icon-x_menu:before {
   content: "\e902"; }
 
@@ -4920,8 +4944,7 @@ input[type="button"].btn.block {
 
 .nav {
   padding-top: 60px;
-  z-index: 10;
-  overflow: hidden; }
+  z-index: 10; }
   .nav .nav_bg {
     max-width: 1600px;
     margin: 0 auto;
@@ -5004,6 +5027,26 @@ input[type="button"].btn.block {
     .nav .nav_bg .navListM {
       display: none; }
 
+.aboutUs .aboutUsTitle {
+  max-width: 1180px;
+  margin: 40px auto 0; }
+.aboutUs .aboutUsList {
+  max-width: 1070px;
+  margin: 0 auto;
+  margin-top: -44px; }
+  .aboutUs .aboutUsList li {
+    padding: 10px 2%;
+    float: left;
+    width: 50%; }
+
+.contactUs {
+  max-width: 1070px;
+  margin: 0 auto; }
+  .contactUs .contactUsTitle {
+    margin-top: 30px; }
+  .contactUs .email {
+    width: 320px; }
+
 .content {
   min-width: 375px; }
   @media screen and (max-width: 1380px) {
@@ -5061,7 +5104,6 @@ input[type="button"].btn.block {
     .content .navList {
       display: none; }
     .content .navListM {
-      display: block !important;
       top: 50px;
       margin-top: 0px !important;
       float: none !important; }
@@ -5086,3 +5128,20 @@ input[type="button"].btn.block {
             border-bottom: 0; }
     .content .menu {
       display: block !important; } }
+  @media screen and (max-width: 1180px) {
+    .content .aboutUsTitle, .content .contactUsTitle {
+      padding: 0 2%; }
+    .content .aboutUsList {
+      margin-top: 10px !important; } }
+  @media screen and (max-width: 750px) {
+    .content .aboutUsTitle, .content .contactUsTitle {
+      margin-top: 20px !important;
+      padding: 0 10px !important; }
+      .content .aboutUsTitle img, .content .contactUsTitle img {
+        width: 20%; }
+    .content .aboutUsList {
+      margin-top: 10px !important; }
+      .content .aboutUsList li {
+        padding: 10px 10px 0;
+        float: none;
+        width: 100%; } }

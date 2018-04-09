@@ -24,6 +24,30 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-nav_health:before {
+  content: "\e903";
+}
+.icon-nav_travel:before {
+  content: "\e904";
+}
+.icon-nav_immigrant:before {
+  content: "\e905";
+}
+.icon-nav_ma:before {
+  content: "\e906";
+}
+.icon-nav_oem:before {
+  content: "\e907";
+}
+.icon-nav_welfare:before {
+  content: "\e908";
+}
+.icon-nav_estate:before {
+  content: "\e909";
+}
+.icon-nav_earth:before {
+  content: "\e90a";
+}
 .icon-x_menu:before {
   content: "\e902";
 }

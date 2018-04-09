@@ -20,7 +20,7 @@
 .nav{
 	padding-top:60px;
 	z-index:10;
-	overflow:hidden;
+	// overflow:hidden;
 	.nav_bg{
 		max-width:1600px;
 		margin:0 auto;
@@ -135,6 +135,32 @@
 		}
 	}
 }
+.aboutUs{
+	.aboutUsTitle{
+		max-width:1180px;
+		margin:40px auto 0;
+	}
+	.aboutUsList{
+		max-width:1070px;
+		margin:0 auto;
+		margin-top:-44px;
+		li{
+			padding:10px 2%;
+			float:left;
+			width:50%;
+		}
+	}
+}
+.contactUs{
+	max-width:1070px;
+	margin:0 auto;
+	.contactUsTitle{
+		margin-top:30px;
+	}
+	.email{
+		width:320px;
+	}
+}
 
 .content{
 	min-width:375px;
@@ -211,7 +237,7 @@
 	    	display:none;
 	    }
 	    .navListM {
-	        display:block !important;
+	        // display:block !important;
 	        top: 50px;
 	        margin-top:0px !important;
 	        float: none !important;
@@ -246,6 +272,32 @@
 	    	display:block !important;
 	    }
 	}
+	@media screen and (max-width: 1180px) {
+		.aboutUsTitle,.contactUsTitle{
+			padding:0 2%;
+		}
+		.aboutUsList{
+			margin-top:10px !important;
+		}
+	}
+	@media screen and (max-width: 750px) {
+		.aboutUsTitle,.contactUsTitle{
+			margin-top:20px !important;
+			padding:0 10px !important;
+			img{
+				width:20%;
+			}
+		}
+		.aboutUsList{
+			margin-top:10px !important;
+			li{
+				padding:10px 10px 0;
+				float:none;
+				width:100%;
+			}
+		}
+	}
+
 }
 
 
