@@ -159,6 +159,11 @@
 	}
 	.email{
 		width:320px;
+		margin:0 auto;
+		input,textarea{
+			border:1px solid #102e83;
+			padding:5px;
+		}
 	}
 }
 
