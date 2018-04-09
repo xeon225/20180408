@@ -4960,7 +4960,7 @@ input[type="button"].btn.block {
     .nav .nav_bg:after {
       content: '';
       position: absolute;
-      width: 100%;
+      width: calc(100% - 180px);
       height: 74px;
       background: #0692fa;
       left: 180px;
@@ -5068,12 +5068,28 @@ input[type="button"].btn.block {
       /* Internet Explorer 10+ */
       color: #102e83; }
 
+.ourServices {
+  margin-top: 70px;
+  padding-left: 50%;
+  width: 100%; }
+  .ourServices .ourServicesBg {
+    width: 50%;
+    height: 100%;
+    background: url(../img/banner_content.jpg) no-repeat top center;
+    background-size: cover; }
+  .ourServices .ourServicesList {
+    padding: 75px;
+    background: #012697;
+    color: #7ba9c6; }
+    .ourServices .ourServicesList .fs-25 {
+      font-size: 25px; }
+
 .content {
   min-width: 375px; }
   @media screen and (max-width: 1380px) {
     .content .nav_title {
       display: none; } }
-  @media screen and (min-width: 415px) and (max-width: 950px) {
+  @media screen and (min-width: 512px) and (max-width: 950px) {
     .content .nav {
       padding-top: 0 !important; }
     .content .nav_bg {
@@ -5107,7 +5123,7 @@ input[type="button"].btn.block {
           padding: 20px 10px 0 10px !important; }
           .content .navList li .second div {
             padding: 3px 0 !important; } }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 512px) {
     .content .logo {
       width: 40px !important;
       height: 40px;
@@ -5179,3 +5195,6 @@ input[type="button"].btn.block {
     .content .wechatEmail .email {
       padding: 10px;
       max-width: 100% !important; } }
+  @media screen and (min-width: 513px) {
+    .content .navListM {
+      display: none !important; } }
