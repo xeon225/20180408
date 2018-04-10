@@ -16,7 +16,9 @@
 // @import "vueAnimate/index";
 
 // @import "effect/hover";
-
+a{
+	cursor: pointer;
+}
 .nav{
 	padding-top:60px;
 	z-index:10;
@@ -158,6 +160,13 @@
 		}
 		.navListM{
 			display:none;
+			ul{
+				li{
+					a{
+						display:block;
+					}
+				}
+			}
 		}
 	}
 }
@@ -301,6 +310,20 @@
 		}
 	}
 }
+.mask{
+	display:none;
+	background:rgba(0,0,0,.5);
+	z-index:20;
+	.maskBox{
+		left:50%;
+		top:50%;
+		margin-left:-150px;
+		margin-top:-100px;
+		width:300px;
+		border-radius:10px;
+		padding-bottom:20px;
+	}
+}
 .content{
 	min-width:375px;
 	@media screen and (max-width: 1380px) {
@@ -401,6 +424,7 @@
 	        	margin-left:0 !important;
 	        	background:rgba(255,255,255,.9);
 	        	border-bottom:1px solid #999;
+	        	margin-right: 0 !important;
 	        	a{
 	        		font-size:14px !important;
 	        		color:#666 !important;
@@ -464,7 +488,8 @@
 			&>div:first-child{
 				width:100%;
 				img{
-					width:100%;
+					width:80%;
+					margin:10%;
 				}
 			}
 			&>div:last-child{
@@ -472,6 +497,8 @@
 			}
 			.wechat{
 				min-width: 100% !important;
+			    font-size: 12px;
+    			line-height: 20px;
 			}
 			.email{
 				padding:10px;

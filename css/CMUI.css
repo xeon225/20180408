@@ -4942,6 +4942,9 @@ input[type="button"].btn.block {
   box-sizing: border-box;
   color: #666; }
 
+a {
+  cursor: pointer; }
+
 .nav {
   padding-top: 60px;
   z-index: 10; }
@@ -5037,6 +5040,8 @@ input[type="button"].btn.block {
       width: 100px; }
     .nav .nav_bg .navListM {
       display: none; }
+      .nav .nav_bg .navListM ul li a {
+        display: block; }
 
 .aboutUs .aboutUsTitle {
   max-width: 1180px;
@@ -5145,6 +5150,19 @@ input[type="button"].btn.block {
             .footer .footNav li .second a:hover .hover {
               display: inline-block; }
 
+.mask {
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 20; }
+  .mask .maskBox {
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -100px;
+    width: 300px;
+    border-radius: 10px;
+    padding-bottom: 20px; }
+
 .content {
   min-width: 375px; }
   @media screen and (max-width: 1380px) {
@@ -5220,7 +5238,8 @@ input[type="button"].btn.block {
         float: none !important;
         margin-left: 0 !important;
         background: rgba(255, 255, 255, 0.9);
-        border-bottom: 1px solid #999; }
+        border-bottom: 1px solid #999;
+        margin-right: 0 !important; }
         .content .navListM li a {
           font-size: 14px !important;
           color: #666 !important; }
@@ -5263,11 +5282,14 @@ input[type="button"].btn.block {
     .content .wechatEmail > div:first-child {
       width: 100%; }
       .content .wechatEmail > div:first-child img {
-        width: 100%; }
+        width: 80%;
+        margin: 10%; }
     .content .wechatEmail > div:last-child {
       width: 100%; }
     .content .wechatEmail .wechat {
-      min-width: 100% !important; }
+      min-width: 100% !important;
+      font-size: 12px;
+      line-height: 20px; }
     .content .wechatEmail .email {
       padding: 10px;
       max-width: 100% !important; }

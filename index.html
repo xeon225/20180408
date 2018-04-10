@@ -30,9 +30,15 @@
 	    $(".menu").click(function(){
 	    	$('.navListM').slideToggle();
 	    });
-	    $(".navListM li").click(function(){
+	    $(".navListM li>a").click(function(){
 	    	$(".navListM li .second").hide();
-	    	$(this).find(".second").slideToggle();
+	    	$(this).next(".second").slideToggle();
+	    })
+	    $('a.temp').click(function(){
+	    	$('.mask').show();
+	    })
+	    $('.maskClose').click(function(){
+	    	$('.mask').hide();
 	    })
     });
   </script>
@@ -55,10 +61,10 @@
 					<div class="navList float-right pos-r">
 				  		<ul class="clearfix">
 				  			<li class="pos-r">
-				  				<a href="">HOME</a>
+				  				<a class="temp">HOME</a>
 				  				<div class="second">
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							ホーム
@@ -67,31 +73,31 @@
 				  				</div>
 				  			</li>
 				  			<li class="pos-r">
-				  				<a href="">ABOUT</a>
+				  				<a class="temp">ABOUT</a>
 								<div class="second">
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							代表挨拶
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							会社概要
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							会社理念
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							アクセス
@@ -100,59 +106,59 @@
 				  				</div>
 				  			</li>
 				  			<li class="pos-r">
-				  				<a href="">OUR SERVICES</a>
+				  				<a class="temp">OUR SERVICES</a>
 				  				<div class="second">
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							不動産事業
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							環境事業
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							福祉事業
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							OEM事業
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							M&A事業
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							移民投資事業
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							旅行事業
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							健診・治療・美容事業
@@ -161,10 +167,10 @@
 				  				</div>
 				  			</li>
 				  			<li class="pos-r">
-				  				<a href="">CONTACT</a>
+				  				<a class="temp">CONTACT</a>
 				  				<div class="second">
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							お問い合わせ
@@ -173,10 +179,10 @@
 				  				</div>
 				  			</li>
 				  			<li class="pos-r">
-				  				<a href="">JION US</a>
+				  				<a class="temp">JION US</a>
 				  				<div class="second">
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							募集情報
@@ -189,10 +195,10 @@
 				  	<div class="navListM float-right pos-r">
 				  		<ul class="clearfix">
 				  			<li class="pos-r">
-				  				<a href="">HOME</a>
+				  				<a>HOME</a>
 				  				<div class="second">
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							ホーム
@@ -201,31 +207,31 @@
 				  				</div>
 				  			</li>
 				  			<li class="pos-r">
-				  				<a href="">ABOUT</a>
+				  				<a>ABOUT</a>
 								<div class="second">
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							代表挨拶
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							会社概要
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							会社理念
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							アクセス
@@ -234,59 +240,59 @@
 				  				</div>
 				  			</li>
 				  			<li class="pos-r">
-				  				<a href="">OUR SERVICES</a>
+				  				<a>OUR SERVICES</a>
 				  				<div class="second">
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							不動産事業
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							環境事業
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							福祉事業
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							OEM事業
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							M&A事業
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							移民投資事業
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							旅行事業
 				  						</a>
 				  					</div>
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							健診・治療・美容事業
@@ -295,10 +301,10 @@
 				  				</div>
 				  			</li>
 				  			<li class="pos-r">
-				  				<a href="">CONTACT</a>
+				  				<a>CONTACT</a>
 				  				<div class="second">
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							お問い合わせ
@@ -307,10 +313,10 @@
 				  				</div>
 				  			</li>
 				  			<li class="pos-r">
-				  				<a href="">JION US</a>
+				  				<a>JION US</a>
 				  				<div class="second">
 				  					<div>
-				  						<a href="">
+				  						<a class="temp">
 				  							<i class="icon-x_right a"></i>
 				  							<i class="icon-x_rightFill hover"></i>
 				  							募集情報
@@ -333,10 +339,10 @@
 	  		</div>
 	  		<div class="aboutUsList pos-r">
 	  			<ul class="clearfix">
-	  				<li><a href=""><img src="img/img-index_about_01.jpg" width="100%" alt="" /></a></li>
-	  				<li><a href=""><img src="img/img-index_about_02.jpg" width="100%" alt="" /></a></li>
-	  				<li><a href=""><img src="img/img-index_about_03.jpg" width="100%" alt="" /></a></li>
-	  				<li><a href=""><img src="img/img-index_about_04.jpg" width="100%" alt="" /></a></li>
+	  				<li><a class="temp"><img src="img/img-index_about_01.jpg" width="100%" alt="" /></a></li>
+	  				<li><a class="temp"><img src="img/img-index_about_02.jpg" width="100%" alt="" /></a></li>
+	  				<li><a class="temp"><img src="img/img-index_about_03.jpg" width="100%" alt="" /></a></li>
+	  				<li><a class="temp"><img src="img/img-index_about_04.jpg" width="100%" alt="" /></a></li>
 	  			</ul>
 	  		</div>
 	  	</div>
@@ -349,59 +355,77 @@
 				</div>
 				<ul class="clearfix">
 					<li class="box-span4 text-center fs-20">
-						<div class="box" style="color:#fff;border:1px solid #fff">
-							<i class="icon-nav_estate"></i>
-							<div>不 動 産 事 業</div>
-						</div>
+						<a class="temp">
+							<div class="box" style="color:#fff;border:1px solid #fff">
+								<i class="icon-nav_estate"></i>
+								<div>不 動 産 事 業</div>
+							</div>
+						</a>
 					</li>
 					<li class="box-span4 text-center fs-20">
-						<div class="box">
-							<i class="icon-nav_earth"></i>
-							<div>環 境 事 業</div>
-						</div>
+						<a class="temp">
+							<div class="box">
+								<i class="icon-nav_earth"></i>
+								<div>環 境 事 業</div>
+							</div>
+						</a>
 					</li>
 					<li class="box-span4 text-center fs-20">
-						<div class="box">
-							<i class="icon-nav_welfare"></i>
-							<div>福 祉 事 業</div>
-						</div>
+						<a class="temp">
+							<div class="box">
+								<i class="icon-nav_welfare"></i>
+								<div>福 祉 事 業</div>
+							</div>
+						</a>
 					</li>
 					<li class="box-span4 text-center fs-20">
-						<div class="box">
-							<i class="icon-nav_oem"></i>
-							<div>OEM事 業</div>
-						</div>
+						<a class="temp">
+							<div class="box">
+								<i class="icon-nav_oem"></i>
+								<div>OEM事 業</div>
+							</div>
+						</a>
 					</li>
 					<li class="box-span4 text-center fs-20">
-						<div class="box logo" style="color:#fff;border:1px solid #fff">
-							<img src="img/logo.svg" class="ourLogo" alt="" />
-							<img src="img/text-index_our.png" alt="" />
-							<div>事 業 内 容</div>
-						</div>
+						<a class="temp">
+							<div class="box logo" style="color:#fff;border:1px solid #fff">
+								<img src="img/logo.svg" class="ourLogo" alt="" />
+								<img src="img/text-index_our.png" alt="" />
+								<div>事 業 内 容</div>
+							</div>
+						</a>
 					</li>
 					<li class="box-span4 text-center fs-20">
-						<div class="box">
-							<i class="icon-nav_ma"></i>
-							<div>M&A事 業</div>
-						</div>
+						<a class="temp">
+							<div class="box">
+								<i class="icon-nav_ma"></i>
+								<div>M&A事 業</div>
+							</div>
+						</a>
 					</li>
 					<li class="box-span4 text-center fs-20">
-						<div class="box">
-							<i class="icon-nav_immigrant"></i>
-							<div>移 民 投 資 事 業</div>
-						</div>
+						<a class="temp">
+							<div class="box">
+								<i class="icon-nav_immigrant"></i>
+								<div>移 民 投 資 事 業</div>
+							</div>
+						</a>
 					</li>
 					<li class="box-span4 text-center fs-20">
-						<div class="box">
-							<i class="icon-nav_travel"></i>
-							<div>旅 行 事 業</div>
-						</div>
+						<a class="temp">
+							<div class="box">
+								<i class="icon-nav_travel"></i>
+								<div>旅 行 事 業</div>
+							</div>
+						</a>
 					</li>
 					<li class="box-span4 text-center fs-20">
-						<div class="box">
-							<i class="icon-nav_health"></i>
-							<div>健診・治療・美容事業</div>
-						</div>
+						<a class="temp">
+							<div class="box">
+								<i class="icon-nav_health"></i>
+								<div>健診・治療・美容事業</div>
+							</div>
+						</a>
 					</li>
 				</ul>
 	  		</div>
@@ -451,10 +475,10 @@
 	  		<div class="footNav">
 	  			<ul class="clearfix">
 		  			<li class="pos-r">
-		  				<a href="">HOME</a>
+		  				<a class="temp">HOME</a>
 		  				<div class="second">
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							ホーム
@@ -463,31 +487,31 @@
 		  				</div>
 		  			</li>
 		  			<li class="pos-r">
-		  				<a href="">ABOUT</a>
+		  				<a class="temp">ABOUT</a>
 						<div class="second">
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							代表挨拶
 		  						</a>
 		  					</div>
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							会社概要
 		  						</a>
 		  					</div>
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							会社理念
 		  						</a>
 		  					</div>
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							アクセス
@@ -496,59 +520,59 @@
 		  				</div>
 		  			</li>
 		  			<li class="pos-r">
-		  				<a href="">OUR SERVICES</a>
+		  				<a class="temp">OUR SERVICES</a>
 		  				<div class="second">
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							不動産事業
 		  						</a>
 		  					</div>
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							環境事業
 		  						</a>
 		  					</div>
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							福祉事業
 		  						</a>
 		  					</div>
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							OEM事業
 		  						</a>
 		  					</div>
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							M&A事業
 		  						</a>
 		  					</div>
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							移民投資事業
 		  						</a>
 		  					</div>
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							旅行事業
 		  						</a>
 		  					</div>
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							健診・治療・美容事業
@@ -557,10 +581,10 @@
 		  				</div>
 		  			</li>
 		  			<li class="pos-r">
-		  				<a href="">CONTACT</a>
+		  				<a class="temp">CONTACT</a>
 		  				<div class="second">
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							お問い合わせ
@@ -569,10 +593,10 @@
 		  				</div>
 		  			</li>
 		  			<li class="pos-r">
-		  				<a href="">JION US</a>
+		  				<a class="temp">JION US</a>
 		  				<div class="second">
 		  					<div>
-		  						<a href="">
+		  						<a class="temp">
 		  							<i class="icon-x_right a"></i>
 		  							<i class="icon-x_rightFill hover"></i>
 		  							募集情報
@@ -587,6 +611,11 @@
 	  		</div>
 	  	</div>
 	</div>
-	
+	<div class="pos-f mask top0 left0 right0 bottom0">
+		<div class="maskBox bg-white text-center pos-a">
+			<div class="fs-20 paddingv50">系统升级中...</div>
+			<div class="btn blue big maskClose">关 闭</div>
+		</div>
+	</div>
 </body>
 </html>
