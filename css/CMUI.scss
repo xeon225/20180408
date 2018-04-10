@@ -23,6 +23,12 @@ a{
 	padding-top:60px;
 	z-index:10;
 	// overflow:hidden;
+	.bgTemp{
+		left:50%;
+		top:60px;
+		height:74px;
+		background:#0692fa;
+	}
 	.nav_bg{
 		max-width:1600px;
 		margin:0 auto;
@@ -54,7 +60,10 @@ a{
 				width: 190px;
 				height:190px;
 				border-radius:100px;
-				border:10px solid #0692fa
+				border:10px solid #0692fa;
+				left:0;
+				right:0;
+				top:-60px;
 			}
 			&:after{
 				content:'';
@@ -62,7 +71,9 @@ a{
 				width: 160px;
 				height:160px;
 				border-radius:100px;
-				border:2px solid #0692fa
+				border:2px solid #0692fa;
+				left:15px;
+				top:-45px;
 			}
 		}
 		.logo{
@@ -73,6 +84,7 @@ a{
 			margin-left:200px;
 			z-index:10;
 		}
+
 		.navListM{
 			display:none;
 		}
@@ -326,7 +338,7 @@ a{
 }
 .content{
 	min-width:375px;
-	@media screen and (max-width: 1380px) {
+	@media screen and (max-width: 1390px) {
 	    .nav_title {
 	        display:none;
 	    }
@@ -334,6 +346,9 @@ a{
 	@media screen and (min-width: 513px) and (max-width:950px) {
 		.nav{
 			padding-top:0 !important;
+		}
+		.bgTemp{
+			display:none;
 		}
 	    .nav_bg{
 	    	background:#0692fa;
@@ -395,6 +410,11 @@ a{
 	    .nav{
 			padding-top:0 !important;
 			overflow: inherit !important;
+		    position: fixed;
+		    bottom: auto;
+		}
+		.bgTemp{
+			display:none;
 		}
 	    .nav_bg{
 	    	background:#0692fa;
@@ -432,7 +452,7 @@ a{
 	        	.second{
 	        		margin-top:5px;
 					// display:block !important;
-					position:initial !important;
+					position:relative !important;
 					background:none !important;
 					padding:0 !important;
 					left:0px !important;
@@ -510,7 +530,7 @@ a{
     		padding-left: 0%;
     		.ourServicesBg{
     			width:100%;
-    			position: initial;
+    			position: relative;
     			img{
     				display:block;
     			}

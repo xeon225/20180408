@@ -377,17 +377,17 @@
     {
       "icon": {
         "paths": [
-          "M0 227.6v-227.6h1024v227.6h-1024zM0 625.8v-227.6h1024v227.6h-1024zM0 1024v-227.6h1024v227.6h-1024z"
+          "M0 170.7h1024v114.7h-1024v-114.7zM0 568v-112h1024v112h-1024zM0 853.3v-114.7h1024v114.7h-1024z"
         ],
         "attrs": [
           {}
         ],
-        "isMulticolor": false,
-        "isMulticolor2": false,
         "grid": 0,
         "tags": [
           "x_menu"
-        ]
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false
       },
       "attrs": [
         {}
