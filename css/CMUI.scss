@@ -80,7 +80,8 @@
 			ul{
 				li{
 					float:left;
-					margin-left:70px;
+					margin-left:60px;
+					margin-right:10px;
 					a{
 						color:#fff;
 						font-size:20px;
@@ -125,6 +126,31 @@
 				&:hover{
 					.second{
 						display:block;
+					}
+				}
+				&:nth-of-type(1){
+					.second{
+						width:90px;
+					}
+				}
+				&:nth-of-type(2){
+					.second{
+						width:110px;
+					}
+				}
+				&:nth-of-type(3){
+					.second{
+						width:180px;
+					}
+				}
+				&:nth-of-type(4){
+					.second{
+						width:130px;
+					}
+				}
+				&:nth-of-type(5){
+					.second{
+						width:100px;
 					}
 				}
 			}
@@ -198,13 +224,80 @@
 		height:100%;
 		background:url(../img/banner_content.jpg) no-repeat top center;
 		background-size:cover;
+		img{
+			display:none;
+		}
 	}
 	.ourServicesList{
-		padding:75px;
+		padding:75px 0 75px 75px;
 		background:#012697;
 		color:#7ba9c6;
 		.fs-25{
 			font-size:25px;
+		}
+		ul{
+			max-width:750px;
+			li{
+				color:#7ba9c6;
+				.box{
+					border:1px solid #7ba9c6;
+					margin:20px 20px 0 0;
+					height:170px;
+				}
+				i{
+					font-size:100px;
+					margin:20px 0 5px;
+				}
+				.logo{
+					.ourLogo{
+						width:60px;
+						margin-top:15px;
+					}
+					img{
+						margin-top:10px;
+						margin-bottom:10px;
+					}
+					font-size:26px;
+				}
+			}
+		}
+	}
+}
+.footer{
+	background:#012697;
+	margin-top:40px;
+	padding-bottom:35px;
+	.footNav{
+		padding:80px 0 60px;
+		max-width:900px;
+		margin:0 auto;
+		li{
+			float:left;
+			margin:0 40px;
+			a{
+				color:#fff;
+				font-size:20px;
+			}
+			.second{
+				margin-top:10px;
+				a{
+					color:#97cad6;
+					font-size:14px;
+					line-height:24px;
+					.hover{
+						display:none;
+					}
+					&:hover{
+						color:#fff;
+						.a{
+							display:none;
+						}
+						.hover{
+							display:inline-block;
+						}
+					}
+				}
+			}
 		}
 	}
 }
@@ -215,7 +308,7 @@
 	        display:none;
 	    }
 	}
-	@media screen and (min-width: 512px) and (max-width:950px) {
+	@media screen and (min-width: 513px) and (max-width:950px) {
 		.nav{
 			padding-top:0 !important;
 		}
@@ -225,15 +318,15 @@
 	    	&:before,&:after{
 	    		height:50px;
 	    	}
+	    	.logo {
+		    	width:40px !important;
+		    	height:40px;
+		    	top:5px !important;
+		    	left:10px;
+		    }
 	    }
 	    .logo_bg {
 	        display:none;
-	    }
-	    .logo {
-	    	width:40px !important;
-	    	height:40px;
-	    	top:5px !important;
-	    	left:10px;
 	    }
 	    .navList{
 	    	padding-left:50px;
@@ -244,8 +337,9 @@
 				display: table-cell;
     			vertical-align: middle;
 				margin-left:0 !important;
-				width:20%;
+				width:auto;
 				text-align:center;
+				padding:0 10px;
 				a{
 					font-size:14px !important;
 				}
@@ -253,20 +347,28 @@
 					line-height:24px !important;
 					text-align:left;
 					padding: 20px 10px 0 10px !important;
+					left:0px !important;
+					right:auto !important;
 					div{
 					    padding: 3px 0 !important;
 					}
 				}
+				&:nth-of-type(5){
+					.second{
+						left:auto !important;
+						right:0 !important;
+					}
+				}
+			}
+		}
+		.footNav{
+			max-width:700px;
+			li{
+				margin:0 20px;
 			}
 		}
 	}
 	@media screen and (max-width: 512px) {
-		.logo {
-	    	width:40px !important;
-	    	height:40px;
-	    	top:5px !important;
-	    	left:10px;
-	    }
 	    .nav{
 			padding-top:0 !important;
 			overflow: inherit !important;
@@ -278,6 +380,12 @@
 	    		height:50px;
 	    		content:none !important;
 	    	}
+	    	.logo {
+		    	width:40px !important;
+		    	height:40px;
+		    	top:5px !important;
+		    	left:10px;
+		    }
 	    }
 	    .navList{
 	    	display:none;
@@ -316,6 +424,13 @@
 	    }
 	    .menu{
 	    	display:block !important;
+	    }
+	    .footer{
+	    	font-size:10px;
+	    	padding:10px 0;
+	    	.footNav{
+		    	display:none;
+		    }
 	    }
 	}
 	@media screen and (max-width: 1180px) {
@@ -363,10 +478,119 @@
 				max-width:100% !important;
 			}
 		}
+		.ourServices{
+			margin-top: 40px;
+    		padding-left: 0%;
+    		.ourServicesBg{
+    			width:100%;
+    			position: initial;
+    			img{
+    				display:block;
+    			}
+    		}
+    		.ourServicesList{
+				padding:20px 0 20px 20px;
+				.fs-25{
+					font-size:14px;
+				}
+				.fs-20{
+					font-size:12px;
+				}
+				.img{
+					width:100px;
+				}
+				ul{
+					max-width:100%;
+					li{
+						.box{
+								border:1px solid #7ba9c6;
+								margin:20px 20px 0 0;
+								height:115px;
+								line-height:16px;
+							}
+						i{
+							font-size:60px;
+							margin:15px 0 5px;
+						}
+						.logo{
+							.ourLogo{
+								width:40px;
+								margin-top:15px;
+							}
+							img{
+								width:80%;
+								margin-top:5px;
+								margin-bottom:5px;
+							}
+							font-size:16px;
+						}
+					}
+				}
+			}
+		}
+		.footNav{
+			max-width:512px;
+			padding:40px 0 30px;
+			li{
+				margin:0 8px;
+				a{
+					color:#fff;
+					font-size:14px;
+				}
+				.second{
+					margin-top:10px;
+					a{
+						font-size:12px;
+						line-height:20px;
+					}
+				}
+			}
+		}
 	}
 	@media screen and (min-width: 513px) {
 		.navListM{
 			display:none !important;
+		}
+	}
+	@media screen and (min-width: 751px) and (max-width:1490px) {
+    	.ourServicesList{
+			padding:40px 0 40px 40px;
+			.fs-25{
+				font-size:20px;
+			}
+			.fs-20{
+				font-size:14px;
+			}
+			.img{
+				width:180px;
+			}
+			ul{
+				max-width:600px;
+				li{
+					.box{
+							border:1px solid #7ba9c6;
+							margin:20px 20px 0 0;
+							height:115px;
+							line-height:16px;
+						}
+					i{
+						font-size:60px;
+						margin:15px 0 5px;
+					}
+					.logo{
+						.ourLogo{
+							width:40px;
+							margin-top:15px;
+						}
+						img{
+							width:80%;
+							margin-top:5px;
+							margin-bottom:5px;
+						}
+						font-size:18px;
+					}
+				}
+			}
 		}
 	}
 }

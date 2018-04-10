@@ -4995,7 +4995,8 @@ input[type="button"].btn.block {
       margin-top: 25px; }
       .nav .nav_bg .navList ul li, .nav .nav_bg .navListM ul li {
         float: left;
-        margin-left: 70px; }
+        margin-left: 60px;
+        margin-right: 10px; }
         .nav .nav_bg .navList ul li a, .nav .nav_bg .navListM ul li a {
           color: #fff;
           font-size: 20px; }
@@ -5024,6 +5025,16 @@ input[type="button"].btn.block {
                 display: inline-block; }
     .nav .nav_bg .navList li:hover .second {
       display: block; }
+    .nav .nav_bg .navList li:nth-of-type(1) .second {
+      width: 90px; }
+    .nav .nav_bg .navList li:nth-of-type(2) .second {
+      width: 110px; }
+    .nav .nav_bg .navList li:nth-of-type(3) .second {
+      width: 180px; }
+    .nav .nav_bg .navList li:nth-of-type(4) .second {
+      width: 130px; }
+    .nav .nav_bg .navList li:nth-of-type(5) .second {
+      width: 100px; }
     .nav .nav_bg .navListM {
       display: none; }
 
@@ -5077,19 +5088,69 @@ input[type="button"].btn.block {
     height: 100%;
     background: url(../img/banner_content.jpg) no-repeat top center;
     background-size: cover; }
+    .ourServices .ourServicesBg img {
+      display: none; }
   .ourServices .ourServicesList {
-    padding: 75px;
+    padding: 75px 0 75px 75px;
     background: #012697;
     color: #7ba9c6; }
     .ourServices .ourServicesList .fs-25 {
       font-size: 25px; }
+    .ourServices .ourServicesList ul {
+      max-width: 750px; }
+      .ourServices .ourServicesList ul li {
+        color: #7ba9c6; }
+        .ourServices .ourServicesList ul li .box {
+          border: 1px solid #7ba9c6;
+          margin: 20px 20px 0 0;
+          height: 170px; }
+        .ourServices .ourServicesList ul li i {
+          font-size: 100px;
+          margin: 20px 0 5px; }
+        .ourServices .ourServicesList ul li .logo {
+          font-size: 26px; }
+          .ourServices .ourServicesList ul li .logo .ourLogo {
+            width: 60px;
+            margin-top: 15px; }
+          .ourServices .ourServicesList ul li .logo img {
+            margin-top: 10px;
+            margin-bottom: 10px; }
+
+.footer {
+  background: #012697;
+  margin-top: 40px;
+  padding-bottom: 35px; }
+  .footer .footNav {
+    padding: 80px 0 60px;
+    max-width: 900px;
+    margin: 0 auto; }
+    .footer .footNav li {
+      float: left;
+      margin: 0 40px; }
+      .footer .footNav li a {
+        color: #fff;
+        font-size: 20px; }
+      .footer .footNav li .second {
+        margin-top: 10px; }
+        .footer .footNav li .second a {
+          color: #97cad6;
+          font-size: 14px;
+          line-height: 24px; }
+          .footer .footNav li .second a .hover {
+            display: none; }
+          .footer .footNav li .second a:hover {
+            color: #fff; }
+            .footer .footNav li .second a:hover .a {
+              display: none; }
+            .footer .footNav li .second a:hover .hover {
+              display: inline-block; }
 
 .content {
   min-width: 375px; }
   @media screen and (max-width: 1380px) {
     .content .nav_title {
       display: none; } }
-  @media screen and (min-width: 512px) and (max-width: 950px) {
+  @media screen and (min-width: 513px) and (max-width: 950px) {
     .content .nav {
       padding-top: 0 !important; }
     .content .nav_bg {
@@ -5097,13 +5158,13 @@ input[type="button"].btn.block {
       height: 50px; }
       .content .nav_bg:before, .content .nav_bg:after {
         height: 50px; }
+      .content .nav_bg .logo {
+        width: 40px !important;
+        height: 40px;
+        top: 5px !important;
+        left: 10px; }
     .content .logo_bg {
       display: none; }
-    .content .logo {
-      width: 40px !important;
-      height: 40px;
-      top: 5px !important;
-      left: 10px; }
     .content .navList {
       padding-left: 50px;
       margin-top: 0 !important; }
@@ -5113,22 +5174,27 @@ input[type="button"].btn.block {
         display: table-cell;
         vertical-align: middle;
         margin-left: 0 !important;
-        width: 20%;
-        text-align: center; }
+        width: auto;
+        text-align: center;
+        padding: 0 10px; }
         .content .navList li a {
           font-size: 14px !important; }
         .content .navList li .second {
           line-height: 24px !important;
           text-align: left;
-          padding: 20px 10px 0 10px !important; }
+          padding: 20px 10px 0 10px !important;
+          left: 0px !important;
+          right: auto !important; }
           .content .navList li .second div {
-            padding: 3px 0 !important; } }
+            padding: 3px 0 !important; }
+        .content .navList li:nth-of-type(5) .second {
+          left: auto !important;
+          right: 0 !important; }
+    .content .footNav {
+      max-width: 700px; }
+      .content .footNav li {
+        margin: 0 20px; } }
   @media screen and (max-width: 512px) {
-    .content .logo {
-      width: 40px !important;
-      height: 40px;
-      top: 5px !important;
-      left: 10px; }
     .content .nav {
       padding-top: 0 !important;
       overflow: inherit !important; }
@@ -5138,6 +5204,11 @@ input[type="button"].btn.block {
       .content .nav_bg:before, .content .nav_bg:after {
         height: 50px;
         content: none !important; }
+      .content .nav_bg .logo {
+        width: 40px !important;
+        height: 40px;
+        top: 5px !important;
+        left: 10px; }
     .content .navList {
       display: none; }
     .content .navListM {
@@ -5164,7 +5235,12 @@ input[type="button"].btn.block {
           .content .navListM li .second div:last-child {
             border-bottom: 0; }
     .content .menu {
-      display: block !important; } }
+      display: block !important; }
+    .content .footer {
+      font-size: 10px;
+      padding: 10px 0; }
+      .content .footer .footNav {
+        display: none; } }
   @media screen and (max-width: 1180px) {
     .content .aboutUsTitle, .content .contactUsTitle {
       padding: 0 2%; }
@@ -5194,7 +5270,83 @@ input[type="button"].btn.block {
       min-width: 100% !important; }
     .content .wechatEmail .email {
       padding: 10px;
-      max-width: 100% !important; } }
+      max-width: 100% !important; }
+    .content .ourServices {
+      margin-top: 40px;
+      padding-left: 0%; }
+      .content .ourServices .ourServicesBg {
+        width: 100%;
+        position: initial; }
+        .content .ourServices .ourServicesBg img {
+          display: block; }
+      .content .ourServices .ourServicesList {
+        padding: 20px 0 20px 20px; }
+        .content .ourServices .ourServicesList .fs-25 {
+          font-size: 14px; }
+        .content .ourServices .ourServicesList .fs-20 {
+          font-size: 12px; }
+        .content .ourServices .ourServicesList .img {
+          width: 100px; }
+        .content .ourServices .ourServicesList ul {
+          max-width: 100%; }
+          .content .ourServices .ourServicesList ul li .box {
+            border: 1px solid #7ba9c6;
+            margin: 20px 20px 0 0;
+            height: 115px;
+            line-height: 16px; }
+          .content .ourServices .ourServicesList ul li i {
+            font-size: 60px;
+            margin: 15px 0 5px; }
+          .content .ourServices .ourServicesList ul li .logo {
+            font-size: 16px; }
+            .content .ourServices .ourServicesList ul li .logo .ourLogo {
+              width: 40px;
+              margin-top: 15px; }
+            .content .ourServices .ourServicesList ul li .logo img {
+              width: 80%;
+              margin-top: 5px;
+              margin-bottom: 5px; }
+    .content .footNav {
+      max-width: 512px;
+      padding: 40px 0 30px; }
+      .content .footNav li {
+        margin: 0 8px; }
+        .content .footNav li a {
+          color: #fff;
+          font-size: 14px; }
+        .content .footNav li .second {
+          margin-top: 10px; }
+          .content .footNav li .second a {
+            font-size: 12px;
+            line-height: 20px; } }
   @media screen and (min-width: 513px) {
     .content .navListM {
       display: none !important; } }
+  @media screen and (min-width: 751px) and (max-width: 1490px) {
+    .content .ourServicesList {
+      padding: 40px 0 40px 40px; }
+      .content .ourServicesList .fs-25 {
+        font-size: 20px; }
+      .content .ourServicesList .fs-20 {
+        font-size: 14px; }
+      .content .ourServicesList .img {
+        width: 180px; }
+      .content .ourServicesList ul {
+        max-width: 600px; }
+        .content .ourServicesList ul li .box {
+          border: 1px solid #7ba9c6;
+          margin: 20px 20px 0 0;
+          height: 115px;
+          line-height: 16px; }
+        .content .ourServicesList ul li i {
+          font-size: 60px;
+          margin: 15px 0 5px; }
+        .content .ourServicesList ul li .logo {
+          font-size: 18px; }
+          .content .ourServicesList ul li .logo .ourLogo {
+            width: 40px;
+            margin-top: 15px; }
+          .content .ourServicesList ul li .logo img {
+            width: 80%;
+            margin-top: 5px;
+            margin-bottom: 5px; } }
