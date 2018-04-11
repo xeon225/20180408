@@ -5070,6 +5070,41 @@ a {
   margin: 0 auto; }
   .contactUs .contactUsTitle {
     margin-top: 30px; }
+  .contactUs .contactUsLogo {
+    background: #012697;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 150px;
+    overflow: hidden;
+    line-height: 50px; }
+    .contactUs .contactUsLogo .logoBg {
+      width: 80px;
+      height: 80px;
+      border-radius: 100px;
+      background: #fff;
+      padding: 2px;
+      left: 50px;
+      top: -15px; }
+      .contactUs .contactUsLogo .logoBg span {
+        width: 100%;
+        height: 100%;
+        border-radius: 100px;
+        display: block;
+        border: 1px solid #012697; }
+  .contactUs .logos {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    padding: 3px;
+    left: 50px;
+    top: -15px; }
+    .contactUs .logos span {
+      width: 100%;
+      height: 100%;
+      display: block; }
+      .contactUs .logos span img {
+        width: 90%;
+        margin: 5% 7% 5% 3%; }
   .contactUs .wechatEmail > div:first-child {
     width: 60%; }
   .contactUs .wechatEmail > div:last-child {
@@ -5130,6 +5165,10 @@ a {
           .ourServices .ourServicesList ul li .logo img {
             margin-top: 10px;
             margin-bottom: 10px; }
+        .ourServices .ourServicesList ul li a.temp:hover, .ourServices .ourServicesList ul li a.temp:active {
+          color: #fff; }
+          .ourServices .ourServicesList ul li a.temp:hover .box, .ourServices .ourServicesList ul li a.temp:active .box {
+            border: 1px solid #fff; }
 
 .footer {
   background: #012697;
@@ -5223,7 +5262,31 @@ a {
     .content .footNav {
       max-width: 700px; }
       .content .footNav li {
-        margin: 0 20px; } }
+        margin: 0 20px; }
+    .content .contactUsLogo {
+      height: 40px;
+      font-size: 16px;
+      padding-left: 120px;
+      line-height: 40px; }
+      .content .contactUsLogo .logoBg {
+        width: 60px;
+        height: 60px;
+        padding: 2px;
+        left: 40px;
+        top: -10px; }
+    .content .logos {
+      width: 60px;
+      height: 60px;
+      padding: 3px;
+      left: 40px;
+      top: -10px; }
+      .content .logos span {
+        width: 100%;
+        height: 100%;
+        display: block; }
+        .content .logos span img {
+          width: 90%;
+          margin: 5% 7% 5% 3%; } }
   @media screen and (max-width: 512px) {
     .content .nav {
       padding-top: 0 !important;
@@ -5245,6 +5308,14 @@ a {
         left: 10px; }
     .content .navList {
       display: none; }
+    .content .nav_title {
+      width: 100%;
+      margin-left: 0px !important;
+      padding-top: 18px !important;
+      display: block !important;
+      text-align: center; }
+      .content .nav_title img {
+        width: 60%; }
     .content .navListM {
       top: 50px;
       margin-top: 0px !important;
@@ -5275,7 +5346,31 @@ a {
       font-size: 10px;
       padding: 10px 0; }
       .content .footer .footNav {
-        display: none; } }
+        display: none; }
+    .content .contactUsLogo {
+      height: 40px;
+      font-size: 14px;
+      padding-left: 100px;
+      line-height: 40px; }
+      .content .contactUsLogo .logoBg {
+        width: 60px;
+        height: 60px;
+        padding: 2px;
+        left: 20px;
+        top: -10px; }
+    .content .logos {
+      width: 60px;
+      height: 60px;
+      padding: 3px;
+      left: 20px;
+      top: -10px; }
+      .content .logos span {
+        width: 100%;
+        height: 100%;
+        display: block; }
+        .content .logos span img {
+          width: 90%;
+          margin: 5% 7% 5% 3%; } }
   @media screen and (max-width: 1180px) {
     .content .aboutUsTitle, .content .contactUsTitle {
       padding: 0 2%; }
@@ -5306,6 +5401,8 @@ a {
       min-width: 100% !important;
       font-size: 12px;
       line-height: 20px; }
+      .content .wechatEmail .wechat .line {
+        display: inline-block; }
     .content .wechatEmail .email {
       padding: 10px;
       max-width: 100% !important; }

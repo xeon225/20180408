@@ -204,6 +204,47 @@ a{
 	.contactUsTitle{
 		margin-top:30px;
 	}
+	.contactUsLogo{
+		background:#012697;
+		height:50px;
+		font-size:20px;
+		padding-left:150px;
+		overflow:hidden;
+		line-height:50px;
+		.logoBg{
+			width:80px;
+			height:80px;
+			border-radius:100px;
+			background:#fff;
+			padding:2px;
+			left:50px;
+			top:-15px;
+			span{
+				width:100%;
+				height:100%;
+				border-radius:100px;
+				display:block;
+				border:1px solid #012697;
+			}
+		}
+	}
+	.logos{
+		width:80px;
+		height:80px;
+		border-radius:100px;
+		padding:3px;
+		left:50px;
+		top:-15px;
+		span{
+			width:100%;
+			height:100%;
+			display:block;
+			img{
+				width:90%;
+				margin:5% 7% 5% 3%;
+			}
+		}
+	}
 	.wechatEmail{
 		&>div:first-child{
 			width:60%;
@@ -279,6 +320,14 @@ a{
 						margin-bottom:10px;
 					}
 					font-size:26px;
+				}
+				a.temp{
+					&:hover,&:active{
+						color:#fff;
+						.box{
+							border:1px solid #fff;
+						}
+					}
 				}
 			}
 		}
@@ -405,6 +454,35 @@ a{
 				margin:0 20px;
 			}
 		}
+		.contactUsLogo{
+			height:40px;
+			font-size:16px;
+			padding-left:120px;
+			line-height:40px;
+			.logoBg{
+				width:60px;
+				height:60px;
+				padding:2px;
+				left:40px;
+				top:-10px;
+			}
+		}
+		.logos{
+			width:60px;
+			height:60px;
+			padding:3px;
+			left:40px;
+			top:-10px;
+			span{
+				width:100%;
+				height:100%;
+				display:block;
+				img{
+					width:90%;
+					margin:5% 7% 5% 3%;
+				}
+			}
+		}
 	}
 	@media screen and (max-width: 512px) {
 	    .nav{
@@ -432,6 +510,16 @@ a{
 	    }
 	    .navList{
 	    	display:none;
+	    }
+	    .nav_title {
+	    	width: 100%;
+	    	margin-left: 0px !important;
+	    	padding-top:18px !important;
+	        display:block !important;
+	        text-align:center;
+	        img{
+	        	width:60%;
+	        }
 	    }
 	    .navListM {
 	        // display:block !important;
@@ -476,6 +564,35 @@ a{
 		    	display:none;
 		    }
 	    }
+	    .contactUsLogo{
+			height:40px;
+			font-size:14px;
+			padding-left:100px;
+			line-height:40px;
+			.logoBg{
+				width:60px;
+				height:60px;
+				padding:2px;
+				left:20px;
+				top:-10px;
+			}
+		}
+		.logos{
+			width:60px;
+			height:60px;
+			padding:3px;
+			left:20px;
+			top:-10px;
+			span{
+				width:100%;
+				height:100%;
+				display:block;
+				img{
+					width:90%;
+					margin:5% 7% 5% 3%;
+				}
+			}
+		}
 	}
 	@media screen and (max-width: 1180px) {
 		.aboutUsTitle,.contactUsTitle{
@@ -519,6 +636,9 @@ a{
 				min-width: 100% !important;
 			    font-size: 12px;
     			line-height: 20px;
+    			.line{
+    				display:inline-block;
+    			}
 			}
 			.email{
 				padding:10px;
