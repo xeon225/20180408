@@ -521,12 +521,14 @@
 		  				<div class="text-blue">
 		  					こちらのフォームからお気軽に<br>お問い合わせください
 		  				</div>
-		  				<div>
-		  					<input type="text" style="width: 100%" class="margint10" placeholder="お名前"/>
-		  					<input type="text" style="width: 100%" class="margint10" placeholder="メールアドレス"/>
-		  					<textarea name="" id="" cols="30" rows="2" class="margint10" placeholder="メッセージ" style="width: 100%"></textarea>
-		  				</div>
-		  				<div class="text-center"><div class="btn blue small margint10" style="background-color: #102e83;border:0">送　信</div></div>
+		  				<form name='sendmail' action='mailto:wchdl@gts-japan.com'>
+			  				<div>
+			  					<input type="text" name='subject' style="width: 100%" class="margint10 emailName" placeholder="お名前"/>
+			  					<input type="text" name='email' style="width: 100%" class="margint10 emailAdd" placeholder="メールアドレス" />
+			  					<textarea name='body' id="" cols="30" rows="2" class="margint10 emailMess" placeholder="メッセージ" style="width: 100%"></textarea>
+			  				</div>
+			  				<div class="text-center"><button class="btn blue small margint10" style="background-color: #102e83;border:0">送　信</button>
+			  			</form>
 		  			</div>
 	  			</div>
 	  		</div>
