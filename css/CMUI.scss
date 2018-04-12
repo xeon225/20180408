@@ -195,6 +195,30 @@ a{
 			padding:10px 2%;
 			float:left;
 			width:50%;
+			.box{
+				border:1px solid #012697;
+				.boxTitle{
+					font-size:26px;
+					background:#012697;
+					line-height:26px;
+					padding:25px 40px 25px 20px;
+					i{
+						font-size:18px;
+						line-height:26px;
+					}
+				}
+				.boxCon{
+					height:160px;
+					background-size:auto 100%;
+					background-repeat:no-repeat;
+					background-position:right;
+					div{
+						padding:15px 25px;
+						font-size:18px;
+						line-height:28px;
+					}
+				}
+			}
 		}
 	}
 }
@@ -203,6 +227,9 @@ a{
 	margin:0 auto;
 	.contactUsTitle{
 		margin-top:30px;
+		.fs-25{
+			font-size:25px;
+		}
 	}
 	.contactUsLogo{
 		background:#012697;
@@ -255,6 +282,9 @@ a{
 	}
 	.wechat{
 		min-width:440px;
+		img{
+			width:90px;
+		}
 	}
 	.email{
 		max-width:320px;
@@ -483,6 +513,27 @@ a{
 				}
 			}
 		}
+		.aboutUsList{
+			.box{
+				.boxTitle{
+					font-size:24px !important;
+					line-height:24px !important;
+					padding:20px 40px 20px 20px !important;
+					i{
+						font-size:14px !important;
+						line-height:24px !important;
+					}
+				}
+				.boxCon{
+					height:140px !important;
+					div{
+						padding:10px 20px !important;
+						font-size:16px !important;
+						line-height:24px !important;
+					}
+				}
+			}
+		}
 	}
 	@media screen and (max-width: 512px) {
 	    .nav{
@@ -593,6 +644,27 @@ a{
 				}
 			}
 		}
+		.aboutUsList{
+			.box{
+				.boxTitle{
+					font-size:20px !important;
+					line-height:20px !important;
+					padding:15px 35px 15px 15px !important;
+					i{
+						font-size:12px !important;
+						line-height:22px !important;
+					}
+				}
+				.boxCon{
+					height:120px !important;
+					div{
+						padding:10px 15px !important;
+						font-size:12px !important;
+						line-height:20px !important;
+					}
+				}
+			}
+		}
 	}
 	@media screen and (max-width: 1180px) {
 		.aboutUsTitle,.contactUsTitle{
@@ -693,6 +765,11 @@ a{
 						}
 					}
 				}
+			}
+		}
+		.contactUs{
+			.fs-25{
+				font-size:14px;
 			}
 		}
 		.footNav{
