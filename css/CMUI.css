@@ -5442,13 +5442,13 @@ a {
     .content .wechatEmail > div:first-child {
       width: 100%; }
       .content .wechatEmail > div:first-child img {
-        width: 80%;
-        margin: 10%; }
+        width: 60%;
+        margin: 10% 20%; }
     .content .wechatEmail > div:last-child {
       width: 100%; }
     .content .wechatEmail .wechat {
       min-width: 100% !important;
-      font-size: 12px;
+      font-size: 14px;
       line-height: 20px; }
       .content .wechatEmail .wechat .line {
         display: inline-block; }
@@ -5466,9 +5466,10 @@ a {
       .content .ourServices .ourServicesList {
         padding: 20px 0 20px 20px; }
         .content .ourServices .ourServicesList .fs-25 {
-          font-size: 14px; }
+          font-size: 1em; }
         .content .ourServices .ourServicesList .fs-20 {
-          font-size: 12px; }
+          font-size: .8em;
+          line-height: 14px !important; }
         .content .ourServices .ourServicesList .img {
           width: 100px; }
         .content .ourServices .ourServicesList ul {
