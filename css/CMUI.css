@@ -5127,15 +5127,15 @@ a {
         width: 90%;
         margin: 5% 7% 5% 3%; }
   .contactUs .wechatEmail > div:first-child {
-    width: 60%; }
+    width: 55%; }
   .contactUs .wechatEmail > div:last-child {
-    width: 40%; }
+    width: 45%; }
   .contactUs .wechat {
     min-width: 440px; }
     .contactUs .wechat img {
       width: 90px; }
   .contactUs .email {
-    max-width: 320px; }
+    max-width: 360px; }
     .contactUs .email input, .contactUs .email textarea {
       border: 1px solid #102e83;
       padding: 5px; }
@@ -5443,18 +5443,21 @@ a {
       width: 100%; }
       .content .wechatEmail > div:first-child img {
         width: 60%;
-        margin: 10% 20%; }
+        margin: 5% 20%; }
     .content .wechatEmail > div:last-child {
       width: 100%; }
     .content .wechatEmail .wechat {
       min-width: 100% !important;
-      font-size: 14px;
-      line-height: 20px; }
+      font-size: 15px;
+      line-height: 20px;
+      text-align: center; }
       .content .wechatEmail .wechat .line {
-        display: inline-block; }
+        display: inline-block;
+        margin-top: 0 !important; }
     .content .wechatEmail .email {
       padding: 10px;
-      max-width: 100% !important; }
+      max-width: 100% !important;
+      float: none !important; }
     .content .ourServices {
       margin-top: 40px;
       padding-left: 0%; }

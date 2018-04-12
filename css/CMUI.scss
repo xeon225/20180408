@@ -274,10 +274,10 @@ a{
 	}
 	.wechatEmail{
 		&>div:first-child{
-			width:60%;
+			width:55%;
 		}
 		&>div:last-child{
-			width:40%;
+			width:45%;
 		}
 	}
 	.wechat{
@@ -287,7 +287,7 @@ a{
 		}
 	}
 	.email{
-		max-width:320px;
+		max-width:360px;
 		input,textarea{
 			border:1px solid #102e83;
 			padding:5px;
@@ -698,7 +698,7 @@ a{
 				width:100%;
 				img{
 					width:60%;
-					margin:10% 20%;
+					margin:5% 20%;
 				}
 			}
 			&>div:last-child{
@@ -706,15 +706,18 @@ a{
 			}
 			.wechat{
 				min-width: 100% !important;
-			    font-size: 14px;
+			    font-size: 15px;
     			line-height: 20px;
+    			text-align:center;
     			.line{
     				display:inline-block;
+    				margin-top:0 !important;
     			}
 			}
 			.email{
 				padding:10px;
 				max-width:100% !important;
+				float:none !important;
 			}
 		}
 		.ourServices{
