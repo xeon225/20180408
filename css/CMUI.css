@@ -4942,9 +4942,6 @@ input[type="button"].btn.block {
   box-sizing: border-box;
   color: #666; }
 
-* {
-  color: #535353; }
-
 a {
   cursor: pointer; }
 
@@ -5281,6 +5278,21 @@ a {
         border: 0;
         width: 10px;
         padding: 0; }
+    .section .about .aboutGts .aboutGtsTitle {
+      margin-top: 30px;
+      padding-bottom: 10px !important;
+      border-bottom: 1px solid #012697; }
+      .section .about .aboutGts .aboutGtsTitle img {
+        padding: 0 8%; }
+    .section .about .aboutGts .aboutGtsCon {
+      padding: 20px 10px;
+      font-size: 20px; }
+      .section .about .aboutGts .aboutGtsCon dl {
+        padding-bottom: 30px; }
+        .section .about .aboutGts .aboutGtsCon dl dt {
+          color: #012697; }
+        .section .about .aboutGts .aboutGtsCon dl dd {
+          padding-left: 120px; }
   @media screen and (max-width: 750px) {
     .section .about {
       padding: 0 15px; }
@@ -5317,7 +5329,28 @@ a {
           text-align: center;
           text-align: justify;
           text-justify: distribute-all-lines;
-          text-align-last: justify; } }
+          text-align-last: justify; }
+      .section .about .aboutGts .aboutGtsTitle {
+        margin-top: 20px;
+        padding-bottom: 5px !important;
+        border-bottom: 1px solid #012697; }
+        .section .about .aboutGts .aboutGtsTitle img {
+          padding: 0; }
+      .section .about .aboutGts .aboutGtsCon {
+        padding: 10px;
+        font-size: 16px; }
+        .section .about .aboutGts .aboutGtsCon dl {
+          padding-bottom: 20px; }
+          .section .about .aboutGts .aboutGtsCon dl dt {
+            position: static; }
+          .section .about .aboutGts .aboutGtsCon dl dd {
+            padding-left: 0px; }
+            .section .about .aboutGts .aboutGtsCon dl dd .box-span6, .section .about .aboutGts .aboutGtsCon dl dd .span6 {
+              width: 100%; }
+      .section .about .aboutGts .paddingb50, .section .about .aboutGts .paddingv50 {
+        padding-bottom: 30px !important; }
+        .section .about .aboutGts .paddingb50 img, .section .about .aboutGts .paddingv50 img {
+          width: 60%; } }
   @media screen and (max-width: 512px) {
     .section .about {
       padding: 0 10px; }
@@ -5362,7 +5395,27 @@ a {
           text-align-last: justify; }
         .section .about .aboutTable td:nth-of-type(2) {
           border: 0;
-          width: 5px; } }
+          width: 5px; }
+      .section .about .aboutGts .aboutGtsTitle {
+        margin-top: 10px;
+        padding-bottom: 5px !important; }
+        .section .about .aboutGts .aboutGtsTitle img {
+          padding: 0; }
+      .section .about .aboutGts .aboutGtsCon {
+        padding: 10px;
+        font-size: 12px; }
+        .section .about .aboutGts .aboutGtsCon dl {
+          padding-bottom: 10px; }
+          .section .about .aboutGts .aboutGtsCon dl dt {
+            position: static; }
+          .section .about .aboutGts .aboutGtsCon dl dd {
+            padding-left: 0px; }
+            .section .about .aboutGts .aboutGtsCon dl dd .box-span6, .section .about .aboutGts .aboutGtsCon dl dd .span6 {
+              width: 100%; }
+      .section .about .aboutGts .paddingb50, .section .about .aboutGts .paddingv50 {
+        padding-bottom: 10px !important; }
+        .section .about .aboutGts .paddingb50 img, .section .about .aboutGts .paddingv50 img {
+          width: 60%; } }
 
 .content {
   min-width: 375px; }

@@ -16,9 +16,7 @@
 // @import "vueAnimate/index";
 
 // @import "effect/hover";
-*{
-	color:#535353;
-}
+
 a{
 	cursor: pointer;
 }
@@ -477,8 +475,30 @@ a{
 	  		}
 		}
 		.aboutGts{
-			
+			.aboutGtsTitle{
+				margin-top:30px;
+				padding-bottom:10px !important;
+				border-bottom:1px solid #012697;
+				img{
+					padding:0 8%;
+				}
+			}
+			.aboutGtsCon{
+				padding:20px 10px;
+				font-size:20px;
+
+				dl{
+					padding-bottom:30px;
+					dt{
+						color:#012697;
+					}
+					dd{
+						padding-left:120px;
+					}
+				}
+			}
 		}
+
 	}
 	@media screen and (max-width: 750px) {
 		.about{
@@ -530,6 +550,38 @@ a{
 					text-justify:distribute-all-lines;
 					text-align-last:justify;
 		  		}
+			}
+			.aboutGts{
+				.aboutGtsTitle{
+					margin-top:20px;
+					padding-bottom:5px !important;
+					border-bottom:1px solid #012697;
+					img{
+						padding:0;
+					}
+				}
+				.aboutGtsCon{
+					padding:10px;
+					font-size:16px;
+					dl{
+						padding-bottom:20px;
+						dt{
+							position: static;
+						}
+						dd{
+							padding-left:0px;
+							.box-span6{
+								width:100%;
+							}
+						}
+					}
+				}
+				.paddingb50{
+					padding-bottom:30px !important;
+					img{
+						width:60%;
+					}
+				}
 			}
 		}
 	}
@@ -592,6 +644,37 @@ a{
 		  			border: 0;
 		  			width:5px;
 		  		}
+			}
+			.aboutGts{
+				.aboutGtsTitle{
+					margin-top:10px;
+					padding-bottom:5px !important;
+					img{
+						padding:0;
+					}
+				}
+				.aboutGtsCon{
+					padding:10px;
+					font-size:12px;
+					dl{
+						padding-bottom:10px;
+						dt{
+							position: static;
+						}
+						dd{
+							padding-left:0px;
+							.box-span6{
+								width:100%;
+							}
+						}
+					}
+				}
+				.paddingb50{
+					padding-bottom:10px !important;
+					img{
+						width:60%;
+					}
+				}
 			}
 		}
 	}
