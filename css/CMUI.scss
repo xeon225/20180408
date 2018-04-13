@@ -16,6 +16,7 @@
 // @import "vueAnimate/index";
 
 // @import "effect/hover";
+
 a{
 	cursor: pointer;
 }
@@ -415,6 +416,122 @@ a{
 		padding-bottom:20px;
 	}
 }
+
+.section{
+	max-width:1120px;
+	margin:0 auto;
+	.about{
+		padding:0 20px;
+		.sectionTitle{
+			margin-top:60px;
+			.fs-25{
+				font-size:25px;
+			}
+		}
+		.aboutCon{
+			margin-top:40px;
+			&>div:first-child{
+				width:30%;
+				img{
+					width:100%;
+				}
+			}
+			&>div:last-child{
+				width:66%;
+				font-size:20px;
+				line-height:36px;
+				div{
+					text-align:right;
+					margin-top:30px;
+				}
+			}
+		}
+	}
+	@media screen and (max-width: 750px) {
+		.about{
+			padding:0 15px;
+			.sectionTitle{
+				margin-top:40px;
+				img{
+					height:70px;
+				}
+				.fs-25{
+					font-size:20px;
+				}
+			}
+			.aboutCon{
+				margin-top:30px;
+				&>div:first-child{
+					width:40%;
+					img{
+						width:100%;
+					}
+					.fs-20{
+						font-size:16px;
+					}
+				}
+				&>div:last-child{
+					width:56%;
+					font-size:16px;
+					line-height:26px;
+					div{
+						margin-top:20px;
+					}
+					img{
+						width:60%;
+					}
+				}
+			}
+		}
+	}
+	@media screen and (max-width: 512px) {
+	    .about{
+			padding:0 10px;
+			.sectionTitle{
+				margin-top:20px;
+				img{
+					height:50px;
+				}
+				.fs-25{
+					font-size:16px;
+				}
+			}
+			.aboutCon{
+				margin-top:10px;
+				&>div:first-child{
+					width:100%;
+					text-align:center;
+					float:none;
+					img{
+						width:100%;
+					}
+					.fs-20{
+						font-size:16px;
+					}
+				}
+				&>div:last-child{
+					width:100%;
+					float:none;
+					font-size:14px;
+					line-height:18px;
+					margin-top:10px;
+					div{
+						margin-top:10px;
+					}
+					img{
+						width:50%;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+
+
+
+
 .content{
 	min-width:375px;
 	@media screen and (max-width: 1390px) {

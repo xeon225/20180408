@@ -5235,6 +5235,83 @@ a {
     border-radius: 10px;
     padding-bottom: 20px; }
 
+.section {
+  max-width: 1120px;
+  margin: 0 auto; }
+  .section .about {
+    padding: 0 20px; }
+    .section .about .sectionTitle {
+      margin-top: 60px; }
+      .section .about .sectionTitle .fs-25 {
+        font-size: 25px; }
+    .section .about .aboutCon {
+      margin-top: 40px; }
+      .section .about .aboutCon > div:first-child {
+        width: 30%; }
+        .section .about .aboutCon > div:first-child img {
+          width: 100%; }
+      .section .about .aboutCon > div:last-child {
+        width: 66%;
+        font-size: 20px;
+        line-height: 36px; }
+        .section .about .aboutCon > div:last-child div {
+          text-align: right;
+          margin-top: 30px; }
+  @media screen and (max-width: 750px) {
+    .section .about {
+      padding: 0 15px; }
+      .section .about .sectionTitle {
+        margin-top: 40px; }
+        .section .about .sectionTitle img {
+          height: 70px; }
+        .section .about .sectionTitle .fs-25 {
+          font-size: 20px; }
+      .section .about .aboutCon {
+        margin-top: 30px; }
+        .section .about .aboutCon > div:first-child {
+          width: 40%; }
+          .section .about .aboutCon > div:first-child img {
+            width: 100%; }
+          .section .about .aboutCon > div:first-child .fs-20 {
+            font-size: 16px; }
+        .section .about .aboutCon > div:last-child {
+          width: 56%;
+          font-size: 16px;
+          line-height: 26px; }
+          .section .about .aboutCon > div:last-child div {
+            margin-top: 20px; }
+          .section .about .aboutCon > div:last-child img {
+            width: 60%; } }
+  @media screen and (max-width: 512px) {
+    .section .about {
+      padding: 0 10px; }
+      .section .about .sectionTitle {
+        margin-top: 20px; }
+        .section .about .sectionTitle img {
+          height: 50px; }
+        .section .about .sectionTitle .fs-25 {
+          font-size: 16px; }
+      .section .about .aboutCon {
+        margin-top: 10px; }
+        .section .about .aboutCon > div:first-child {
+          width: 100%;
+          text-align: center;
+          float: none; }
+          .section .about .aboutCon > div:first-child img {
+            width: 100%; }
+          .section .about .aboutCon > div:first-child .fs-20 {
+            font-size: 16px; }
+        .section .about .aboutCon > div:last-child {
+          width: 100%;
+          float: none;
+          font-size: 14px;
+          line-height: 18px;
+          margin-top: 10px; }
+          .section .about .aboutCon > div:last-child div {
+            margin-top: 10px; }
+          .section .about .aboutCon > div:last-child img {
+            width: 50%; } }
+
 .content {
   min-width: 375px; }
   @media screen and (max-width: 1390px) {

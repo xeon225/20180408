@@ -20,34 +20,11 @@
 		/*font-family: MS PMINCHO;*/
 	}
 </style>
-<script>
-    $(document).ready(function(){
-      	$('.slider').bxSlider({
-	      	auto:true,
-	      	controls:false,
-	      	pager:false,
-	      	captions:false,
-	    });
-	    $(".menu").click(function(){
-	    	$('.navListM').slideToggle();
-	    });
-	    $(".navListM li>a").click(function(){
-	    	$(".navListM li .second").hide();
-	    	$(this).next(".second").slideToggle();
-	    })
-	    $('a.temp').click(function(){
-	    	$('.mask').show();
-	    })
-	    $('.maskClose').click(function(){
-	    	$('.mask').hide();
-	    })
-    });
-  </script>
-
 <body>
 	<div class="content">
 		<div class="pos-r">
-			<div class="nav pos-a top0 left0 right0 bottom0">
+			<script type="text/javascript" src="js/head.js"></script>
+<!-- 			<div class="nav pos-a top0 left0 right0 bottom0">
 				<div class="nav_bg pos-r">
 					<div class="logo_bg pos-r img-container pos-a"></div>
 					<div class="logo pos-a text-center">
@@ -329,7 +306,7 @@
 				  	</div>
 				</div>
 				<div class="pos-a bgTemp right0"></div>
-			</div>
+			</div> -->
 			<div class="slider">
 			    <div><img src="img/banner_01.jpg" width="100%" alt="" /></div>
 			    <div><img src="img/banner_02.jpg" width="100%" alt="" /></div>
@@ -506,12 +483,12 @@
 						<div class="clearfix">
 							<div class="float-left clearfix">
 								<div class="float-left">
-									<div class="line margint10"> WECHAT : </div><div class="text-blue line">xiaodao6999☞</div></div>
+									<div class="line margint10"> WECHAT : </div><div class="text-blue line" style="font-size: 14px;">xiaodao6999☞</div></div>
 								<div class="float-left paddingh10"><img src="img/img-wc_01.png" alt="" /></div>
 							</div>
 							<div class="float-left clearfix">
 								<div class="float-left">
-									<div class="line margint10"> 微信公众号 :</div><div class="text-blue line">日中商贸信息☞</div></div>
+									<div class="line margint10"> 微信公众号 :</div><div class="text-blue line" style="font-size: 14px;">日中商贸信息☞</div></div>
 								<div class="float-left paddingh10"><img src="img/img-wc_02.png" alt="" /></div>
 							</div>
 						</div>
@@ -534,9 +511,9 @@
 	  			</div>
 	  		</div>
 	  	</div>
-	  	
 	</div>
-	<div class="footer text-white">
+	<script type="text/javascript" src="js/foot.js"></script>
+<!-- 	<div class="footer text-white">
   		<div class="footNav">
   			<ul class="clearfix">
 	  			<li class="pos-r">
@@ -674,7 +651,8 @@
   		<div class="copyright text-center">
   			Copyright 2018© Goldenlight Trading Service All Rights Reserved
   		</div>
-	  	</div>
+  	</div> -->
+  	</div>
 	<div class="pos-f mask top0 left0 right0 bottom0">
 		<div class="maskBox bg-white text-center pos-a">
 			<div class="fs-20 paddingv50">システム構築中</div>
