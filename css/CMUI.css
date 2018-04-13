@@ -4942,6 +4942,9 @@ input[type="button"].btn.block {
   box-sizing: border-box;
   color: #666; }
 
+* {
+  color: #535353; }
+
 a {
   cursor: pointer; }
 
@@ -5257,6 +5260,27 @@ a {
         .section .about .aboutCon > div:last-child div {
           text-align: right;
           margin-top: 30px; }
+    .section .about .aboutTable {
+      margin: 40px 0; }
+      .section .about .aboutTable table {
+        width: 100%; }
+      .section .about .aboutTable table, .section .about .aboutTable td {
+        border-collapse: collapse; }
+      .section .about .aboutTable td {
+        border: 1px solid #152E83;
+        line-height: 46px;
+        font-size: 20px;
+        padding: 0 10px; }
+      .section .about .aboutTable td:nth-of-type(1) {
+        width: 150px;
+        text-align: center;
+        text-align: justify;
+        text-justify: distribute-all-lines;
+        text-align-last: justify; }
+      .section .about .aboutTable td:nth-of-type(2) {
+        border: 0;
+        width: 10px;
+        padding: 0; }
   @media screen and (max-width: 750px) {
     .section .about {
       padding: 0 15px; }
@@ -5281,7 +5305,19 @@ a {
           .section .about .aboutCon > div:last-child div {
             margin-top: 20px; }
           .section .about .aboutCon > div:last-child img {
-            width: 60%; } }
+            width: 60%; }
+      .section .about .aboutTable {
+        margin: 30px 0; }
+        .section .about .aboutTable td {
+          line-height: 32px;
+          font-size: 16px;
+          padding: 0 8px; }
+        .section .about .aboutTable td:nth-of-type(1) {
+          width: 120px;
+          text-align: center;
+          text-align: justify;
+          text-justify: distribute-all-lines;
+          text-align-last: justify; } }
   @media screen and (max-width: 512px) {
     .section .about {
       padding: 0 10px; }
@@ -5310,7 +5346,23 @@ a {
           .section .about .aboutCon > div:last-child div {
             margin-top: 10px; }
           .section .about .aboutCon > div:last-child img {
-            width: 50%; } }
+            width: 50%; }
+      .section .about .aboutTable {
+        margin: 20px 0; }
+        .section .about .aboutTable td {
+          border: 1px solid #152E83;
+          line-height: 26px;
+          font-size: 14px;
+          padding: 5px; }
+        .section .about .aboutTable td:nth-of-type(1) {
+          width: 90px;
+          text-align: center;
+          text-align: justify;
+          text-justify: distribute-all-lines;
+          text-align-last: justify; }
+        .section .about .aboutTable td:nth-of-type(2) {
+          border: 0;
+          width: 5px; } }
 
 .content {
   min-width: 375px; }

@@ -133,6 +133,6 @@ document.writeln("	  				</div>");
 document.writeln("	  			</li>");
 document.writeln("	  		</ul>");
 document.writeln("  		</div>");
-document.writeln("  		<div class=\'copyright text-center\'>");
+document.writeln("  		<div class=\'copyright text-center text-white\'>");
 document.writeln("  			Copyright 2018© Goldenlight Trading Service All Rights Reserved");
 document.writeln("  		</div>");
