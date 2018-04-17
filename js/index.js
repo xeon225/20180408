@@ -14,12 +14,11 @@ $(document).ready(function(){
     $(".navListM li>a").click(function(){
     	$(".navListM li .second").hide();
     	$(this).next(".second").slideToggle();
-    })
+    });
     $('.temp').click(function(){
     	$('.mask').show();
-    })
+    });
     $('.maskClose').click(function(){
     	$('.mask').hide();
-    })
-    
+    });
 });
