@@ -5437,10 +5437,11 @@ a {
         height: 2px; }
       .sectionOther .other .otherTitle .iconT {
         position: absolute;
-        top: 120px; }
+        top: 30px; }
         .sectionOther .other .otherTitle .iconT i {
           font-size: 11vw;
-          color: #012697; }
+          color: #012697;
+          margin-top: 30px; }
     .sectionOther .other .otherCon {
       padding-left: 25%; }
       .sectionOther .other .otherCon .img-left {
@@ -5465,9 +5466,12 @@ a {
           position: relative;
           top: 0;
           padding-bottom: 15px; }
+          .sectionOther .other .otherTitle .iconT img {
+            display: none; }
           .sectionOther .other .otherTitle .iconT i {
             font-size: 11vw;
-            color: #012697; }
+            color: #012697;
+            margin-top: 0; }
           .sectionOther .other .otherTitle .iconT span {
             position: relative; }
             .sectionOther .other .otherTitle .iconT span:after {

@@ -702,10 +702,11 @@ a{
 			}
 			.iconT{
 			    position: absolute;
-    			top: 120px;
+    			top: 30px;
     			i{
 					font-size:11vw;
 					color:#012697;
+					margin-top:30px;
 				}
 			}
 		}
@@ -738,9 +739,13 @@ a{
 				    position: relative;
 				    top:0;
 				    padding-bottom:15px;
+				    img{
+				    	display:none;
+				    }
 	    			i{
 						font-size:11vw;
 						color:#012697;
+						margin-top:0;
 					}
 					span{
 						position: relative;

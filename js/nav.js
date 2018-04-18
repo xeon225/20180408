@@ -10,6 +10,10 @@ var icon = {
         travel:{
             name: 'travel',
             iconName:'travel'
+        },
+        travel:{
+            name: 'health',
+            iconName:'health'
         }
     }
 var data = {
@@ -76,11 +80,11 @@ var data = {
     			},
     			{
     				"name":"旅行事業",
-    				"url":""
+    				"url":"travel.html"
     			},
     			{
     				"name":"健診・治療・美容事業",
-    				"url":""
+    				"url":"health.html"
     			}
     		]
     	},
