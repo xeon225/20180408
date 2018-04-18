@@ -5417,6 +5417,88 @@ a {
         .section .about .aboutGts .paddingb50 img, .section .about .aboutGts .paddingv50 img {
           width: 60%; } }
 
+.sectionOther {
+  max-width: 1470px;
+  margin: 0 auto; }
+  .sectionOther .other {
+    margin-top: 70px; }
+    .sectionOther .other .otherTitle {
+      width: 24%;
+      padding-right: 1%;
+      float: left;
+      padding-top: 30px; }
+      .sectionOther .other .otherTitle:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 55%;
+        background: #012697;
+        height: 2px; }
+      .sectionOther .other .otherTitle .iconT {
+        position: absolute;
+        top: 120px; }
+        .sectionOther .other .otherTitle .iconT i {
+          font-size: 11vw;
+          color: #012697; }
+    .sectionOther .other .otherCon {
+      padding-left: 25%; }
+      .sectionOther .other .otherCon .img-left {
+        float: left;
+        width: 60%; }
+      .sectionOther .other .otherCon .img-right {
+        float: left;
+        width: 40%; }
+  @media screen and (max-width: 512px) {
+    .sectionOther .other {
+      margin-top: 20px; }
+      .sectionOther .other .otherTitle {
+        width: 100%;
+        padding-right: 0%;
+        float: none;
+        padding-top: 0px;
+        position: relative;
+        text-align: center; }
+        .sectionOther .other .otherTitle:after {
+          content: none; }
+        .sectionOther .other .otherTitle .iconT {
+          position: relative;
+          top: 0;
+          padding-bottom: 15px; }
+          .sectionOther .other .otherTitle .iconT i {
+            font-size: 11vw;
+            color: #012697; }
+          .sectionOther .other .otherTitle .iconT span {
+            position: relative; }
+            .sectionOther .other .otherTitle .iconT span:after {
+              content: '';
+              position: absolute;
+              bottom: -10px;
+              left: 0;
+              width: 100%;
+              background: #012697;
+              height: 2px; }
+        .sectionOther .other .otherTitle img {
+          height: 20px; }
+      .sectionOther .other .otherCon {
+        padding-left: 0%;
+        margin-top: 10px;
+        padding: 10px; }
+        .sectionOther .other .otherCon .img-left {
+          float: none;
+          width: 100%; }
+        .sectionOther .other .otherCon .img-right {
+          float: none;
+          width: 100%; }
+        .sectionOther .other .otherCon .imgText img {
+          max-height: 20px; }
+        .sectionOther .other .otherCon .margint30, .sectionOther .other .otherCon .marginv30 {
+          margin-top: 15px; }
+        .sectionOther .other .otherCon .lh-32 {
+          line-height: 24px; }
+        .sectionOther .other .otherCon .fs-20 {
+          font-size: 14px; } }
+
 .content {
   min-width: 375px; }
   @media screen and (max-width: 1390px) {

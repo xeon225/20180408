@@ -1,4 +1,17 @@
-
+var icon = {
+        welfare:{
+            name: 'our_welfare',
+            iconName:'welfare'
+        },
+        ma:{
+            name: 'ma',
+            iconName:'ma'
+        },
+        travel:{
+            name: 'travel',
+            iconName:'travel'
+        }
+    }
 var data = {
     "navData": [
     	{
@@ -47,7 +60,7 @@ var data = {
     			},
     			{
     				"name":"福祉事業",
-    				"url":""
+    				"url":"welfare.html"
     			},
     			{
     				"name":"OEM事業",
@@ -55,7 +68,7 @@ var data = {
     			},
     			{
     				"name":"M&A事業",
-    				"url":""
+    				"url":"ma.html"
     			},
     			{
     				"name":"移民投資事業",
@@ -97,6 +110,7 @@ var data = {
 function nav(data){
 	var data = data.navData,
 		html = '<ul class="clearfix">',
+        moble = '<ul class="clearfix">',
 		urlOne,
 		urlTwo,
 		classOne,
@@ -106,17 +120,17 @@ function nav(data){
 	for(var i = 0; i < data.length; i++)
 	{
 		urlOne = data[i].url == '' ? '#' : data[i].url;
-		classOne = data[i].url == '' && 'temp';
+		classOne = data[i].url == '' ? 'temp' : '';
 
 
 		html += '<li class="pos-r">';
-		html += '<a href="' + urlOne + '" class="' + classOne + '">'+data[i].title+'</a>';
+		html += '<a href="' + urlOne + '" class="one ' + classOne + '">'+data[i].title+'</a>';
 		html += '<div class="second">';
 		dataTwo = data[i].second;
 		for(var j = 0; j < data[i].second.length; j++)
 		{
-			urlTwo = data[i].url == '' ? '#' : data[i].url;
-			classTwo = data[i].url == '' && 'temp';
+			urlTwo = dataTwo[j].url == '' ? '#' : dataTwo[j].url;
+			classTwo = dataTwo[j].url == '' ? 'temp' : '';
 			html += '<div>';
 			html += '<a href="' + urlTwo + '" class="' + classTwo + '">';
 			html += '<i class="icon-x_right a"></i><i class="icon-x_rightFill hover"></i>'+ dataTwo[j].name +'';
@@ -131,5 +145,6 @@ function nav(data){
 	
 	$('#navList').html(html);
 	$('#navListM').html(html); 
-	$('#navListF').html(html); 
+	$('#navListF').html(html);
+    $('#navListM .one').removeClass('temp').removeAttr('href');
 }

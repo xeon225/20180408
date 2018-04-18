@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width,user-scalable=yes" />
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<link rel="stylesheet" type="text/css" href="css/cmui.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</head>
+<style>
+	body{
+		font-family:'小塚ゴシック Pr6N';
+	}
+</style>
+
+<body>
+	<div class="content" id="app">
+		<div class="pos-r">
+			<div class="nav pos-a top0 left0 right0 bottom0">
+				<div class="nav_bg pos-r">
+					<div class="logo_bg pos-r img-container pos-a"></div>
+					<div class="logo pos-a text-center">
+						<img src="img/logo.png" alt="" />
+					</div>
+					<div class="nav_title paddingt30 pos-a float-left">
+						<img src="img/title-nav.png" alt="" />
+					</div>
+					<div class="menu pos-a right10 top10 dis-n" style="z-index: 11">
+						<i class="icon-x_menu text-white" style="font-size: 30px;"></i>
+					</div>
+					<nav></nav>
+					<div class="navList float-right pos-r" id="navList">
+				  	</div>
+				  	<div class="navListM float-right pos-r" id="navListM">
+				  	</div>
+				</div>
+				<div class="pos-a bgTemp right0"></div>
+			</div>
+			<div>
+				<img :src="'img/banner-'+name+'.jpg'" width="100%" alt="" />
+			</div>
+		</div>
+		<div class="sectionOther">
+			<div class="other clearfix pos-r">
+				<div class="otherTitle pos-a">
+					<div class="iconT"><span><i :class="'icon-nav_'+iconName"></i></span></div>
+					<img :src="'img/title-'+name+'_01.png'" alt="" />
+
+				</div>
+				<div class="otherCon">
+					<div class="imgText"><img :src="'img/text-'+name+'_01.png'" alt="" /></div>
+					<div class="margint30">
+						<img :src="'img/img-'+name+'_01.png'" width="100%" alt="" />
+					</div>
+					<div class="margint30 lh-32 fs-20">
+						本業務は、当社が土地の仕入れから、集合住宅並びに戸建住宅の開発、企画・設計、工事監理、販売まで全ての業務を行うものです。<br>
+土地情報を有効に活用し、首都圏（東京都、千葉県、埼玉県及び神奈川県）を中心に、マンション（ファミリー・コンパクト）、タウンハウス、戸建住宅等、多彩な加工手法で商品開発をしています。<br>
+建物のトータルデザインからディテールに至るまでの意匠にこだわり、また構造、耐震、耐火、省エネ、エコ（低ホルムアルデヒド）、空気環境、遮音などの面にも配慮しています。
+					</div>
+					<div class="margint30 imgText"><img :src="'img/text-'+name+'_02.png'" alt="" /></div>
+					<div class="margint30">
+						<img :src="'img/img-'+name+'_02.png'" width="100%" alt="" />
+					</div>
+					<div class="margint30 lh-32 fs-20">
+						本業務は、当社が土地の仕入れから、集合住宅並びに戸建住宅の開発、企画・設計、工事監理、販売まで全ての業務を行うものです。<br>
+土地情報を有効に活用し、首都圏（東京都、千葉県、埼玉県及び神奈川県）を中心に、マンション（ファミリー・コンパクト）、タウンハウス、戸建住宅等、多彩な加工手法で商品開発をしています。<br>
+建物のトータルデザインからディテールに至るまでの意匠にこだわり、また構造、耐震、耐火、省エネ、エコ（低ホルムアルデヒド）、空気環境、遮音などの面にも配慮しています。
+					</div>
+					<div class="margint30 imgText"><img :src="'img/text-'+name+'_03.png'" alt="" /></div>
+					<div class="margint30">
+						<img :src="'img/img-'+name+'_03.png'" width="100%" alt="" />
+					</div>
+					<div class="margint30 lh-32 fs-20">
+						本業務は、当社が土地の仕入れから、集合住宅並びに戸建住宅の開発、企画・設計、工事監理、販売まで全ての業務を行うものです。<br>
+土地情報を有効に活用し、首都圏（東京都、千葉県、埼玉県及び神奈川県）を中心に、マンション（ファミリー・コンパクト）、タウンハウス、戸建住宅等、多彩な加工手法で商品開発をしています。<br>
+建物のトータルデザインからディテールに至るまでの意匠にこだわり、また構造、耐震、耐火、省エネ、エコ（低ホルムアルデヒド）、空気環境、遮音などの面にも配慮しています。
+					</div>
+				</div>
+			</div>
+		</div>
+  		<div class='footer text-white'>
+	  		<div class='footNav' id="navListF">
+	  		</div>
+	  		<div class='copyright text-center text-white'>
+	  			Copyright 2018© Goldenlight Trading Service All Rights Reserved
+	  		</div>
+		</div>
+	</div>
+	<div class="pos-f mask top0 left0 right0 bottom0">
+		<div class="maskBox bg-white text-center pos-a">
+			<div class="fs-20 paddingv50">システム構築中</div>
+			<div class="btn blue big maskClose">閉じる</div>
+		</div>
+	</div>
+</body>
+<script>
+	var app = new Vue({
+	  el: '#app',
+	  data: icon.ma
+	})
+</script>
+</html>
