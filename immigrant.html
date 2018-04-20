@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width,user-scalable=yes" />
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<link rel="stylesheet" type="text/css" href="css/cmui.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</head>
+<style>
+	body{
+		font-family:'小塚ゴシック Pr6N';
+	}
+</style>
+
+<body>
+	<div class="content" id="app">
+		<div class="pos-r">
+			<div class="nav pos-a top0 left0 right0 bottom0">
+				<div class="nav_bg pos-r">
+					<div class="logo_bg pos-r img-container pos-a"></div>
+					<div class="logo pos-a text-center">
+						<img src="img/logo.png" alt="" />
+					</div>
+					<div class="nav_title paddingt30 pos-a float-left">
+						<img src="img/title-nav.png" alt="" />
+					</div>
+					<div class="menu pos-a right10 top10 dis-n" style="z-index: 11">
+						<i class="icon-x_menu text-white" style="font-size: 30px;"></i>
+					</div>
+					<nav></nav>
+					<div class="navList float-right pos-r" id="navList">
+				  	</div>
+				  	<div class="navListM float-right pos-r" id="navListM">
+				  	</div>
+				</div>
+				<div class="pos-a bgTemp right0"></div>
+			</div>
+			<div>
+				<img :src="'img/banner-'+name+'.jpg'" width="100%" alt="" />
+			</div>
+		</div>
+		<div class="sectionOther">
+			<div class="other clearfix pos-r">
+				<div class="otherTitle pos-a">
+					<div class="iconT"><img :src="'img/title-'+name+'_01.png'" alt="" style="opacity: 0;"/><span><i :class="'icon-nav_'+iconName"></i></span></div>
+					<picture>  
+					    <source :srcset="'img/title-'+name+'_01_moble.png'" media="(max-width: 512px)">  
+					    <img :src="'img/title-'+name+'_01.png'" alt="" />
+					</picture> 
+				</div>
+				<div class="otherCon">
+					<div class="imgText"><img :src="'img/text-'+name+'_01.png'" alt="" /></div>
+					<div class="margint30">
+						<img :src="'img/img-'+name+'_01.png'" width="100%" alt="" />
+					</div>
+					<dl :class="name+'_text'" class="margint30">
+						<dt style="color:#012697">経営管理ビザの主な要件</dt>
+						<dd>
+							<span class="pos-r">事業を行うための事務所が日本にあること。</span>
+<span class="pos-r">経営者以外に2人以上の従業員がいること。</span>
+<span class="pos-r">上記の従業員は日本人、永住権等の資格がある者でなければならない。</span>
+<span class="pos-r">新規事業の場合は綿密な事業計画が立っていること。</span>
+<span class="pos-r">従業員を雇用保険に加入させること。</span>
+<span class="pos-r">新規事業であるため従業員がいない場合、年間の投資額が500万円以上であること。</span>
+<span class="pos-r">既にある会社の取締役などに就任する場合は、事業について経営管理の経験が3年以上あること、かつ日本人が受取るのと同等の報酬を受取ること。</span>
+</dd>
+					</dl>
+					<div class="imgText margint30">
+						<img :src="'img/text-'+name+'_02.png'" alt="" />
+					</div>
+					<div :class="name+'_textList'" class="margint30">
+						<div class="text-center fs-34">法务省入国管理局日有关永住许可的审批标准<br>2017年4月26</div>
+						<div class="fs-34 margint30">
+							1．法律上的条件 
+						</div>
+<div class="fs-22">
+<span>◆品行优良</span><br>
+作为生活在日本社会的一员，遵纪守法，日常生活与社会相融合。<br>
+<span>◆具有足以独立生活的资产或技能</span><br>
+其日常生活不成为公共的负担，从其所有的资产或技能等可预见其未来生活安定。<br>
+<span>◆申请人的永住与日本国的利益相一致</span><br>
+a).原则上持续在日本居留10年以上。但在此期间，必须以就业签证或居住签证
+在日本居留5年以上。<br>
+b).未被处过罚款或徒刑，履行纳税义务等公共义务。<br>
+c).现有的居留签证应是出入国管理局及难民认定法施行规则附表第2所规定的
+时间最长的居留签证<br>
+d).从公共卫生的角度来看无有害的可能性。<br>
+★日本人、永住者或特别永住者的配偶或子女无需符合(1)和(2)的条件。此外，
+已被认定为难民的人无需符合(2)的条件。
+</div>
+<div class="fs-34">
+	2．有关原则上必须居留10年的特例
+</div>
+<div class="fs-22">
+<span>◆</span>若是日本人、永住者或特别永住者的配偶，其实际婚姻生活必须持续3年以上，并继续在日本居留1年以上；若是其子女等，则必须持续在日本居留1年以上。<br>
+<span>◆以“定住者”的居留签证持续在日本居留5年以上。</span><br>
+<span>◆被认定为难民的人，必须在认定后持续5年以上居留在日本。</span><br>
+<span>◆在外交、社会、经济、文化等领域为我国作出的贡献得到承认，并在我国持续居留5年以上。</span><br>
+★请参看有关“对我国的贡献”的标准。<br>
+<span>◆在根据地区再生法（2005年法律第24号）第5条第16款认定的地区再生计
+划中标明属于该计划内区域内的公私机构，从事符合根据出入国管理及难民认定
+法第7条第1款第2项规定对该法附表1之表5栏所列活动作出规定之事宜（1990
+年法务省告示第131号）中第36项或第37项的活动，通过该活动对我国作出的
+贡献得到承认者，并在我国持续居留3年以上</span><br>
+<span>◆根据就出入境管理及难民认定法附表1之表2的高级人才栏中的标准作出规定
+之省令（以下简称“高级人才省令”）规定计算所得分值在70分以上，且符合下列
+条件者：</span><br>
+a).作为“外国高级人才”在我国持续居留3年以上。<br>
+b).在我国持续居留3年以上，并在以永住许可申请之日起3年前已在依高级人才省令规定计算分值时被认定为得分在70分以上<br>
+<span>◆根据高级人才省令规定计算所得分值在80分以上，且符合下列条件者：</span><br>
+a).作为“外国高级人才”在我国持续居留1年以上。<br>
+b).在我国持续居留1年以上，并在以永住许可申请之日起1年前已在依高级人才省令规定计算分值时被认定为得分在80分以上<br>
+（注1）关于本审批标准，如果目前拥有“3年”居留期限，则作为上述１(3)的c)的“时间最长的居留签证”来处理。<br>
+（注2）上述2.(6)的a).中的“外国高级人才”是指分值计算结果被认定为70分以上并居留在我国者，上述2.(7)的a).中的“外国高级人才”是指分值计算结果被认定为80分以上并居留在我国者。
+</div>
+					</div>
+					<div class="margint30 imgText"><img :src="'img/text-'+name+'_03.png'" alt="" /></div>
+					<div class="margint30">
+						<img :src="'img/img-'+name+'_02.png'" width="100%" alt="" />
+					</div>
+					<div :class="name+'_iconList'">
+						<div class="clearfix pos-r margint30">
+							<img :src="'img/icon-'+name+'_01.png'" alt="" class="float-left pos-a left0 top0" />
+							<div class="float-left fs-34 iconRight margint10">我们事务所有办理签证的专家，能增大签证被许可的可能性</div>
+						</div>
+						<div class="margint30 fs-22">
+							由于申请人附有举证说明责任，我们在制作材料时会明确并详细说明该申请是应该被许可的。所提交资料的质量会直接影响到最终的审批结果。
+						</div>
+						<div class="clearfix pos-r margint30">
+							<img :src="'img/icon-'+name+'_02.png'" alt="" class="float-left pos-a left0 top0" />
+							<div class="float-left fs-34 iconRight margint10">根据您目前的现状，为您选择最合适的签证种类</div>
+						</div>
+						<div class="margint30 fs-22">
+							详细了解业务内容并研究相关要件后，为您介绍提出申请所必需的材料。
+						</div>
+						<div class="clearfix pos-r margint30">
+							<img :src="'img/icon-'+name+'_03.png'" alt="" class="float-left pos-a left0 top0" />
+							<div class="float-left fs-34 iconRight margint10">全国对应，免除您去入国管理局的奔波之苦</div>
+						</div>
+						<div class="margint30 fs-22">
+							行政书士会前往入国管理局代为申请。<br>
+札幌、仙台、水户、高崎、大宫、千叶、立川、川崎、横滨、新泻、金泽、静冈、名古屋、京都、大阪、神户、松山、广岛、松山、北九州、福冈、那霸等全国的入国管理局都可以对应。 
+						</div>
+						<div class="clearfix pos-r margint30">
+							<img :src="'img/icon-'+name+'_04.png'" alt="" class="float-left pos-a left0 top0" />
+							<div class="float-left fs-34 iconRight margint10">中国籍工作人员为您提供免费的翻译服务</div>
+						</div>
+						<div class="margint30 fs-22">
+							您到弊社咨询时，中国籍员工能为您免费口译，您可用中文自由地进行咨询。
+						</div>
+						<div class="clearfix pos-r margint30">
+							<img :src="'img/icon-'+name+'_05.png'" alt="" class="float-left pos-a left0 top0" />
+							<div class="float-left fs-34 iconRight margint10">我们是综合性的服务会社，所以我们能帮客户解决一切烦恼</div>
+						</div>
+						<div class="margint30 fs-22">
+							除签证之外，税务，法律相关等方面我们均可以为您提供一站式的服务。
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  		<div class='footer text-white'>
+	  		<div class='footNav' id="navListF">
+	  		</div>
+	  		<div class='copyright text-center text-white'>
+	  			Copyright 2018© Goldenlight Trading Service All Rights Reserved
+	  		</div>
+		</div>
+	</div>
+	<div class="pos-f mask top0 left0 right0 bottom0">
+		<div class="maskBox bg-white text-center pos-a">
+			<div class="fs-20 paddingv50">システム構築中</div>
+			<div class="btn blue big maskClose">閉じる</div>
+		</div>
+	</div>
+</body>
+<script>
+	var app = new Vue({
+	  el: '#app',
+	  data: icon.immigrant
+	})
+</script>
+</html>

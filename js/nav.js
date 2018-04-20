@@ -7,13 +7,25 @@ var icon = {
             name: 'ma',
             iconName:'ma'
         },
+        oem:{
+            name: 'oem',
+            iconName:'oem'
+        },
         travel:{
             name: 'travel',
             iconName:'travel'
         },
-        travel:{
+        health:{
             name: 'health',
             iconName:'health'
+        },
+        immigrant:{
+            name: 'immigrant',
+            iconName:'immigrant'
+        },
+        earth:{
+            name: 'earth',
+            iconName:'earth'
         }
     }
 var data = {
@@ -60,7 +72,7 @@ var data = {
     			},
     			{
     				"name":"環境事業",
-    				"url":""
+    				"url":"earth.html"
     			},
     			{
     				"name":"福祉事業",
@@ -76,7 +88,7 @@ var data = {
     			},
     			{
     				"name":"移民投資事業",
-    				"url":""
+    				"url":"immigrant.html"
     			},
     			{
     				"name":"旅行事業",
