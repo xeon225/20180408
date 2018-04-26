@@ -1,14 +1,13 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('font/icomoon.eot?qvxdhz');
-  src:  url('font/icomoon.eot?qvxdhz#iefix') format('embedded-opentype'),
-    url('font/icomoon.ttf?qvxdhz') format('truetype'),
-    url('font/icomoon.woff?qvxdhz') format('woff'),
-    url('font/icomoon.svg?qvxdhz#icomoon') format('svg');
+  src:  url('font/icomoon.eot?mpgdkt');
+  src:  url('font/icomoon.eot?mpgdkt#iefix') format('embedded-opentype'),
+    url('font/icomoon.ttf?mpgdkt') format('truetype'),
+    url('font/icomoon.woff?mpgdkt') format('woff'),
+    url('font/icomoon.svg?mpgdkt#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -24,36 +23,57 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-nav_health:before {
-  content: "\e903";
-}
-.icon-nav_travel:before {
-  content: "\e904";
-}
-.icon-nav_immigrant:before {
-  content: "\e905";
-}
-.icon-nav_ma:before {
-  content: "\e906";
-}
-.icon-nav_oem:before {
-  content: "\e907";
-}
-.icon-nav_welfare:before {
-  content: "\e908";
-}
-.icon-nav_estate:before {
+.icon-headset:before {
   content: "\e909";
 }
-.icon-nav_earth:before {
+.icon-cake:before {
   content: "\e90a";
 }
-.icon-x_menu:before {
-  content: "\e902";
+.icon-swimming:before {
+  content: "\e90b";
 }
-.icon-x_rightFill:before {
+.icon-hik:before {
+  content: "\e90c";
+}
+.icon-table:before {
+  content: "\e90d";
+}
+.icon-basketball:before {
+  content: "\e90e";
+}
+.icon-tea:before {
+  content: "\e90f";
+}
+.icon-book:before {
+  content: "\e910";
+}
+.icon-phone:before {
+  content: "\e906";
+}
+.icon-email:before {
+  content: "\e907";
+}
+.icon-spouse:before {
+  content: "\e908";
+}
+.icon-dang:before {
+  content: "\e900";
+}
+.icon-addres:before {
   content: "\e901";
 }
-.icon-x_right:before {
-  content: "\e900";
+.icon-gao:before {
+  content: "\e902";
+}
+.icon-xueli:before {
+  content: "\e903";
+}
+.icon-age:before {
+  content: "\e904";
+}
+.icon-sex:before {
+  content: "\e905";
+}
+.icon-radiobox:before {
+  content: "\e973";
 }

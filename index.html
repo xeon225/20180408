@@ -9,7 +9,7 @@
 <meta http-equiv="Cache-Control" content="no-cache"/>
 <link rel="stylesheet" type="text/css" href="css/cmui.css">
 <script src="js/jquery.min.js"></script>
-<script src="js/index.js"></script>
+<script src='js/vue.js'></script>
 </head>
 <style>
 	html{
@@ -31,14 +31,141 @@
 				<dl>
 					<dt>Skills</dt>
 					<dd class="flex-container left">
-						<div>English</div>
-						<div class="skill_list"><span class="current"></span></div>
+						<div class="skill_name">English</div>
+						<div class="skill_list flex-container flex1">
+							<span :class="item == 1 && 'bgColor'" v-for="item in skill"></span>
+						</div>
+					</dd>
+					<dd class="flex-container left">
+						<div class="skill_name">Word</div>
+						<div class="skill_list flex-container flex1">
+							<span :class="item == 1 && 'bgColor'" v-for="item in word"></span>
+						</div>
+					</dd>
+					<dd class="flex-container left">
+						<div class="skill_name">Excel</div>
+						<div class="skill_list flex-container flex1">
+							<span :class="item == 1 && 'bgColor'" v-for="item in excel"></span>
+						</div>
 					</dd>
 				</dl>
-
+			</div>
+			<div class="about">
+				<div class="flex-container left marginb20">
+					<div class="iconBg bgColor flex-container center"><i class="icon-sex"></i></div>
+					<div>
+						<div class="fs-18 lh-28">女</div>
+						<div class="fs-12 textColor">性别</div>
+					</div>
+				</div>
+				<div class="flex-container left marginb20">
+					<div class="iconBg bgColor flex-container center"><i class="icon-age"></i></div>
+					<div>
+						<div class="fs-18 lh-28">32岁</div>
+						<div class="fs-12 textColor">年龄</div>
+					</div>
+				</div>
+				<div class="flex-container left marginb20">
+					<div class="iconBg bgColor flex-container center"><i class="icon-xueli"></i></div>
+					<div>
+						<div class="fs-18 lh-28">研究生</div>
+						<div class="fs-12 textColor">学历</div>
+					</div>
+				</div>
+				<div class="flex-container left marginb20">
+					<div class="iconBg bgColor flex-container center"><i class="icon-spouse"></i></div>
+					<div>
+						<div class="fs-18 lh-28">已婚已育</div>
+						<div class="fs-12 textColor">婚育</div>
+					</div>
+				</div>
+				<div class="flex-container left marginb20">
+					<div class="iconBg bgColor flex-container center"><i class="icon-gao"></i></div>
+					<div>
+						<div class="fs-18 lh-28">165cm</div>
+						<div class="fs-12 textColor">身高</div>
+					</div>
+				</div>
+				<div class="flex-container left marginb20">
+					<div class="iconBg bgColor flex-container center"><i class="icon-addres"></i></div>
+					<div>
+						<div class="fs-18 lh-28">大连市</div>
+						<div class="fs-12 textColor">家庭地址</div>
+					</div>
+				</div>
+				<div class="flex-container left marginb20">
+					<div class="iconBg bgColor flex-container center"><i class="icon-phone"></i></div>
+					<div>
+						<div class="fs-18 lh-28">13940976026</div>
+						<div class="fs-12 textColor">手机</div>
+					</div>
+				</div>
+				<div class="flex-container left marginb20">
+					<div class="iconBg bgColor flex-container center"><i class="icon-email"></i></div>
+					<div>
+						<div class="fs-18 lh-28">309606442@qq.com</div>
+						<div class="fs-12 textColor">邮箱</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="app_right"></div>
+		<div class="app_right flex1">
+			<div class="rightBg">
+				<div class="fs-30">Experience</div>
+				<div class="flex-container block top left margint20">
+					<div class="date fs-18">2017.11 - till now</div>
+					<span class="icon-radiobox textColor paddingh20"></span>
+					<div class="flex1">
+						<div class="fs-20 lh-1">
+							大商集团总部机关
+						</div>
+						<div class="fs-12 textColor">
+							员工关系主管
+						</div>
+						<div class="fs-12 margint5 lh-20">
+							有效分析招聘需求，提高招聘效度<br>
+明确目标岗位需求，通过对用人单位的了解，有效沟通，提高人岗匹配度；<br>
+完善招聘流程，设计招聘工作用表，提高工作效度。<br>
+完成所搜集人选的初面、评估、甄选，分析人选的优、劣势，进行电话及现场面试并推荐；<br>
+候选人背景调查、offer、面试组织流程把控、效果统计分析。
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="rightBg margint60">
+				<div class="fs-30">Education</div>
+				<div class="flex-container top left margint20">
+					<div class="date fs-18">2008.9 - 2010.7</div>
+					<span class="icon-radiobox textColor paddingh20"></span>
+					<div class="flex1">
+						<div class="fs-20 lh-1">
+							东北大学
+						</div>
+						<div class="fs-12 textColor">
+							社会保障（研究生）
+						</div>
+						<div class="fs-12 margint5 lh-20">
+							辽宁，沈阳
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="rightBg margint60">
+				<div class="fs-30">Interests</div>
+				<div class="clearfix">
+					<div class="box-span3 text-center margint40">
+						<i class="icon-book textColor fs-60"></i>
+						<div class="fs-18 margint20">看书</div>
+					</div>
+					<div class="box-span3 text-center margint40">
+						<i class="icon-swimming textColor fs-60"></i>
+						<div class="fs-18 margint20">游泳</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+<script src="js/index.js"></script>
+
 </body>
 </html>
