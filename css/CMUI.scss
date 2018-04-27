@@ -87,16 +87,19 @@ html{
 			&.margint60{
 				margin-top:60px;
 			}
+			&.marginb60{
+				margin-bottom:60px;
+			}
 			.fs-60{
 				font-size:60px;
 			}
+
 		}
 	}
 }
 .theme_1{
 	background:#e3e3e3;
 	color:#454545;
-	
 	.app_left{
 		background:#efeeee;
 		.skills{
@@ -126,7 +129,70 @@ html{
 		background:#1d91ce !important;
 	}
 }
-
+.theme_2{
+	background:#444746;
+	color:#ebebeb;
+	.app_left{
+		background:#303231;
+		.skills{
+			dd{
+				.skill_list{
+					span{
+						background:#bbb;
+					}
+				}
+			}
+		}
+		.about{
+			.iconBg{
+				color:#fff;
+			}
+		}
+	}
+	.app_right{
+		.rightBg{
+			background:#303231;
+		}
+	}
+	.textColor{
+		color:#d01e5a !important;
+	}
+	.bgColor{
+		background:#d01e5a !important;
+	}
+}
+.theme_3{
+	background:#444746;
+	color:#ebebeb;
+	.app_left{
+		background:#303231;
+		.skills{
+			dd{
+				.skill_list{
+					span{
+						background:#bbb;
+					}
+				}
+			}
+		}
+		.about{
+			.iconBg{
+				color:#303231;
+			}
+		}
+	}
+	.app_right{
+		.rightBg{
+			background:#303231;
+		}
+	}
+	.textColor{
+		color:#fdba11 !important;
+	}
+	.bgColor{
+		background:#fdba11 !important;
+	}
+}
 .content{
 	@media screen and (min-width: 751px) and (max-width:950px) {
 		.app_left{
@@ -168,8 +234,11 @@ html{
 					padding:0 15px;
 				}
 				&.margint60{
-				margin-top:50px;
-			}
+					margin-top:50px;
+				}
+				&.marginb60{
+					margin-bottom:50px;
+				}
 			}
 		}	
 	}
@@ -197,15 +266,14 @@ html{
 	}
 	@media screen and (max-width: 512px) {
 		.app_left{
-			padding:90px 60px 50px;
+			padding:90px 30px 50px;
 		}
 		.app_right{
-			padding:0;
-			padding-top:50px;
+			padding:50px 0;
 			margin:0 0px;
 			.rightBg{
 				font-size:30px;
-				padding:40px 20px 20px;
+				padding:40px 30px 20px;
 				.date{
 					min-width:150px;
 					text-align:left;
@@ -222,6 +290,15 @@ html{
 				}
 				&.margint60{
 					margin-top:50px;
+				}
+				.fs-60{
+					font-size:50px;
+				}
+				.fs-18{
+					font-size:16px;
+				}
+				.lh-28{
+					line-height:1;
 				}
 			}
 		}

@@ -23,6 +23,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-xingqu:before {
+  content: "\e916";
+}
+.icon-about:before {
+  content: "\e915";
+}
+.icon-woman:before {
+  content: "\e914";
+}
+.icon-work:before {
+  content: "\e913";
+}
+.icon-company:before {
+  content: "\e911";
+}
+.icon-talk:before {
+  content: "\e912";
+}
 .icon-headset:before {
   content: "\e909";
 }
