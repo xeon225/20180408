@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title></title>
-<meta name="description" content="" />
+<title>我的一些经历</title>
+<meta name="description" content="我就是我，不一样的我" />
 <meta name="viewport" content="width=device-width,user-scalable=yes" />
 <meta http-equiv="Pragma" content="no-cache"/>
 <meta http-equiv="Cache-Control" content="no-cache"/>
@@ -12,15 +12,20 @@
 <link rel="stylesheet" type="text/css" href="css/cmui.css">
 <script src="js/jquery.min.js"></script>
 <script src='js/vue.js'></script>
+<meta property="og:type" content="website" />
+<meta property="og:title" content="简历">
+<meta property="og:description" content="不一样的我">
+<meta property="og:image" content="img/share.png">
+<meta property="og:url" content="http://10.13.1.87">
 </head>
 <style>
 	html{
 		font-family: 'Myriad Pro'
 	}
 </style>
-
 <body>
 	<div :class="'theme_'+theme" id="app">
+		<div id='wx_pic' style='margin:0 auto;display:none;'><img src="img/share.png"/></div>
 		<div class="content flex-container vfull top left pos-r">
 			<div class="selectTheme top0 flex-container top left">
 				<div class="pos-r" :class="theme==1&&'current'" @click="theme=1"></div>
