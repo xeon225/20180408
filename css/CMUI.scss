@@ -40,6 +40,26 @@ html{
 		}
 		.pic{
 			padding:0 30px;
+			overflow:hidden;
+			&>div:before,&>div:after{
+				content:'';
+				position:absolute;
+				width:50%;
+				height:100%;
+				top:0;
+				z-index:0;
+			}
+			&>div:before{
+				left:0;
+				transition: background $time;
+			}
+			&>div:after{
+				right:0;
+				transition: background $time;
+			}
+			img{
+				z-index:1;
+			}
 		}
 		.skills{
 			margin-top:40px;
@@ -168,6 +188,14 @@ html{
 				color:#fff;
 			}
 		}
+		.pic{
+			&>div:before{
+				background:#5b4b82;
+			}
+			&>div:after{
+				background:#534579;
+			}
+		}
 	}
 	.app_right{
 		.rightBg{
@@ -200,6 +228,14 @@ html{
 				color:#fff;
 			}
 		}
+		.pic{
+			&>div:before{
+				background:#b7332b;
+			}
+			&>div:after{
+				background:#a22e24;
+			}
+		}
 	}
 	.app_right{
 		.rightBg{
@@ -230,6 +266,14 @@ html{
 		.about{
 			.iconBg{
 				color:#303231;
+			}
+		}
+		.pic{
+			&>div:before{
+				background:#f6a11d;
+			}
+			&>div:after{
+				background:#ee9d21;
 			}
 		}
 	}
