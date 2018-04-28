@@ -16,7 +16,7 @@
 // @import "vueAnimate/index";
 
 // @import "effect/hover";
-
+$time:.5s;
 html{
 	height:100%;
 	body{
@@ -28,10 +28,12 @@ html{
 	max-width:1240px;
 	min-width:320px;
 	margin:0 auto;
+	transition: background-color $time;
 	.app_left{
 		width:38%;
 		padding:90px 60px;
 		font-size:18px;
+		transition: background $time;
 		.name{
 			font-size:37px;
 			padding:40px 0 20px;
@@ -74,9 +76,11 @@ html{
 	.app_right{
 		padding:90px 0;
 		margin:0 60px;
+
 		.rightBg{
 			font-size:30px;
 			padding:40px 20px 20px;
+			transition: background $time;
 			.date{
 				min-width:150px;
 				text-align:right;
@@ -93,12 +97,60 @@ html{
 			.fs-60{
 				font-size:60px;
 			}
-
 		}
+	}
+	.selectTheme{
+		position:absolute;
+		right:0;
+		div{
+			width:40px;
+			height:40px;
+			border-bottom-left-radius:20px;
+			border-bottom-right-radius:20px;
+			overflow:hidden;
+			transition: height $time;
+			&:after{
+				content:'';
+				position: absolute;
+				top:0;
+				bottom:0;
+				left:15px;
+				right:25px;
+				width:10px;
+			}
+			&:nth-of-type(1){
+				background:#1d91ce;
+				&:after{
+					background:#efeeee;
+				}
+			}
+			&:nth-of-type(2){
+				background:#d01e5a;
+				&:after{
+					background:#303231;
+				}
+			}
+			&:nth-of-type(3){
+				background:#fdba11;
+				&:after{
+					background:#303231;
+				}
+			}
+			&.current{
+				height:60px;
+
+			}
+		}
+	}
+	.textColor{
+		transition: color $time;
+	}
+	.bgColor{
+		transition: background-color $time;
 	}
 }
 .theme_1{
-	background:#e3e3e3;
+	background-color:#e3e3e3;
 	color:#454545;
 	.app_left{
 		background:#efeeee;
@@ -126,11 +178,11 @@ html{
 		color:#1d91ce !important;
 	}
 	.bgColor{
-		background:#1d91ce !important;
+		background-color:#1d91ce !important;
 	}
 }
 .theme_2{
-	background:#444746;
+	background-color:#444746;
 	color:#ebebeb;
 	.app_left{
 		background:#303231;
@@ -158,11 +210,11 @@ html{
 		color:#d01e5a !important;
 	}
 	.bgColor{
-		background:#d01e5a !important;
+		background-color:#d01e5a !important;
 	}
 }
 .theme_3{
-	background:#444746;
+	background-color:#444746;
 	color:#ebebeb;
 	.app_left{
 		background:#303231;
@@ -190,7 +242,7 @@ html{
 		color:#fdba11 !important;
 	}
 	.bgColor{
-		background:#fdba11 !important;
+		background-color:#fdba11 !important;
 	}
 }
 .content{
